@@ -218,7 +218,7 @@ export default function Home({
   // 直接渲染内容
 
   return (
-    <div className="min-h-screen" style={{ fontFamily: '"仿宋","宋体",serif' }}>
+    <div className="min-h-screen overflow-x-hidden" style={{ fontFamily: '"仿宋","宋体",serif' }}>
       <style jsx global>{`
         .bg-compass { background-size: cover; background-position: center; background-repeat: no-repeat; position: relative; }
         .fullscreen-video{ position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:0; }
@@ -262,8 +262,7 @@ export default function Home({
                 </button>
               </div>
             </div>
-          </div>
-          <div className="absolute bottom-16 left-0 right-0 z-10 flex flex-wrap justify-center gap-6 items-center px-4">
+            <div className="relative left-0 right-0 z-10 flex flex-wrap justify-center  items-center px-4 top-5">
             {i18n.hero.badges.map((b, idx) => (
               <div key={idx} className="flex items-center space-x-2 text-white/80">
                 <i className={[
@@ -275,9 +274,9 @@ export default function Home({
               </div>
             ))}
           </div>
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white animate-bounce">
-            <i className="fa fa-angle-down text-3xl" />
           </div>
+          
+    
         </section>
         {/* 掌纹分析区域 */}
         <section id="palm-analysis" className="py-16 md:py-24 bg-white">
@@ -302,7 +301,7 @@ export default function Home({
                   {/* 图片上传区域 */}
                   {!previewSrc && (
                     <div className="border-2 border-dashed border-gray-300 rounded-lg p-4 mb-6">
-                      <div className="w-full h-[360px] md:h-[420px] bg-gray-50 rounded flex items-center justify-center mb-4" style={{backgroundImage:`url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0e6d6'/%3E%3Cpath d='M200 100 Q 250 150, 200 200 T 200 300' stroke='%238B4513' stroke-width='1' fill='none'/%3E%3Ccircle cx='200' cy='200' r='100' stroke='%238B4513' stroke-width='1' fill='none'/%3E%3Ctext x='200' y='150' font-family='serif' font-size='14' text-anchor='middle' fill='%238B4513' opacity='0.5'%3E${encodeURIComponent(i18n.palm.upload.placeholder)}%3C/text%3E%3C/svg%3E")`,backgroundSize:'contain',backgroundRepeat:'no-repeat',backgroundPosition:'center'}}>
+                      <div className="w-full h-[200px] md:h-[420px] bg-gray-50 rounded flex items-center justify-center mb-4" style={{backgroundImage:`url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f0e6d6'/%3E%3Cpath d='M200 100 Q 250 150, 200 200 T 200 300' stroke='%238B4513' stroke-width='1' fill='none'/%3E%3Ccircle cx='200' cy='200' r='100' stroke='%238B4513' stroke-width='1' fill='none'/%3E%3Ctext x='200' y='150' font-family='serif' font-size='14' text-anchor='middle' fill='%238B4513' opacity='0.5'%3E${encodeURIComponent(i18n.palm.upload.placeholder)}%3C/text%3E%3C/svg%3E")`,backgroundSize:'contain',backgroundRepeat:'no-repeat',backgroundPosition:'center'}}>
                       </div>
                       <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <button onClick={openCamera} className="bg-[#8B4513] hover:bg-[#8B4513]/80 text-white font-bold py-3 px-6"><i className="fa fa-camera mr-2"/>{i18n.palm.upload.shot}</button>
@@ -471,8 +470,8 @@ export default function Home({
                       </div>
                     </div>
                   </div>
-                  <div className="flex justify-between">
-                    <button onClick={resetAnalysis} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-3 px-6"><i className="fa fa-refresh mr-2"/>{i18n.palm.result.reset}</button>
+                  <div className="flex justify-end">
+                    {/* 重置按钮已隐藏 */}
                     <div className="flex gap-3">
                       <button onClick={()=>setShowRecommendationModal(true)} className="bg-[#9e2a2b] hover:bg-[#9e2a2b]/80 text-white font-bold py-3 px-6">{i18n.palm.result.shop} <i className="fa fa-arrow-right ml-2"/></button>
                       {/* 仙师指引：跳转 WhatsApp（根据设备类型设置链接） */}
@@ -551,7 +550,7 @@ export default function Home({
                 </ul>
                 <button onClick={startPalmAnalysis} className="mt-8 bg-[#8B4513] hover:bg-[#8B4513]/80 text-white font-bold py-3 px-6">{i18n.services.calc.cta} <i className="fa fa-arrow-right ml-2"/></button>
               </div>
-              <div className="relative">
+              <div className="relative overflow-hidden">
                 <div className="bg-white p-4 shadow-xl rounded-lg transform transition-all duration-500 hover:rotate-1">
                   <img src="https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/d7a84ede88cebfdc21e192109bfadc32.jpeg" alt="五行测算示例" className="w-full h-full object-cover rounded" />
                 </div>
@@ -561,7 +560,7 @@ export default function Home({
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-              <div className="relative">
+              <div className="relative overflow-hidden">
                 <div className="bg-white p-4 shadow-xl rounded-lg transform transition-all duration-500 hover:-rotate-1"><img src="https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/c92453a4d6c519435e02cd0c70f7902a.jpeg" alt="本命五行手串展示" className="w-full h-full object-cover rounded" /></div>
                 <div className="absolute -top-4 -right-4 text-4xl"><span>🔥</span><span>💧</span><span>🌱</span><span>⚙️</span><span>🌍</span></div>
               </div>
@@ -569,14 +568,14 @@ export default function Home({
                 <h3 className="text-2xl font-bold text-[#8B4513] mb-6 flex items-center"><span className="w-10 h-10 rounded-full flex items-center justify-center mr-3" style={{ backgroundColor:'rgba(139,69,19,0.1)'}}><i className="fa fa-gem" style={{ color:'#8B4513'}}/></span>{i18n.services.bracelet.title}</h3>
                 <div className="mb-6"><p className="font-bold mb-2">{i18n.services.bracelet.talismanTitle}</p><p className="mb-4">{i18n.services.bracelet.talismanDesc}</p></div>
                 <div className="overflow-x-auto">
-                  <table className="min-w-full bg-white border border-gray-200">
-                    <thead><tr className="bg-gray-100"><th className="py-2 px-4 border-b text-left">{i18n.services.bracelet.table.lack}</th><th className="py-2 px-4 border-b text-left">{i18n.services.bracelet.table.material}</th><th className="py-2 px-4 border-b text-left">{i18n.services.bracelet.table.meaning}</th></tr></thead>
+                  <table className="w-full table-fixed bg-white border border-gray-200">
+                    <thead><tr className="bg-gray-100"><th className="py-2 px-4 border-b text-left break-words">{i18n.services.bracelet.table.lack}</th><th className="py-2 px-4 border-b text-left break-words">{i18n.services.bracelet.table.material}</th><th className="py-2 px-4 border-b text-left break-words">{i18n.services.bracelet.table.meaning}</th></tr></thead>
                     <tbody>
                       {i18n.services.bracelet.tableRows.map((row, idx) => (
                         <tr key={idx} className={idx % 2 === 1 ? 'bg-gray-50' : ''}>
-                          <td className="py-2 px-4 border-b">{row.lack}</td>
-                          <td className="py-2 px-4 border-b">{row.material}</td>
-                          <td className="py-2 px-4 border-b">{row.meaning}</td>
+                          <td className="py-2 px-4 border-b break-words whitespace-pre-wrap align-top">{row.lack}</td>
+                          <td className="py-2 px-4 border-b break-words whitespace-pre-wrap align-top">{row.material}</td>
+                          <td className="py-2 px-4 border-b break-words whitespace-pre-wrap align-top">{row.meaning}</td>
                         </tr>
                       ))}
                     </tbody>
@@ -659,7 +658,7 @@ export default function Home({
                     <button className="bg-[#c8a96e] hover:bg-[#c8a96e]/80 text-white font-bold py-4 px-6 rounded-none">{i18n.action.ctaPay} <i className="fa fa-arrow-right ml-1"/></button>
                   </div>
                 </div>
-                <div className="md:w-1/2 bg-compass relative min-h-[320px] md:min-h-0 flex items-center justify-center">
+                <div className="md:w-1/2 bg-compass relative overflow-hidden min-h-[320px] md:min-h-0 flex items-center justify-center">
                   <div className="flex items-center justify-center p-8 md:absolute md:inset-0">
                     <div className="text-center text-[#8B4513] z-10">
                       <h3 className="text-2xl font-bold mb-4">{i18n.action.rightTitle}</h3>

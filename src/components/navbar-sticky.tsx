@@ -112,7 +112,9 @@ export function NavbarSticky({ lang, navbarLocal, subscriptionLocal, toastLocal,
 
                     {/* Desktop Navigation - Right next to logo */}
                     <nav className="hidden md:flex items-center gap-6">
-                        {navbarLocal.navigation.map((item) => (
+                        {navbarLocal.navigation
+                            .filter((item) => !["/", "/about", "/pricing", "/contact"].includes(item.href))
+                            .map((item) => (
                             <Link
                                 scroll={false}
                                 key={item.href}
@@ -131,27 +133,19 @@ export function NavbarSticky({ lang, navbarLocal, subscriptionLocal, toastLocal,
                     {/* Credits (Client-only to prevent hydration mismatch) */}
                     <CreditsDisplay lang={lang} creditsDisplay={navbarLocal.creditsDisplay} />
 
-                    {/* Language, Theme Toggles - Hidden on mobile */}
+                    {/* Desktop: show only language toggle; hide theme */}
                     <div className="hidden md:flex items-center gap-4">
                         <LanguageToggle lang={lang} label={navbarLocal.languageToggle.label} />
-                        <ThemeToggle label={navbarLocal.themeToggle.label} />
+                    </div>
+
+                    {/* Mobile Language Toggle */}
+                    <div className="md:hidden">
+                        <LanguageToggle lang={lang} label={navbarLocal.languageToggle.label} />
                     </div>
                     
-                    {/* Auth Button */}
-                    <AuthButton
-                        lang={lang}
-                        userButton={navbarLocal.userButton}
-                        loginLabel={navbarLocal.actions.signIn}
-                        subscription={subscriptionLocal}
-                        toastLocal={toastLocal}
-                        i18n={i18n}
-                        className="bg-[#9e2a2b] hover:bg-[#9e2a2b]/90 text-white border border-[#c8a96e]/30"
-                    />
+                    {/* Auth Button hidden on all (as requested) */}
 
-                    {/* Mobile Navigation Menu */}
-                    <MobileMenu lang={lang} i18n={navbarLocal.mobileMenu}
-                        themeToggle={navbarLocal.languageToggle.label}
-                        languageToggle={navbarLocal.themeToggle.label} />
+                    {/* Mobile Navigation Menu hidden as requested */}
                     </div>
                 </div>
             </div>

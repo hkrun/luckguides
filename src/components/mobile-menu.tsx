@@ -83,7 +83,9 @@ export function MobileMenu({ lang, i18n, languageToggle, themeToggle }: MobileMe
                         <div className="container flex flex-col h-full px-4 py-6">
                             {/* Primary Navigation */}
                             <nav className="space-y-2 mb-8">
-                                {i18n.navigation.map((item) => (
+                                {i18n.navigation
+                                    .filter((item) => !["/about", "/pricing", "/contact"].includes(item.href))
+                                    .map((item) => (
                                     <Link
                                         scroll = {false}
                                         key={item.href}
@@ -102,26 +104,7 @@ export function MobileMenu({ lang, i18n, languageToggle, themeToggle }: MobileMe
 
                             {/* Actions Section */}
                             <div className="space-y-3 mb-8 pt-6 border-t border-[#c8a96e]/30">
-                                {session?.user && (
-                                    <Link
-                                        scroll = {false}
-                                        href={getPathname(lang, "/pricing")}
-                                        className="inline-flex w-full h-12 items-center justify-center border border-[#c8a96e]/30
-                            hover:bg-[#c8a96e]/20 rounded-md text-white font-medium shadow-sm"
-                                        onClick={() => setIsOpen(false)}
-                                    >
-                                        {i18n.actions.upgradePlan}
-                                    </Link>
-                                )}
-                                <Link
-                                    scroll = {false}
-                                    href={getPathname(lang, "/contact")}
-                                    className="inline-flex w-full h-12 items-center justify-center border border-[#c8a96e]/30
-                        hover:bg-[#c8a96e]/20 rounded-md text-white"
-                                    onClick={() => setIsOpen(false)}
-                                >
-                                    {i18n.actions.contactUs}
-                                </Link>
+                                {/* 暂时隐藏升级与联系我们入口 */}
                             </div>
 
                             {/* Settings Section */}

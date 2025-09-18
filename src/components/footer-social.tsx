@@ -43,44 +43,58 @@ export function FooterSocial({ lang, i18n }: FooterSocialProps) {
 
                     {/* 在手机端将三个部分放在一行显示 */}
                     <div className="col-span-full flex flex-row justify-between md:hidden">
-                        {i18n.sections.map((section) => (
-                            <div key={section.title} className="w-1/3 pr-2">
+                        {i18n.sections.map((section) => {
+                            const isCompanySection = section.links.every(link => ["/about", "/contact"].includes(link.href));
+                            const isLegalSection = section.links.some(link => link.href.startsWith('/legal'));
+                            return (
+                            <div key={section.title} className={`w-1/3 pr-2 ${(isCompanySection || isLegalSection) ? "hidden" : ""}`}>
                                 <h3 className="mb-3 text-xs font-semibold tracking-wide uppercase text-white">{section.title}</h3>
                                 <ul className="space-y-2 text-xs">
-                                    {section.links.map((link) => (
-                                        <li key={link.label}>
-                                            <Link
-                                                href={link.href.startsWith('#') || link.href.startsWith('http') ? link.href : getPathname(lang, link.href)}
-                                                className="text-gray-300 hover:text-[#c8a96e] transition-colors duration-200"
-                                            >
-                                                {link.label}
-                                            </Link>
-                                        </li>
-                                    ))}
+                                    {section.links.map((link) => {
+                                        const shouldHide = ["/about", "/contact"].includes(link.href) || link.href.startsWith('/legal');
+                                        return (
+                                            <li key={link.label} className={shouldHide ? "hidden" : ""}>
+                                                <Link
+                                                    href={link.href.startsWith('#') || link.href.startsWith('http') ? link.href : getPathname(lang, link.href)}
+                                                    className="text-gray-300 hover:text-[#c8a96e] transition-colors duration-200"
+                                                >
+                                                    {link.label}
+                                                </Link>
+                                            </li>
+                                        )
+                                    })}
                                 </ul>
                             </div>
-                        ))}
+                            )
+                        })}
                     </div>
 
                     {/* 在平板和桌面显示原始布局 */}
                     <div className="hidden md:grid md:grid-cols-3 md:col-span-2 lg:col-span-3 md:gap-8">
-                        {i18n.sections.map((section) => (
-                            <div key={section.title}>
+                        {i18n.sections.map((section) => {
+                            const isCompanySection = section.links.every(link => ["/about", "/contact"].includes(link.href));
+                            const isLegalSection = section.links.some(link => link.href.startsWith('/legal'));
+                            return (
+                            <div key={section.title} className={(isCompanySection || isLegalSection) ? "hidden" : ""}>
                                 <h3 className="mb-6 text-lg font-bold text-white">{section.title}</h3>
                                 <ul className="space-y-3 text-sm">
-                                    {section.links.map((link) => (
-                                        <li key={link.label}>
-                                            <Link
-                                                href={link.href.startsWith('#') || link.href.startsWith('http') ? link.href : getPathname(lang, link.href)}
-                                                className="text-gray-300 hover:text-[#c8a96e] transition-colors duration-200"
-                                            >
-                                                {link.label}
-                                            </Link>
-                                        </li>
-                                    ))}
+                                    {section.links.map((link) => {
+                                        const shouldHide = ["/about", "/contact"].includes(link.href) || link.href.startsWith('/legal');
+                                        return (
+                                            <li key={link.label} className={shouldHide ? "hidden" : ""}>
+                                                <Link
+                                                    href={link.href.startsWith('#') || link.href.startsWith('http') ? link.href : getPathname(lang, link.href)}
+                                                    className="text-gray-300 hover:text-[#c8a96e] transition-colors duration-200"
+                                                >
+                                                    {link.label}
+                                                </Link>
+                                            </li>
+                                        )
+                                    })}
                                 </ul>
                             </div>
-                        ))}
+                            )
+                        })}
                     </div>
                 </div>
 
@@ -89,8 +103,8 @@ export function FooterSocial({ lang, i18n }: FooterSocialProps) {
                         {i18n.copyright.replace('{year}', new Date().getFullYear().toString())}
                     </p>
 
-                    {/* 法律链接 */}
-                    <div className="flex space-x-6 text-sm">
+                    {/* 法律链接（隐藏而不删除） */}
+                    <div className="flex space-x-6 text-sm hidden">
                         <Link href={getPathname(lang, '/legal/privacy')} className="text-gray-400 hover:text-[#c8a96e] transition-colors">
                             {i18n.legal.privacyPolicy}
                         </Link>
