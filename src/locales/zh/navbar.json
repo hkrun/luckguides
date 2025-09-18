@@ -1,0 +1,89 @@
+{
+    "logo": "LuckGuides",
+    "logoTitle": "LuckGuides | 高血压健康",
+    "navigation": [
+        {
+            "href": "/",
+            "label": "首页"
+        },
+        {
+            "href": "/pricing",
+            "label": "价格"
+        },
+        {
+            "href": "/about",
+            "label": "关于"
+        },
+        {
+            "href": "/contact",
+            "label": "联系我们"
+        }
+    ],
+    "actions": {
+        "signIn": "登录"
+    },
+    "mobileMenu": {
+        "toggleMenu": "切换菜单",
+        "actions": {
+            "signIn": "登录",
+            "upgradePlan": "订阅会员",
+            "contactUs": "联系我们"
+        },
+        "settings": {
+            "theme": "主题",
+            "language": "语言"
+        },
+        "navigation": [
+            {
+                "href": "/",
+                "label": "首页"
+            },
+            {
+                "href": "/pricing",
+                "label": "价格"
+            },
+            {
+                "href": "/about",
+                "label": "关于"
+            }
+        ]
+    },
+    "userButton": {
+        "menuItems": [
+            {
+                "type": "contact",
+                "href": "/contact",
+                "label": "联系我们"
+            },
+            {
+                "type": "billing",
+                "label": "管理订阅"
+            },
+            {
+                "type": "logout",
+                "label": "退出"
+            }
+        ],
+        "aria": {
+            "userMenu": "用户菜单",
+            "userImage": "用户头像",
+            "userName": "用户名",
+            "userEmail": "用户邮箱"
+        }
+    },
+    "languageToggle": {
+        "label": "切换语言"
+    },
+    "themeToggle": {
+        "label": "切换主题"
+    },
+    "creditsDisplay": {
+        "label": "积分",
+        "tooltip": {
+            "title": "积分",
+            "costInfo": "1积分 = 1秒视频时长",
+            "usageInfo": "不同功能按实际视频时长扣减积分。",
+            "getMoreButton": "获取更多时长"
+        }
+    }
+}

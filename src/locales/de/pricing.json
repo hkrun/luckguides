@@ -1,0 +1,355 @@
+{
+  "hero": {
+    "subtitle": "AI-Face-Swap-Technologie – grenzenlose Kreativität",
+    "title": "Wählen Sie Ihren AI-Face-Swap-Plan",
+    "description": "Wählen Sie den perfekten Plan für Ihre kreativen Anforderungen. Die Privatversion umfasst eine 3-tägige kostenlose Testphase."
+  },
+  "billing": {
+    "title": "Preispläne",
+    "monthly": "Monatlich",
+    "annual": "Jährlich",
+    "save": "Sparen Sie 20%"
+  },
+  "personal": {
+    "title": "Privatversion",
+    "description": "Perfekt für Nutzer, die die Dienstleistung häufig nutzen",
+    "badge": "Empfohlen für neue Nutzer",
+    "popular": "Beliebt"
+  },
+  "basic": {
+    "title": "Grundversion",
+    "price": {
+      "amount": "$9.99",
+      "period": "/Monat"
+    },
+    "annualPrice": {
+      "amount": "$99.99",
+      "period": "/Jahr"
+    },
+    "trial": "3-tägige kostenlose Testphase",
+    "currency": "EUR",
+    "mode": "Regelmäßig",
+    "features": [
+      "50 Minuten AI-Face-Swap-Zeit pro Monat",
+      "HD-Qualitätsausgabe",
+      "Grundlegende Vorlagenbibliothek"
+    ],
+    "annualFeatures": [
+      "600 Minuten AI-Face-Swap-Zeit pro Jahr",
+      "HD-Qualitätsausgabe",
+      "Grundlegende Vorlagenbibliothek"
+    ],
+    "product": {
+      "code": "luckguides_basic",
+      "desc": "LuckGuides Grundversion – monatliches Abonnement",
+      "name": "LuckGuides Grundversion",
+      "quantity": "1",
+      "sku": "luckguides_basic_monthly",
+      "type": "digital",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cf4Dx3cvsYDBQX4pLFyUq"
+    },
+    "annualProduct": {
+      "code": "luckguides_basic_annual",
+      "desc": "LuckGuides Grundversion – jährliches Abonnement",
+      "name": "LuckGuides Grundversion (jährlich)",
+      "quantity": "1",
+      "sku": "luckguides_basic_annual",
+      "type": "digital",
+      "unit_price": "99.99",
+      "priceId": "price_1S7YYKDx3cvsYDBQyTkiM3vL"
+    },
+    "cta": "Kostenlose Testphase starten"
+  },
+  "premium": {
+    "title": "Premium-Version",
+    "price": {
+      "amount": "$19.99",
+      "period": "/Monat"
+    },
+    "annualPrice": {
+      "amount": "$199.99",
+      "period": "/Jahr"
+    },
+    "trial": "3-tägige kostenlose Testphase",
+    "currency": "EUR",
+    "mode": "Regelmäßig",
+    "features": [
+      "120 Minuten AI-Face-Swap-Zeit pro Monat",
+      "HD-Qualitätsausgabe",
+      "Vollständige Vorlagenbibliothek",
+      "Stapelverarbeitungsfunktion",
+      "Priorisierte Verarbeitungsqueue"
+    ],
+    "annualFeatures": [
+      "1440 Minuten AI-Face-Swap-Zeit pro Jahr",
+      "HD-Qualitätsausgabe",
+      "Vollständige Vorlagenbibliothek",
+      "Stapelverarbeitungsfunktion",
+      "Priorisierte Verarbeitungsqueue"
+    ],
+    "product": {
+      "code": "luckguides_premium",
+      "desc": "LuckGuides Premium-Version – monatliches Abonnement",
+      "name": "LuckGuides Premium-Version",
+      "quantity": "1",
+      "sku": "luckguides_premium_monthly",
+      "type": "digital",
+      "unit_price": "19.99",
+      "priceId": "price_1S5cffDx3cvsYDBQXG5t2SkW"
+    },
+    "annualProduct": {
+      "code": "luckguides_premium_annual",
+      "desc": "LuckGuides Premium-Version – jährliches Abonnement",
+      "name": "LuckGuides Premium-Version (jährlich)",
+      "quantity": "1",
+      "sku": "luckguides_premium_annual",
+      "type": "digital",
+      "unit_price": "199.99",
+      "priceId": "price_1S7YYfDx3cvsYDBQQLkCNcTv"
+    },
+    "cta": "Kostenlose Testphase starten"
+  },
+  "professional": {
+    "title": "Profiversion",
+    "price": {
+      "amount": "$29.99",
+      "period": "/Monat"
+    },
+    "annualPrice": {
+      "amount": "$299.99",
+      "period": "/Jahr"
+    },
+    "trial": "3-tägige kostenlose Testphase",
+    "currency": "EUR",
+    "mode": "Regelmäßig",
+    "features": [
+      "180 Minuten AI-Face-Swap-Zeit pro Monat",
+      "HD-Qualitätsausgabe",
+      "Alle Premium-Vorlagen",
+      "Exklusiver Kundensupport"
+    ],
+    "annualFeatures": [
+      "2160 Minuten AI-Face-Swap-Zeit pro Jahr",
+      "HD-Qualitätsausgabe",
+      "Alle Premium-Vorlagen",
+      "Exklusiver Kundensupport"
+    ],
+    "product": {
+      "code": "luckguides_professional",
+      "desc": "LuckGuides Profiversion – monatliches Abonnement",
+      "name": "LuckGuides Profiversion",
+      "quantity": "1",
+      "sku": "luckguides_professional_monthly",
+      "type": "digital",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cgZDx3cvsYDBQ1Yu1cL1U"
+    },
+    "annualProduct": {
+      "code": "luckguides_professional_annual",
+      "desc": "LuckGuides Profiversion – jährliches Abonnement",
+      "name": "LuckGuides Profiversion (jährlich)",
+      "quantity": "1",
+      "sku": "luckguides_professional_annual",
+      "type": "digital",
+      "unit_price": "299.99",
+      "priceId": "price_1S7YYtDx3cvsYDBQWIHn7l8k"
+    },
+    "cta": "Kostenlose Testphase starten"
+  },
+  "oneTimeBasic": {
+    "title": "1500 Punkte",
+    "price": {
+      "amount": "$9.99",
+      "period": "Einmalig"
+    },
+    "currency": "EUR",
+    "mode": "Einzelzahlung",
+    "features": [
+      "25 Minuten AI-Face-Swap-Zeit",
+      "HD-Qualitätsausgabe",
+      "Grundlegende Vorlagenbibliothek",
+      "Dauerhaft gültig"
+    ],
+    "product": {
+      "code": "luckguides_onetime_basic",
+      "desc": "LuckGuides Grundpaket – einmaliger Kauf",
+      "name": "LuckGuides Grundpaket",
+      "quantity": "1",
+      "sku": "luckguides_onetime_basic",
+      "type": "digital",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cgnDx3cvsYDBQa8waZ5Dz"
+    },
+    "cta": "Jetzt kaufen"
+  },
+  "oneTimePremium": {
+    "title": "3600 Punkte",
+    "price": {
+      "amount": "$19.99",
+      "period": "Einmalig"
+    },
+    "currency": "EUR",
+    "mode": "Einzelzahlung",
+    "features": [
+      "60 Minuten AI-Face-Swap-Zeit",
+      "HD-Qualitätsausgabe",
+      "Vollständige Vorlagenbibliothek",
+      "Stapelverarbeitungsfunktion",
+      "Dauerhaft gültig"
+    ],
+    "product": {
+      "code": "luckguides_onetime_premium",
+      "desc": "LuckGuides Premium-Paket – einmaliger Kauf",
+      "name": "LuckGuides Premium-Paket",
+      "quantity": "1",
+      "sku": "luckguides_onetime_premium",
+      "type": "digital",
+      "unit_price": "19.99",
+      "priceId": "price_1S5ch2Dx3cvsYDBQcy4YbwIJ"
+    },
+    "cta": "Jetzt kaufen"
+  },
+  "oneTimeProfessional": {
+    "title": "5400 Punkte",
+    "price": {
+      "amount": "$29.99",
+      "period": "Einmalig"
+    },
+    "currency": "EUR",
+    "mode": "Einzelzahlung",
+    "features": [
+      "90 Minuten AI-Face-Swap-Zeit",
+      "HD-Qualitätsausgabe",
+      "Alle Premium-Vorlagen",
+      "Stapelverarbeitungsfunktion",
+      "Priorisierte Verarbeitungsqueue",
+      "Dauerhaft gültig"
+    ],
+    "product": {
+      "code": "luckguides_onetime_professional",
+      "desc": "LuckGuides Profi-Paket – einmaliger Kauf",
+      "name": "LuckGuides Profi-Paket",
+      "quantity": "1",
+      "sku": "luckguides_onetime_professional",
+      "type": "digital",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cjQDx3cvsYDBQGTGkToKH"
+    },
+    "cta": "Jetzt kaufen"
+  },
+  "business": {
+    "title": "Business-Version",
+    "price": {
+      "amount": "$99.99",
+      "period": "/Monat"
+    },
+    "annualPrice": {
+      "amount": "$999.99",
+      "period": "/Jahr"
+    },
+    "trial": "Kontaktieren Sie uns umgehend nach der Abonnementsanfrage",
+    "currency": "EUR",
+    "mode": "Regelmäßig",
+    "features": [
+      "Extendlange AI-Face-Swap-Zeit",
+      "HD-Qualitätsausgabe",
+      "Alle Premium-Vorlagen",
+      "API-Zugriff",
+      "Genehmigung für kommerzielle Nutzung",
+      "Exklusiver Kundensupport",
+      "Teamzusammenarbeitsfunktion"
+    ],
+    "product": {
+      "code": "luckguides_business",
+      "desc": "LuckGuides Business-Version – monatliches Abonnement",
+      "name": "LuckGuides Business-Version",
+      "quantity": "1",
+      "sku": "luckguides_business_monthly",
+      "type": "digital",
+      "unit_price": "99.99",
+      "priceId": "price_1S5h1BDx3cvsYDBQwP6f9qGk"
+    },
+    "annualProduct": {
+      "code": "luckguides_business_annual",
+      "desc": "LuckGuides Business-Version – jährliches Abonnement",
+      "name": "LuckGuides Business-Version (jährlich)",
+      "quantity": "1",
+      "sku": "luckguides_business_annual",
+      "type": "digital",
+      "unit_price": "999.99",
+      "priceId": "price_1S7YZGDx3cvsYDBQpy1DfL9S"
+    },
+    "cta": "Jetzt abonnieren"
+  },
+  "paymentTips": "Nach der Zahlung wird das Abonnement automatisch Ihrem Konto hinzugefügt (wirkt innerhalb von 30 Sekunden). Wenn es nicht angezeigt wird, aktualisieren Sie die Seite bitte.",
+  "trust": {
+    "text": "Starten Sie jetzt Ihre AI-Face-Swap-Kreativreise und entfesseln Sie grenzenlose Kreativität",
+    "allPlansInclude": "Alle Pläne umfassen:",
+    "features": {
+      "secureTranslation": "Datenschutzschutz",
+      "cloudSync": "Cloud-Synchronisation",
+      "mobileAccess": "Mobilzugriff",
+      "prioritySupport": "Priorisierter Support"
+    }
+  },
+  "planDescriptions": {
+    "basic": "Geeignet für private Unterhaltungszwecke",
+    "professional": "Geeignet für Content-Ersteller",
+    "elite": "Für Unternehmen und Fachanwender",
+    "oneTimeBasic": "Geeignet für Nutzer, die die Dienstleistung gelegentlich nutzen",
+    "oneTimeProfessional": "Geeignet für kurzfristige Projektanforderungen",
+    "oneTimeElite": "Geeignet für große einmalige Anforderungen",
+    "business": "Unternehmenslösung, geeignet für Teamzusammenarbeit"
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "Bitte zuerst anmelden",
+      "description": "Bitte melden Sie sich an, bevor Sie mit der Abonnementsanfrage fortfahren"
+    }
+  },
+  "payment": {
+    "loading": {
+      "title": "Lade Zahlungsinformationen...",
+      "userId": "Benutzer-ID",
+      "email": "E-Mail",
+      "loadingText": "Wird geladen..."
+    },
+    "updating": {
+      "title": "Aktualisiere Punkte..."
+    }
+  },
+  "trial": {
+    "alreadyUsed": "Testphase bereits genutzt",
+    "alreadyUsedTitle": "Testphase bereits genutzt",
+    "alreadyUsedMessage": "Sie haben die 3-tägige kostenlose Testphase bereits genutzt. Jeder Nutzer kann die kostenlose Testphase nur einmal nutzen.\nSie können andere Abonnementspläne wählen, um unsere Dienstleistung weiter zu nutzen.",
+    "alreadyUsedButton": "Ich verstehe",
+    "cannotReapply": "Sie haben die kostenlose Testphase bereits genutzt und können sie nicht erneut beantragen",
+    "checkFailed": "Prüfung fehlgeschlagen",
+    "checkFailedDesc": "Testphase-Status konnte nicht verifiziert werden. Bitte versuchen Sie es später erneut",
+    "startFreeTrial": "Kostenlose Testphase starten"
+  },
+  "subscription": {
+    "duplicateTitle": "Doppeltes Abonnement nicht erlaubt",
+    "duplicateActiveMessage": "Sie haben derzeit ein aktives {subscriptionType}-Abonnement. Ein doppeltes Abonnement ist daher nicht erforderlich.",
+    "duplicateCanceledMessage": "Sie haben die Verlängerung storniert, aber das Abonnement ist noch gültig (Ablaufdatum: {expiryDate}). Ein doppeltes Abonnement ist daher nicht erlaubt.",
+    "duplicateButton": "Ich verstehe",
+    "checkFailed": "Prüfung fehlgeschlagen",
+    "checkFailedDesc": "Abonnement-Status konnte nicht überprüft werden. Bitte versuchen Sie es später erneut",
+    "expiryTime": "Ablaufdatum: {expiryDate}",
+    "subscribeNow": "Jetzt abonnieren",
+    "subscriptionTypes": {
+      "trial": "Testphase",
+      "monthly": "Monatlich",
+      "quarterly": "Vierteljährlich",
+      "annual": "Jährlich",
+      "unknown": "Unbekannt"
+    }
+  },
+  "meta": {
+    "title": "LuckGuides AI-Face-Swap-Preise – AI-Face-Swap | Gesichtsersetzung | Video-Face-Swap",
+    "description": "Preispläne für den LuckGuides AI-Face-Swap-Dienst – bietet professionelle AI-Gesichtsersetzung, Video-Face-Swap und kreative Inhaltserstellung.",
+    "alt": "LuckGuides AI-Face-Swap",
+    "keywords": "AI-Face-Swap, Gesichtsersetzung, Video-Face-Swap, AI-Face-Swap-Software, KI-Gesichtsersetzung"
+  }
+}

@@ -1,0 +1,86 @@
+{
+    "logo": "LuckGuides",
+    "logoTitle": "LuckGuides | AI World Swapface Platform",
+    "navigation": [
+        {
+            "href": "/dashboard",
+            "label": "Users"
+        },
+        {
+            "href": "/dashboard/templates",
+            "label": "Templates"
+        },
+        {
+            "href": "/dashboard/orders",
+            "label": "Orders"
+        },
+        {
+            "href": "/dashboard/logs",
+            "label": "Usage Logs"
+        },
+        {
+            "href": "/dashboard/messages",
+            "label": "Messages"
+        }
+    ],
+    "actions": {
+        "signIn": "Sign In"
+    },
+    "mobileMenu": {
+        "toggleMenu": "Toggle menu",
+        "actions": {
+            "signIn": "Sign In",
+            "signOut": "Sign out"
+        },
+        "settings": {
+            "theme": "Theme",
+            "language": "Language"
+        },
+        "navigation": [
+            {
+                "href": "/dashboard",
+                "label": "Users"
+            },
+            {
+                "href": "/dashboard/templates",
+                "label": "Templates"
+            },
+            {
+                "href": "/dashboard/orders",
+                "label": "Orders"
+            },
+            {
+                "href": "/dashboard/logs",
+                "label": "Usage Logs"
+            },
+            {
+                "href": "/dashboard/messages",
+                "label": "Messages"
+            }
+        ]
+    },
+    "userButton": {
+        "menuItems": [
+            {
+                "type": "account",
+                "label": "Manage account"
+            },
+            {
+                "type": "logout",
+                "label": "Sign out"
+            }
+        ],
+        "aria": {
+            "userMenu": "User menu",
+            "userImage": "User avatar",
+            "userName": "User name",
+            "userEmail": "User email"
+        }
+    },
+    "languageToggle": {
+        "label": "Toggle language"
+    },
+    "themeToggle": {
+        "label": "Toggle theme"
+    }
+}

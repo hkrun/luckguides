@@ -1,0 +1,65 @@
+{
+  "logo": "LuckGuides",
+"logoTitle": "LuckGuides | 五行占いと運気上昇ブレスレットのオーダーメイド",
+"description": "五行占いと運気上昇ブレスレットのオーダーメイドに特化し、気場を調和させ、運勢を高めるお手伝いをします。",
+  "sections": [
+    {
+      "title": "サービス",
+      "links": [
+        {
+          "label": "五行運勢診断",
+          "href": "/#palm-analysis"
+        }
+      ]
+    },
+    {
+      "title": "会社",
+      "links": [
+        {
+          "label": "会社について",
+          "href": "/about"
+        },
+        {
+          "label": "お問い合わせ",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "title": "法的事項",
+      "links": [
+        {
+          "label": "プライバシーポリシー",
+          "href": "/legal/privacy"
+        },
+        {
+          "label": "利用規約",
+          "href": "/legal/terms"
+        },
+        {
+          "label": "支払い＆返金",
+          "href": "/legal/payments-refund"
+        }
+      ]
+    }
+  ],
+  "copyright": "© {year} LuckGuides. 著作権所有。",
+  "legal": {
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/luckguides"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/luckguides"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/company/luckguides"
+    }
+  ]
+}

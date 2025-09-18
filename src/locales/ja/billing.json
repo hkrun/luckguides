@@ -1,0 +1,69 @@
+{
+  "page": {
+    "title": "サブスクリプション管理",
+    "description": "サブスクリプションプランの管理と取引履歴の表示を行います。"
+  },
+  "subscription": {
+    "title": "現在のサブスクリプションプラン",
+    "description": "現在のサブスクリプションプランと詳細",
+    "clickHint": "サブスクリプション情報をクリックして詳細な請求管理ページを表示",
+    "currentPlan": {
+      "planName": "メンバーシッププラン：[0] クレジット",
+      "billingCycle": "価格",
+      "monthlyUnit": "月",
+      "annualUnit": "年",
+      "subscriptionStart": "購入日",
+      "nextRenewal": "次回更新日",
+      "expiryTime": "有効期限",
+      "noSubscriptions": "利用可能なサブスクリプションはありません。",
+              "cancelButton": "サブスクリプションを解約する",
+        "status": "ステータス",
+        "statusCancelled": "解約済み"
+    },
+    "subscriptionTypes": {
+      "trial": "無料トライアル",
+      "monthly": "月額プラン",
+      "quarterly": "四半期プラン",
+      "annual": "年額プラン"
+    },
+    "pricingUnits": {
+      "trial": "3日間",
+      "monthly": "月",
+      "quarterly": "四半期",
+      "annual": "年"
+    },
+    "cancelDialog": {
+      "title": "サブスクリプション解約の確認",
+      "description": "解約後は、サブスクリプションサービスをご利用いただけなくなります。本当に解約しますか？",
+      "cancelButton": "キャンセル",
+      "confirmButton": "確認"
+    }
+  },
+  "transaction": {
+    "title": "取引履歴",
+    "description": "すべての取引記録を表示します。",
+    "productName": "商品名",
+    "unit": "クレジット",
+    "price": "価格",
+    "date": "日付",
+    "status": "ステータス",
+    "noTransactions": "取引履歴はありません。",
+    "renewal": "更新"
+  },
+  "toast": {
+    "error": {
+      "title": "エラー",
+      "loadData": "請求データの読み込みに失敗しました。",
+      "cancelSubscription": "サブスクリプションの解約に失敗しました。しばらくしてからもう一度お試しください。"
+    },
+    "success": {
+      "title": "成功",
+      "cancelSubscription": "サブスクリプションは正常に解約されました。"
+    }
+  },
+  "meta": {
+    "title": "請求書とサブスクリプション管理 - LuckGuides | 最高の旅行翻訳機",
+    "description": "LuckGuidesのメンバーシッププラン管理、支払い履歴と請求詳細の確認。安全な決済処理と透明な取引記録。",
+    "keywords": "旅行翻訳, 音声テキスト翻訳, 音声翻訳, Google音声翻訳"
+  }
+}

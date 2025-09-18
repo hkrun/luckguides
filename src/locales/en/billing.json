@@ -1,0 +1,69 @@
+{
+    "page": {
+      "title": "Subscription Management",
+      "description": "Manage your subscription plans and view transaction history"
+    },
+    "subscription": {
+      "title": "Current Subscription Plan",
+      "description": "Your current subscription plan and details",
+      "clickHint": "Click on subscription information to view detailed billing management page",
+      "currentPlan": {
+        "planName": "Membership Plan: [0] Credits",
+        "billingCycle": "Price",
+        "monthlyUnit": "month",
+        "annualUnit": "year",
+        "subscriptionStart": "Purchase Date",
+        "nextRenewal": "Next Renewal Date",
+        "expiryTime": "Expiry Date",
+        "noSubscriptions": "No subscriptions available.",
+        "cancelButton": "Cancel Subscription",
+        "status": "Status",
+        "statusCancelled": "Cancelled"
+      },
+      "subscriptionTypes": {
+        "trial": "Free Trial",
+        "monthly": "Monthly Plan",
+        "quarterly": "Quarterly Plan",
+        "annual": "Annual Plan"
+      },
+      "pricingUnits": {
+        "trial": "3 days",
+        "monthly": "month",
+        "quarterly": "quarter",
+        "annual": "year"
+      },
+      "cancelDialog": {
+        "title": "Confirm Subscription Cancellation",
+        "description": "After cancellation, you will no longer have access to the subscription services. Are you sure you want to cancel?",
+        "cancelButton": "Cancel",
+        "confirmButton": "Confirm"
+      }
+    },
+    "transaction": {
+      "title": "Transaction History",
+      "description": "View all your transaction records",
+      "productName": "Product Name",
+      "unit": "credits",
+      "price": "Price",
+      "date": "Date",
+      "status": "Status",
+      "noTransactions": "No transactions available.",
+      "renewal": "Renewal"
+    },
+    "toast": {
+      "error": {
+        "title": "Error",
+        "loadData": "Failed to load billing data",
+        "cancelSubscription": "Failed to cancel subscription. Please try again later"
+      },
+      "success": {
+        "title": "Success",
+        "cancelSubscription": "Subscription cancelled successfully"
+      }
+    },
+     "meta": {
+    "title": "Billing & Subscription Management - LuckGuides | Best Travel Translator",
+    "description": "Manage your LuckGuides membership plans, view payment history and billing details. Secure payment processing and transparent transaction records.",
+    "keywords": "travel translation, audio to text translation, translate audio, Google voice translation"
+  }
+  }

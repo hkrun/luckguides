@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "subtitle": "联系我们",
+    "title": "关于AI换脸技术的疑问？",
+    "description": "我们的专业AI换脸技术团队随时为您提供人工智能换脸咨询、技术支持和创意解决方案。"
+  },
+  "info": {
+    "title": "联系方式",
+    "description": "通过以下方式与我们的专业AI换脸技术团队取得联系",
+    "contacts": [
+      {
+        "text": "zjhkrun@gmail.com"
+      },
+      {
+        "text": "提供专业的AI换脸技术服务"
+      },
+      {
+        "text": "专业团队支持多种视频格式和高清换脸效果"
+      }
+    ]
+  },
+  "form": {
+    "title": "发送技术咨询",
+    "description": "无论是AI换脸技术需求、视频制作问题还是创意项目指导，我们都会专业回复。",
+    "fields": {
+      "name": {
+        "label": "姓名",
+        "placeholder": "您的姓名",
+        "error": "姓名至少需要 2 个字符。"
+      },
+      "email": {
+        "label": "电子邮件",
+        "placeholder": "your@email.com",
+        "error": "请输入有效的电子邮件地址。"
+      },
+      "message": {
+        "label": "咨询内容",
+        "placeholder": "请描述您的AI换脸需求、视频类型、技术要求或其他创意项目需求...",
+        "error": "消息至少需要 10 个字符。"
+      }
+    },
+    "submitButton": "发送咨询",
+    "successMessage": "我们的AI技术专家团队会尽快回复您的咨询。",
+    "submitting": "正在提交...",
+    "toasts": {
+      "success": {
+        "title": "咨询已发送",
+        "description": "感谢您的咨询！我们的AI换脸技术专家会在24小时内回复您。"
+      },
+      "error": {
+        "title": "发送失败",
+        "description": "消息发送失败，请重试。",
+        "fallback": "表单提交失败，请稍后重试。"
+      }
+    }
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "请先登录",
+      "description": "请登录后再发送咨询"
+    }
+  },
+  "meta": {
+    "title": "联系AI换脸技术专家团队-专业咨询 | LuckGuides AI换脸技术",
+    "description": "需要AI换脸技术服务指导？联系我们的专家团队获取人工智能换脸、视频制作咨询和创意项目解决方案。",
+    "alt": "AI换脸技术服务",
+    "keywords": "AI换脸,人工智能换脸,视频换脸技术,深度伪造技术"
+  }
+}

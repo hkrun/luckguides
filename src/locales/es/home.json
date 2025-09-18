@@ -1,0 +1,193 @@
+{
+  "hero": {
+    "title": "Desbloquea tu fortuna taoísta - Equilibra los cinco elementos y transforma tu vida",
+    "subtitle": "Descubre los secretos de la mística china milenaria y explora cómo el equilibrio Yin-Yang, el flujo del Qi y la sabiduría del I Ching pueden cambiar tu viaje de vida. Estas antiguas sabidurías han guiado a innumerables buscadores espirituales y también pueden traerte inspiración hoy.",
+    "cta": "Iniciar análisis de líneas de la mano ahora",
+    "badges": [
+      "Consagración y bendición del maestro",
+      "Garantía de autenticidad",
+      "Testimoniado por millones de creyentes"
+    ]
+  },
+  "palm": {
+    "sectionTitle": "Lectura de fortuna de las cinco líneas de la palma",
+    "sectionDesc": "Sube tu foto de palma y interpretaremos tus energías de los cinco elementos con mística taoísta",
+    "elements": {
+      "fire": "Fuego",
+      "water": "Agua",
+      "wood": "Madera",
+      "metal": "Metal",
+      "earth": "Tierra"
+    },
+    "upload": {
+      "title": "Por favor proporciona tu foto de palma",
+      "tips": "Por favor toma una foto o sube una imagen clara de tu palma (recomendado con luz natural, palma hacia arriba, cinco dedos naturalmente extendidos)",
+      "placeholder": "Por favor coloca la palma aquí",
+      "shot": "Tomar foto",
+      "upload": "Subir imagen",
+      "reshot": "Volver a fotografiar",
+      "reupload": "Volver a subir",
+      "start": "Iniciar análisis",
+      "disabled": "Por favor sube primero la foto de palma",
+      "analyzing": "Analizando, por favor espera...",
+      "viewResult": "Ver resultado",
+      "cancel": "Cancelar",
+      "captureAndUse": "Fotografiar y usar",
+      "cameraError": "No se puede abrir la cámara, por favor verifica los permisos del navegador o usa subir imagen",
+      "noImageError": "Imagen aún no subida, por favor selecciona primero una foto clara de palma",
+      "modelError": "Llamada al modelo fallida",
+      "analysisError": "Análisis fallido"
+    },
+    "progress": {
+      "reading": "Reconociendo líneas principales de la palma...",
+      "parsing": "El modelo está analizando ramas de líneas de la palma y características de montes...",
+      "generating": "Generando reporte de fortuna de cinco elementos...",
+      "done": "Análisis completado, preparando resultado..."
+    },
+    "result": {
+      "title": "Tu interpretación de fortuna de cinco elementos",
+      "desc": "Basado en el análisis de IA de tus líneas de palma, combinado con la teoría taoísta de cinco elementos, aquí están tu distribución de elementos e insights actuales de fortuna:",
+      "distTitle": "Distribución de cinco elementos",
+      "lackTitle": "Análisis de deficiencia de elementos",
+      "insightTitle": "Interpretación de fortuna",
+      "adviceTitle": "Consejo taoísta",
+      "career": "Carrera profesional",
+      "wealth": "Fortuna",
+      "health": "Salud",
+      "defaultAdvice": "Tus líneas de palma muestran posible deficiencia del elemento Metal en los cinco elementos, que puede equilibrarse mediante métodos correspondientes.",
+      "defaultCareer": "Los elementos Madera y Fuego son fuertes, indicando buena capacidad de acción y creatividad.",
+      "defaultWealth": "La deficiencia del elemento Metal puede afectar la acumulación de riqueza.",
+      "defaultHealth": "Presta atención al ritmo diario y sistema respiratorio, mantén el equilibrio Yin-Yang.",
+      "reset": "Reiniciar",
+      "shop": "Objetos de la suerte",
+      "guide": "Guía del maestro"
+    }
+  },
+  "painPoints": {
+    "title": "¿Estás siendo atormentado por estos problemas?",
+    "solutionLabel": "Solución:",
+    "items": [
+      {
+        "title": "¿Año desfavorable?",
+        "desc": "¿Este año siempre obstáculos? ¿Inversiones fallan, reveses profesionales, conflictos familiares frecuentes? Posiblemente el año Taisui perturba tu campo de energía.",
+        "solution": "Cooperación con templos taoístas para talismanes Taisui pintados a mano, incrustados en pulseras para usar en el cuerpo, armonizar energías anuales y dispersar obstáculos."
+      },
+      {
+        "title": "¿Fortunas bajas?",
+        "desc": "¿Trabajo duro pero no se ahorra dinero? ¿Los proyectos siempre fallan cerca de la meta? La deficiencia de Metal en cinco elementos lleva fácilmente a pérdida financiera.",
+        "solution": "Talismán exclusivo del dios de la riqueza + pulsera de riqueza, doble refuerzo para atraer energía financiera, para ingresos estables y ganancias adicionales."
+      },
+      {
+        "title": "¿Cuerpo y mente inquietos?",
+        "desc": "¿Insomnio, pesadillas, relaciones tensas, pequeños accidentes en viajes? El desequilibrio de cinco elementos atrae fácilmente energías negativas.",
+        "solution": "Talismán de paz + pulsera correspondiente de cinco elementos, ajuste interno del campo de energía y protección externa contra influencias negativas, para estabilidad corporal y mental y eventos afortunados."
+      }
+    ]
+  },
+  "services": {
+    "title": "Servicios exclusivos de objetos de la suerte",
+    "calc": {
+      "title": "Cálculo de cinco elementos: Método tradicional, interpretación precisa",
+      "point": "Prueba de foto de palma: Sube una foto clara de palma, análisis tradicional inteligente de líneas de palma y color de piel, 3 minutos para resultado de deficiencia de cinco elementos",
+      "cta": "Iniciar cálculo"
+    },
+    "bracelet": {
+      "title": "Fabricación exclusiva de pulseras: Talismán + pulsera doble refuerzo",
+      "talismanTitle": "Selección de talismán:",
+      "talismanDesc": "Muestra tres imágenes de productos talismán (versión pintada a mano vs. versión impresa ritual), marcado con \"bendecido por ritual de tres purificaciones y nueve reverencias\"",
+      "table": {
+        "lack": "Compensación de deficiencia de cinco elementos",
+        "material": "Material correspondiente",
+        "meaning": "Significado de objeto de la suerte"
+      },
+      "tableRows": [
+        {
+          "lack": "Deficiencia de Fuego",
+          "material": "Pulsera de palisandro + talismán de la suerte reforzador de fuego",
+          "meaning": "Fortalecer capacidad de acción"
+        },
+        {
+          "lack": "Deficiencia de Agua",
+          "material": "Pulsera de ébano + talismán complementario de agua",
+          "meaning": "Mejorar agilidad mental"
+        },
+        {
+          "lack": "Deficiencia de Madera",
+          "material": "Pulsera de madera de durazno + talismán de la suerte complementario de madera",
+          "meaning": "Fortalecer vitalidad"
+        },
+        {
+          "lack": "Deficiencia de Metal",
+          "material": "Pulsera de madera de seda dorada + talismán de la suerte complementario de metal",
+          "meaning": "Mejorar acumulación de riqueza"
+        },
+        {
+          "lack": "Deficiencia de Tierra",
+          "material": "Pulsera de madera de boj + talismán de la suerte reforzador de tierra",
+          "meaning": "Fortalecer fundamento profesional"
+        }
+      ]
+    },
+    "valueAdded": {
+      "title": "Servicios de valor agregado: Mantén la buena suerte continuamente en línea",
+      "items": [
+        "Interpretación gratuita de cinco elementos",
+        "Bendición de energía anual",
+        "Servicio de mantenimiento de por vida"
+      ],
+      "descriptions": [
+        "Con pedido recibes gratis el \"Manual personal de fortuna de cinco elementos\" con análisis de personalidad, salud y tendencias anuales (cubierta del manual con marco de talismán taoísta)",
+        "Anualmente puedes devolver la pulsera, el templo cooperante realiza recitación colectiva de sutras con certificado de bendición adicional (muestra imágenes de escenas de recitación de sutras del templo)",
+        "Intercambio de pulseras y reparaciones de cordones solo costos de materiales, ofrece \"Consejos de objetos de la suerte de cinco elementos\" notificaciones push regulares (con fórmulas de mantenimiento escritas a mano por taoístas)"
+      ]
+    }
+  },
+  "advantages": {
+    "title": "Por qué elegirnos",
+    "items": [
+      {
+        "title": "Ortodoxia taoísta",
+        "description": "Certificado de calificación de templo cooperante (con fotos del templo + número de certificado de taoísta), enfatiza \"dibujo de talismán sigue orden ritual \"Daomen Kefan\"\""
+      },
+      {
+        "title": "Autenticidad del material",
+        "description": "Certificado de origen de pulsera (como reporte de prueba de región de sándalo), usa madera natural, con certificado de inspección de calidad"
+      },
+      {
+        "title": "Experiencia exclusiva",
+        "description": "Cada pulsera con certificado personalizado (con doble firma de astrólogo y taoísta), empaque en caja de brocado + caja de regalo con patrón de talismán"
+      }
+    ]
+  },
+  "action": {
+    "title": "Inicia inmediatamente tu viaje de objetos de la suerte",
+    "benefitTitle": "Beneficios por tiempo limitado",
+    "benefitDesc": "Los primeros 100 pedidos reciben gratis bolsita aromática taoísta de la suerte (contiene artemisa, sándalo y otras hierbas que alejan espíritus malignos)",
+    "reviewsTitle": "Testimonios de usuarios",
+    "reviews": [
+      {
+        "quote": "\"Después de 3 meses usando gané el proyecto, ¡finalmente rompí el bloqueo de años!\"",
+        "name": "— Sr. Li · Empresario"
+      },
+      {
+        "quote": "\"Originalmente tenía preocupaciones Taisui este año, después de usar la pulsera todo fue suave, ¡incluso recibí promoción!\"",
+        "name": "— Sra. Zhang · Empleada de oficina"
+      }
+    ],
+    "ctaMeasure": "Hacer clic para calcular cinco elementos",
+    "ctaPlan": "Ver solución personalizada",
+    "ctaPay": "Pago con descuento de 50€",
+    "rightTitle": "Pulsera de objetos de la suerte exclusiva para ti",
+    "rightDesc": "Personalizada según deficiencia de cinco elementos, energía bendecida por talismán"
+  },
+  "modal": {
+    "title": "Solución de objetos de la suerte recomendada para ti",
+    "recommendationDesc": "Basado en tu deficiencia de cinco elementos y fortuna actual, combinado con tradición taoísta y características estacionales, te recomendamos las siguientes pulseras de objetos de la suerte:",
+    "month": "Recomendación especial de este mes",
+    "others": "Otras soluciones adecuadas",
+    "advice": "Consejos de uso",
+    "wearingAdvice": "Se recomienda usar la pulsera en la mano izquierda (entrada izquierda, salida derecha), usar diariamente al menos 8 horas, al dormir quitarla y colocarla en la mesita de noche. El 1º y 15º de cada mes lunar enjuagar la pulsera con agua limpia para fortalecer su campo de energía.",
+    "close": "Cerrar",
+    "buy": "Comprar pulsera recomendada"
+  }
+}

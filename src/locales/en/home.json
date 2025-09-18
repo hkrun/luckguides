@@ -1,0 +1,193 @@
+{
+  "hero": {
+    "title": "Unlock Daoist Fortune Balance the Five Elements Transform Your Life",
+    "subtitle": "Uncover ancient Chinese metaphysics. Explore yin–yang balance, qi circulation, and the wisdom of the I Ching to change your life journey. These timeless teachings guided countless seekers—and can inspire you today.",
+    "cta": "Start Palm Reading Now",
+    "badges": [
+      "Blessed by Masters",
+      "Authenticity Guaranteed",
+      "Trusted by Millions"
+    ]
+  },
+  "palm": {
+    "sectionTitle": "Palm Five-Element Reading",
+    "sectionDesc": "Upload a clear photo of your palm and we will interpret your Five-Element fortune with Daoist insights",
+    "elements": {
+      "fire": "Fire",
+      "water": "Water",
+      "wood": "Wood",
+      "metal": "Metal",
+      "earth": "Earth"
+    },
+    "upload": {
+      "title": "Provide Your Palm Photo",
+      "tips": "Take or upload a clear palm photo (natural light, palm up, fingers naturally spread)",
+      "placeholder": "Please place your palm here",
+      "shot": "Take Photo",
+      "upload": "Upload Image",
+      "reshot": "Retake",
+      "reupload": "Re-upload",
+      "start": "Start Analysis",
+      "disabled": "Please upload a palm photo first",
+      "analyzing": "Analyzing...",
+      "viewResult": "View Result",
+      "cancel": "Cancel",
+      "captureAndUse": "Capture & Use",
+      "cameraError": "Cannot access camera, please check browser permissions or use image upload",
+      "noImageError": "No image uploaded, please select a clear palm photo first",
+      "modelError": "Model call failed",
+      "analysisError": "Analysis failed"
+    },
+    "progress": {
+      "reading": "Recognizing main palm lines...",
+      "parsing": "Parsing line branches and mounts...",
+      "generating": "Generating Five-Element report...",
+      "done": "Analysis complete, preparing results..."
+    },
+    "result": {
+      "title": "Your Five-Element Reading",
+      "desc": "Based on AI analysis of your palm lines combined with Daoist Five-Element theory, here are your element distribution and current fortune insights:",
+      "distTitle": "Five-Element Distribution",
+      "lackTitle": "Element Deficiency Analysis",
+      "insightTitle": "Insights",
+      "adviceTitle": "Daoist Advice",
+      "career": "Career",
+      "wealth": "Wealth",
+      "health": "Health",
+      "defaultAdvice": "Your palm lines show potential Metal element deficiency in the Five Elements, which can be balanced through appropriate methods.",
+      "defaultCareer": "Wood and Fire elements are strong, indicating good action and creativity.",
+      "defaultWealth": "Metal element deficiency may affect wealth accumulation.",
+      "defaultHealth": "Pay attention to daily routine and respiratory system, maintain Yin-Yang balance.",
+      "reset": "Restart",
+      "shop": "Auspicious Items",
+      "guide": "Master's Guidance"
+    }
+  },
+  "painPoints": {
+    "title": "Are These Problems Troubling You?",
+    "solutionLabel": "Solution:",
+    "items": [
+      {
+        "title": "Unlucky Year?",
+        "desc": "Obstacles everywhere—failed investments, workplace setbacks, family conflicts? Tai Sui may be disturbing your qi field.",
+        "solution": "Priest-drawn Tai Sui talismans embedded in bracelets to neutralize annual afflictions and remove obstacles."
+      },
+      {
+        "title": "Weak Wealth Luck?",
+        "desc": "Hard work yet no savings? Projects always one step short? A deficiency in Metal may disperse wealth qi.",
+        "solution": "Wealth talisman + fortune bracelet to attract wealth—steady main income, more side income."
+      },
+      {
+        "title": "Restless Mind & Body?",
+        "desc": "Insomnia, social tension, frequent minor accidents? Imbalance of the Five Elements may invite negative energy.",
+        "solution": "Safety talisman + corresponding element bracelet to balance qi and ward off petty people."
+      }
+    ]
+  },
+  "services": {
+    "title": "Exclusive Luck Services",
+    "calc": {
+      "title": "Five-Element Reading: Traditional, Precise",
+      "point": "Palm photo reading: upload a clear palm photo; we analyze lines and complexion and produce results in 3 minutes.",
+      "cta": "Start Reading"
+    },
+    "bracelet": {
+      "title": "Custom Bracelet: Talisman + Beads",
+      "talismanTitle": "Talisman Selection:",
+      "talismanDesc": "Display three talisman styles (hand-drawn by priests vs. printed), marked \"Blessed through Triple Purification and Nine Kowtow Ceremony\"",
+      "table": {
+        "lack": "Element Lacking",
+        "material": "Corresponding Material",
+        "meaning": "Auspicious Meaning"
+      },
+      "tableRows": [
+        {
+          "lack": "Fire Deficient",
+          "material": "Sandalwood bracelet + Fire-boosting talisman",
+          "meaning": "Enhance action power"
+        },
+        {
+          "lack": "Water Deficient",
+          "material": "Ebony bracelet + Water-supplementing talisman",
+          "meaning": "Improve mental agility"
+        },
+        {
+          "lack": "Wood Deficient",
+          "material": "Peach wood bracelet + Wood-boosting talisman",
+          "meaning": "Enhance vitality"
+        },
+        {
+          "lack": "Metal Deficient",
+          "material": "Golden nanmu bracelet + Metal-nourishing talisman",
+          "meaning": "Improve wealth accumulation"
+        },
+        {
+          "lack": "Earth Deficient",
+          "material": "Boxwood bracelet + Earth-strengthening talisman",
+          "meaning": "Strengthen career foundation"
+        }
+      ]
+    },
+    "valueAdded": {
+      "title": "Value-Added Services",
+      "items": [
+        "Free Reading Guide",
+        "Annual Energy Blessing",
+        "Lifetime Maintenance"
+      ],
+      "descriptions": [
+        "Free copy of 'Personal Five-Element Fortune Manual' with personality, health, and annual trend analysis (manual cover features Daoist talisman borders)",
+        "Annual bracelet return service for collective chanting ceremonies at partner temples, includes blessing certificate (shows temple chanting scene)",
+        "Bracelet replacement and string repair for material cost only, regular 'Five-Element Fortune Tips' newsletter (includes priest handwriting maintenance guide)"
+      ]
+    }
+  },
+  "advantages": {
+    "title": "Why Choose Us",
+    "items": [
+      {
+        "title": "Orthodox Taoism",
+        "description": "Partner temple certification display (includes temple photos + priest certification numbers), emphasizing \"talisman drawing follows Daoist Canon protocols\""
+      },
+      {
+        "title": "Authentic Materials",
+        "description": "Bracelet origin certificates (e.g., sandalwood regional test reports), using natural wood materials with quality inspection certificates"
+      },
+      {
+        "title": "Personalized Experience",
+        "description": "Each bracelet comes with custom certificate (signed by both fortune teller and priest), packaged in silk box + talisman-patterned gift box"
+      }
+    ]
+  },
+  "action": {
+    "title": "Start Your Luck Journey Now",
+    "benefitTitle": "Limited-Time Offer",
+    "benefitDesc": "First 100 orders: free lucky sachet (mugwort, sandalwood, etc.)",
+    "reviewsTitle": "Testimonials",
+    "reviews": [
+      {
+        "quote": "\"After wearing for 3 months, won the project bid - finally broke through years of bottlenecks!\"",
+        "name": "— Mr. Li · Entrepreneur"
+      },
+      {
+        "quote": "\"Was worried about this year's Tai Sui conflict, but after wearing the bracelet everything went smoothly, even got promoted!\"",
+        "name": "— Ms. Zhang · Office Worker"
+      }
+    ],
+    "ctaMeasure": "Measure Five Elements",
+    "ctaPlan": "View Custom Plan",
+    "ctaPay": "Pay Now - ¥50 Off",
+    "rightTitle": "Your Exclusive Luck Bracelet",
+    "rightDesc": "Customized by element deficiency, empowered by talisman"
+  },
+  "modal": {
+    "title": "Recommended Plans",
+    "recommendationDesc": "Based on your Five-Element deficiencies and current fortune, combined with Daoist traditions and seasonal characteristics, we recommend the following luck bracelets:",
+    "month": "Monthly Highlight",
+    "others": "Other Options",
+    "advice": "Wearing Tips",
+    "wearingAdvice": "Recommended to wear the bracelet on your left hand (left in, right out), wear for at least 8 hours daily. Remove when sleeping and place on bedside table. Rinse the bracelet with clean water on the 1st and 15th of each lunar month to enhance its energy field.",
+    "close": "Close",
+    "buy": "Purchase Recommended Bracelet"
+  }
+}

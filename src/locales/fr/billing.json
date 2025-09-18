@@ -1,0 +1,69 @@
+{
+    "page": {
+      "title": "Gestion des Abonnements",
+      "description": "Gérez vos plans d'abonnement et consultez l'historique des transactions."
+    },
+    "subscription": {
+      "title": "Plan d'Abonnement Actuel",
+      "description": "Votre plan d'abonnement actuel et ses détails.",
+      "clickHint": "Cliquez sur les informations d'abonnement pour afficher la page de gestion de facturation détaillée",
+      "currentPlan": {
+        "planName": "Plan d'adhésion : [0] crédits",
+        "billingCycle": "Prix",
+        "monthlyUnit": "mois",
+        "annualUnit": "an",
+        "subscriptionStart": "Date d'achat",
+        "nextRenewal": "Prochaine date de renouvellement",
+        "expiryTime": "Date d'expiration",
+        "noSubscriptions": "Aucun abonnement disponible.",
+        "cancelButton": "Annuler l'Abonnement",
+        "status": "Statut",
+        "statusCancelled": "Annulé"
+      },
+      "subscriptionTypes": {
+        "trial": "Essai gratuit",
+        "monthly": "Abonnement mensuel",
+        "quarterly": "Abonnement trimestriel",
+        "annual": "Abonnement annuel"
+      },
+      "pricingUnits": {
+        "trial": "3 jours",
+        "monthly": "mois",
+        "quarterly": "trimestre",
+        "annual": "an"
+      },
+      "cancelDialog": {
+        "title": "Confirmer l'Annulation de l'Abonnement",
+        "description": "Après l'annulation, vous n'aurez plus accès aux services de l'abonnement. Êtes-vous sûr de vouloir annuler ?",
+        "cancelButton": "Annuler",
+        "confirmButton": "Confirmer"
+      }
+    },
+    "transaction": {
+      "title": "Historique des Transactions",
+      "description": "Consultez tous vos enregistrements de transactions.",
+      "productName": "Nom du Produit",
+      "unit": "crédits",
+      "price": "Prix",
+      "date": "Date",
+      "status": "Statut",
+      "noTransactions": "Aucune transaction disponible.",
+      "renewal": "Renouvellement"
+    },
+    "toast": {
+      "error": {
+        "title": "Erreur",
+        "loadData": "Erreur lors du chargement des données de facturation.",
+        "cancelSubscription": "Erreur lors de l'annulation de l'abonnement. Veuillez réessayer plus tard."
+      },
+      "success": {
+        "title": "Succès",
+        "cancelSubscription": "Abonnement annulé avec succès."
+      }
+    },
+    "meta": {
+    "title": "Gestion des Factures et Abonnements - LuckGuides | Meilleur Traducteur de Voyage",
+    "description": "Gérez vos formules d'abonnement LuckGuides, consultez l'historique des paiements et les détails de facturation. Traitement de paiement sécurisé et relevés de transactions transparents.",
+    "keywords": "traduction touristique, traduction audio en texte, traduire audio, traduction vocale Google"
+  }
+  }

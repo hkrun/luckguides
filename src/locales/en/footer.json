@@ -1,0 +1,65 @@
+{
+  "logo": "LuckGuides",
+"logoTitle": "LuckGuides | Five Elements Fortune-telling & Customized Luck-enhancing Bracelets",
+"description": "Specialized in Five Elements fortune-telling and customized luck-enhancing bracelets, helping you balance your energy field and improve your fortune.",
+  "sections": [
+    {
+      "title": "Services",
+      "links": [
+        {
+          "label": "Five Elements Reading",
+          "href": "/#palm-analysis"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "label": "Contact Us",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/legal/privacy"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "/legal/terms"
+        },
+        {
+          "label": "Payment & Refund",
+          "href": "/legal/payments-refund"
+        }
+      ]
+    }
+  ],
+  "copyright": "© {year} LuckGuides. All rights reserved.",
+  "legal": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/luckguides"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/luckguides"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/company/luckguides"
+    }
+  ]
+}

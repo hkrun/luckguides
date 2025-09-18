@@ -1,0 +1,69 @@
+{
+    "page": {
+      "title": "구독 관리",
+      "description": "구독 플랜을 관리하고 거래 내역을 확인하세요."
+    },
+    "subscription": {
+      "title": "현재 구독 플랜",
+      "description": "현재 구독 플랜 및 세부 정보.",
+      "clickHint": "구독 정보를 클릭하여 자세한 청구 관리 페이지를 확인하세요",
+      "currentPlan": {
+        "planName": "멤버십 플랜: [0] 크레딧",
+        "billingCycle": "가격",
+        "monthlyUnit": "월",
+        "annualUnit": "년",
+        "subscriptionStart": "구매일",
+        "nextRenewal": "다음 갱신일",
+        "expiryTime": "만료일",
+        "noSubscriptions": "사용 가능한 구독이 없습니다.",
+        "cancelButton": "구독 취소",
+        "status": "상태",
+        "statusCancelled": "취소됨"
+      },
+      "subscriptionTypes": {
+        "trial": "무료 체험",
+        "monthly": "월간 요금제",
+        "quarterly": "분기별 요금제",
+        "annual": "연간 요금제"
+      },
+      "pricingUnits": {
+        "trial": "3일",
+        "monthly": "월",
+        "quarterly": "분기",
+        "annual": "년"
+      },
+      "cancelDialog": {
+        "title": "구독 취소 확인",
+        "description": "취소 후에는 구독 서비스에 더 이상 액세스할 수 없습니다. 취소하시겠습니까?",
+        "cancelButton": "취소",
+        "confirmButton": "확인"
+      }
+    },
+    "transaction": {
+      "title": "거래 내역",
+      "description": "모든 거래 기록을 확인하세요.",
+      "productName": "제품명",
+      "unit": "크레딧",
+      "price": "가격",
+      "date": "날짜",
+      "status": "상태",
+      "noTransactions": "사용 가능한 거래가 없습니다.",
+      "renewal": "갱신"
+    },
+    "toast": {
+      "error": {
+        "title": "오류",
+        "loadData": "청구 데이터를 로드하지 못했습니다.",
+        "cancelSubscription": "구독을 취소하지 못했습니다. 나중에 다시 시도하세요."
+      },
+      "success": {
+        "title": "성공",
+        "cancelSubscription": "구독이 성공적으로 취소되었습니다."
+      }
+    },
+    "meta": {
+    "title": "청구 및 구독 관리 - LuckGuides | 최고의 여행 번역기",
+    "description": "LuckGuides 멤버십 플랜 관리, 결제 내역 및 청구 상세 정보 확인. 안전한 결제 처리와 투명한 거래 기록.",
+    "keywords": "여행 번역, 오디오 텍스트 변환, 오디오 번역, Google 음성 번역"
+  }
+  }

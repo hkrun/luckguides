@@ -1,0 +1,69 @@
+{
+    "page": {
+      "title": "Abonnementverwaltung",
+      "description": "Verwalten Sie Ihre Abonnements und sehen Sie sich den Transaktionsverlauf an."
+    },
+    "subscription": {
+      "title": "Aktuelles Abonnement",
+      "description": "Ihr aktuelles Abonnement und Details.",
+      "clickHint": "Klicken Sie auf die Abonnementinformationen, um die detaillierte Rechnungsverwaltungsseite anzuzeigen",
+      "currentPlan": {
+        "planName": "Mitgliedschaftsplan: [0] Credits",
+        "billingCycle": "Preis",
+        "monthlyUnit": "Monat",
+        "annualUnit": "Jahr",
+        "subscriptionStart": "Kaufdatum",
+        "nextRenewal": "Nächstes Verlängerungsdatum",
+        "expiryTime": "Ablaufdatum",
+        "noSubscriptions": "Keine Abonnements verfügbar.",
+        "cancelButton": "Abonnement kündigen",
+        "status": "Status",
+        "statusCancelled": "Gekündigt"
+      },
+      "subscriptionTypes": {
+        "trial": "Kostenlose Testversion",
+        "monthly": "Monatsabo",
+        "quarterly": "Quartalsabo",
+        "annual": "Jahresabo"
+      },
+      "pricingUnits": {
+        "trial": "3 Tage",
+        "monthly": "Monat",
+        "quarterly": "Quartal",
+        "annual": "Jahr"
+      },
+      "cancelDialog": {
+        "title": "Kündigung des Abonnements bestätigen",
+        "description": "Nach der Kündigung haben Sie keinen Zugriff mehr auf die Abonnementdienste. Sind Sie sicher, dass Sie kündigen möchten?",
+        "cancelButton": "Abbrechen",
+        "confirmButton": "Bestätigen"
+      }
+    },
+    "transaction": {
+      "title": "Transaktionsverlauf",
+      "description": "Sehen Sie sich alle Ihre Transaktionsdatensätze an.",
+      "productName": "Produktname",
+      "unit": "Credits",
+      "price": "Preis",
+      "date": "Datum",
+      "status": "Status",
+      "noTransactions": "Keine Transaktionen vorhanden.",
+      "renewal": "Verlängerung"
+    },
+    "toast": {
+      "error": {
+        "title": "Fehler",
+        "loadData": "Fehler beim Laden der Abrechnungsdaten.",
+        "cancelSubscription": "Fehler beim Kündigen des Abonnements. Bitte versuchen Sie es später erneut."
+      },
+      "success": {
+        "title": "Erfolg",
+        "cancelSubscription": "Abonnement erfolgreich gekündigt."
+      }
+    },
+    "meta": {
+    "title": "Abrechnung & Abonnementverwaltung - LuckGuides | Bester Reiseübersetzer",
+    "description": "Verwalten Sie Ihre LuckGuides-Mitgliedschaftspläne, Zahlungshistorie und Rechnungsdetails. Sichere Zahlungsabwicklung und transparente Transaktionsaufzeichnungen.",
+    "keywords": "Reiseübersetzung, Audio-zu-Text-Übersetzung, Audio übersetzen, Google Sprachübersetzung"
+  }
+  }

@@ -1,0 +1,65 @@
+{
+  "logo": "LuckGuides",
+"logoTitle": "LuckGuides | 오행점술 및 행운증진 브레이슬릿 맞춤제작",
+"description": "오행점술과 행운증진 브레이슬릿 맞춤제작에 전문화되어 기운장을 조화시키고 운세를 높여드립니다.",
+  "sections": [
+    {
+      "title": "서비스",
+      "links": [
+        {
+          "label": "오행 운세 진단",
+          "href": "/#palm-analysis"
+        }
+      ]
+    },
+    {
+      "title": "회사",
+      "links": [
+        {
+          "label": "회사 소개",
+          "href": "/about"
+        },
+        {
+          "label": "문의하기",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "title": "법적 조항",
+      "links": [
+        {
+          "label": "개인정보 처리방침",
+          "href": "/legal/privacy"
+        },
+        {
+          "label": "이용 약관",
+          "href": "/legal/terms"
+        },
+        {
+          "label": "결제 및 환불",
+          "href": "/legal/payments-refund"
+        }
+      ]
+    }
+  ],
+  "copyright": "© {year} LuckGuides. 저작권 소유.",
+  "legal": {
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "이용 약관"
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/luckguides"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/luckguides"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/company/luckguides"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "subtitle": "Nous contacter",
+    "title": "Des questions sur la technologie d'échange de visages par IA?",
+    "description": "Notre équipe professionnelle spécialisée dans la technologie d'échange de visages par IA est à votre disposition en permanence pour vous offrir des conseils sur l'échange de visages par intelligence artificielle, un support technique et des solutions créatives."
+  },
+  "info": {
+    "title": "Coordonnées de contact",
+    "description": "Contactez notre équipe professionnelle spécialisée dans la technologie d'échange de visages par IA via les moyens suivants",
+    "contacts": [
+      {
+        "text": "zjhkrun@gmail.com"
+      },
+      {
+        "text": "Offre de services professionnels en technologie d'échange de visages par IA"
+      },
+      {
+        "text": "L'équipe professionnelle prend en charge多种 formats de vidéo et des effets d'échange de visages en haute définition"
+      }
+    ]
+  },
+  "form": {
+    "title": "Envoyer une consultation technique",
+    "description": "Qu'il s'agisse de besoins en technologie d'échange de visages par IA, de problèmes de production vidéo ou de guidance sur des projets créatifs, nous répondrons professionnellement.",
+    "fields": {
+      "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom",
+        "error": "Le nom doit comporter au moins 2 caractères."
+      },
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "votre@email.com",
+        "error": "Veuillez entrer une adresse e-mail valide."
+      },
+      "message": {
+        "label": "Contenu de la consultation",
+        "placeholder": "Décrivez vos besoins en échange de visages par IA, le type de vidéo, les exigences techniques ou autres besoins liés à des projets créatifs...",
+        "error": "Le message doit comporter au moins 10 caractères."
+      }
+    },
+    "submitButton": "Envoyer la consultation",
+    "successMessage": "Notre équipe d'experts en technologie IA répondra à votre consultation dans les plus brefs délais.",
+    "submitting": "En cours d'envoi...",
+    "toasts": {
+      "success": {
+        "title": "Consultation envoyée",
+        "description": "Merci pour votre consultation ! Nos experts en technologie d'échange de visages par IA vous répondront dans les 24 heures."
+      },
+      "error": {
+        "title": "Échec de l'envoi",
+        "description": "L'envoi du message a échoué, veuillez réessayer.",
+        "fallback": "L'envoi du formulaire a échoué, veuillez réessayer plus tard."
+      }
+    }
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "Veuillez vous connecter d'abord",
+      "description": "Connectez-vous avant d'envoyer la consultation"
+    }
+  },
+  "meta": {
+    "title": "Contacter l'équipe d'experts en technologie d'échange de visages par IA – Consultation professionnelle | LuckGuides Technologie d'échange de visages par IA",
+    "description": "Besoin de guidance sur les services de technologie d'échange de visages par IA ? Contactez notre équipe d'experts pour obtenir des conseils sur l'échange de visages par intelligence artificielle, la production vidéo et des solutions pour des projets créatifs.",
+    "alt": "Services de technologie d'échange de visages par IA",
+    "keywords": "Échange de visages par IA,Intelligence artificielle pour échange de visages,Tecnologie d'échange de visages en vidéo,Tecnologie deepfake"
+  }
+}

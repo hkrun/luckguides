@@ -1,0 +1,97 @@
+{
+    "logo": "LuckGuides",
+    "logoTitle": "LuckGuides | Evaluación de Salud de Hipertensión",
+    "navigation": [
+        {
+            "href": "/",
+            "label": "Inicio"
+        },
+        {
+            "href": "/features",
+            "label": "Características"
+        },
+        {
+            "href": "/pricing",
+            "label": "Precios"
+        },
+        {
+            "href": "/about",
+            "label": "Acerca de"
+        },
+        {
+            "href": "/contact",
+            "label": "Contáctenos"
+        }
+    ],
+    "actions": {
+        "signIn": "Iniciar sesión"
+    },
+    "mobileMenu": {
+        "toggleMenu": "Alternar menú",
+        "actions": {
+            "signIn": "Iniciar sesión",
+            "upgradePlan": "Mejorar plan",
+            "contactUs": "Contáctenos"
+        },
+        "settings": {
+            "theme": "Tema",
+            "language": "Idioma"
+        },
+        "navigation": [
+            {
+                "href": "/",
+                "label": "Inicio"
+            },
+            {
+                "href": "/features",
+                "label": "Características"
+            },
+            {
+                "href": "/pricing",
+                "label": "Precios"
+            },
+            {
+                "href": "/about",
+                "label": "Acerca de"
+            }
+        ]
+    },
+    "userButton": {
+        "menuItems": [
+            {
+                "type": "contact",
+                "href": "/contact",
+                "label": "Contáctenos"
+            },
+            {
+                "type": "billing",
+                "label": "Administrar suscripción"
+            },
+            {
+                "type": "logout",
+                "label": "Cerrar sesión"
+            }
+        ],
+        "aria": {
+            "userMenu": "Menú de usuario",
+            "userImage": "Imagen de usuario",
+            "userName": "Nombre de usuario",
+            "userEmail": "Correo electrónico del usuario"
+        }
+    },
+    "languageToggle": {
+        "label": "Cambiar idioma"
+    },
+    "themeToggle": {
+        "label": "Cambiar tema"
+    },
+    "creditsDisplay": {
+        "label": "Créditos",
+        "tooltip": {
+            "title": "Créditos",
+            "costInfo": "1 crédito = 1 segundo de vídeo",
+            "usageInfo": "Las funciones descuentan créditos según la duración del vídeo.",
+            "getMoreButton": "Obtener más tiempo"
+        }
+    }
+}

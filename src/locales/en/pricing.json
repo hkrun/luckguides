@@ -1,0 +1,355 @@
+{
+  "hero": {
+    "subtitle": "AI Face Swap Technology, Endless Creativity",
+    "title": "Choose Your AI Face Swap Plan",
+    "description": "Select the perfect plan for your creative needs. The Personal plan includes a 3-day free trial."
+  },
+  "billing": {
+    "title": "Pricing Plans",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "save": "Save 20%"
+  },
+  "personal": {
+    "title": "Personal",
+    "description": "Ideal for frequent users",
+    "badge": "Recommended for New Users",
+    "popular": "Popular"
+  },
+  "basic": {
+    "title": "Basic",
+    "price": {
+      "amount": "$9.99",
+      "period": "/month"
+    },
+    "annualPrice": {
+      "amount": "$99.99",
+      "period": "/year"
+    },
+    "trial": "3-day free trial",
+    "currency": "EUR",
+    "mode": "Recurring",
+    "features": [
+      "50 minutes of AI luck guides time per month",
+      "HD quality output",
+      "Basic template library"
+    ],
+    "annualFeatures": [
+      "600 minutes of AI luck guides time per year",
+      "HD quality output",
+      "Basic template library"
+    ],
+    "product": {
+      "code": "luckguides_basic",
+      "desc": "LuckGuides Basic Monthly Subscription",
+      "name": "LuckGuides Basic",
+      "quantity": "1",
+      "sku": "luckguides_basic_monthly",
+      "type": "digital",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cf4Dx3cvsYDBQX4pLFyUq"
+    },
+    "annualProduct": {
+      "code": "luckguides_basic_annual",
+      "desc": "LuckGuides Basic Annual Subscription",
+      "name": "LuckGuides Basic (Annual)",
+      "quantity": "1",
+      "sku": "luckguides_basic_annual",
+      "type": "digital",
+      "unit_price": "99.99",
+      "priceId": "price_1S7YYKDx3cvsYDBQyTkiM3vL"
+    },
+    "cta": "Start Free Trial"
+  },
+  "premium": {
+    "title": "Premium",
+    "price": {
+      "amount": "$19.99",
+      "period": "/month"
+    },
+    "annualPrice": {
+      "amount": "$199.99",
+      "period": "/year"
+    },
+    "trial": "3-day free trial",
+    "currency": "EUR",
+    "mode": "Recurring",
+    "features": [
+      "120 minutes of AI luck guides time per month",
+      "HD quality output",
+      "Full template library",
+      "Batch processing function",
+      "Priority processing queue"
+    ],
+    "annualFeatures": [
+      "1440 minutes of AI luck guides time per year",
+      "HD quality output",
+      "Full template library",
+      "Batch processing function",
+      "Priority processing queue"
+    ],
+    "product": {
+      "code": "luckguides_premium",
+      "desc": "LuckGuides Premium Monthly Subscription",
+      "name": "LuckGuides Premium",
+      "quantity": "1",
+      "sku": "luckguides_premium_monthly",
+      "type": "digital",
+      "unit_price": "19.99",
+      "priceId": "price_1S5cffDx3cvsYDBQXG5t2SkW"
+    },
+    "annualProduct": {
+      "code": "luckguides_premium_annual",
+      "desc": "LuckGuides Premium Annual Subscription",
+      "name": "LuckGuides Premium (Annual)",
+      "quantity": "1",
+      "sku": "luckguides_premium_annual",
+      "type": "digital",
+      "unit_price": "199.99",
+      "priceId": "price_1S7YYfDx3cvsYDBQQLkCNcTv"
+    },
+    "cta": "Start Free Trial"
+  },
+  "professional": {
+    "title": "Professional",
+    "price": {
+      "amount": "$29.99",
+      "period": "/month"
+    },
+    "annualPrice": {
+      "amount": "$299.99",
+      "period": "/year"
+    },
+    "trial": "3-day free trial",
+    "currency": "EUR",
+    "mode": "Recurring",
+    "features": [
+      "180 minutes of AI luck guides time per month",
+      "HD quality output",
+      "All premium templates",
+      "Dedicated customer support"
+    ],
+    "annualFeatures": [
+      "2160 minutes of AI luck guides time per year",
+      "HD quality output",
+      "All premium templates",
+      "Dedicated customer support"
+    ],
+    "product": {
+      "code": "luckguides_professional",
+      "desc": "LuckGuides Professional Monthly Subscription",
+      "name": "LuckGuides Professional",
+      "quantity": "1",
+      "sku": "luckguides_professional_monthly",
+      "type": "digital",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cgZDx3cvsYDBQ1Yu1cL1U"
+    },
+    "annualProduct": {
+      "code": "luckguides_professional_annual",
+      "desc": "LuckGuides Professional Annual Subscription",
+      "name": "LuckGuides Professional (Annual)",
+      "quantity": "1",
+      "sku": "luckguides_professional_annual",
+      "type": "digital",
+      "unit_price": "299.99",
+      "priceId": "price_1S7YYtDx3cvsYDBQWIHn7l8k"
+    },
+    "cta": "Start Free Trial"
+  },
+  "oneTimeBasic": {
+    "title": "1500 Points",
+    "price": {
+      "amount": "$9.99",
+      "period": "One-Time"
+    },
+    "currency": "EUR",
+    "mode": "Payment",
+    "features": [
+      "25 minutes of AI luck guides time",
+      "HD quality output",
+      "Basic template library",
+      "Permanent validity"
+    ],
+    "product": {
+      "code": "luckguides_onetime_basic",
+      "desc": "LuckGuides Basic Package One-Time Purchase",
+      "name": "LuckGuides Basic Package",
+      "quantity": "1",
+      "sku": "luckguides_onetime_basic",
+      "type": "digital",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cgnDx3cvsYDBQa8waZ5Dz"
+    },
+    "cta": "Buy Now"
+  },
+  "oneTimePremium": {
+    "title": "3600 Points",
+    "price": {
+      "amount": "$19.99",
+      "period": "One-Time"
+    },
+    "currency": "EUR",
+    "mode": "Payment",
+    "features": [
+      "60 minutes of AI luck guides time",
+      "HD quality output",
+      "Full template library",
+      "Batch processing function",
+      "Permanent validity"
+    ],
+    "product": {
+      "code": "luckguides_onetime_premium",
+      "desc": "LuckGuides Premium Package One-Time Purchase",
+      "name": "LuckGuides Premium Package",
+      "quantity": "1",
+      "sku": "luckguides_onetime_premium",
+      "type": "digital",
+      "unit_price": "19.99",
+      "priceId": "price_1S5ch2Dx3cvsYDBQcy4YbwIJ"
+    },
+    "cta": "Buy Now"
+  },
+  "oneTimeProfessional": {
+    "title": "5400 Points",
+    "price": {
+      "amount": "$29.99",
+      "period": "One-Time"
+    },
+    "currency": "EUR",
+    "mode": "Payment",
+    "features": [
+      "90 minutes of AI luck guides time",
+      "HD quality output",
+      "All premium templates",
+      "Batch processing function",
+      "Priority processing queue",
+      "Permanent validity"
+    ],
+    "product": {
+      "code": "luckguides_onetime_professional",
+      "desc": "LuckGuides Professional Package One-Time Purchase",
+      "name": "LuckGuides Professional Package",
+      "quantity": "1",
+      "sku": "luckguides_onetime_professional",
+      "type": "digital",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cjQDx3cvsYDBQGTGkToKH"
+    },
+    "cta": "Buy Now"
+  },
+  "business": {
+    "title": "Business",
+    "price": {
+      "amount": "$99.99",
+      "period": "/month"
+    },
+    "annualPrice": {
+      "amount": "$999.99",
+      "period": "/year"
+    },
+    "trial": "Please contact us immediately after subscription",
+    "currency": "EUR",
+    "mode": "Recurring",
+    "features": [
+      "Extra-long AI luck guides time",
+      "HD quality output",
+      "All premium templates",
+      "API access",
+      "Commercial usage authorization",
+      "Dedicated customer support",
+      "Team collaboration function"
+    ],
+    "product": {
+      "code": "luckguides_business",
+      "desc": "LuckGuides Business Monthly Subscription",
+      "name": "LuckGuides Business",
+      "quantity": "1",
+      "sku": "luckguides_business_monthly",
+      "type": "digital",
+      "unit_price": "99.99",
+      "priceId": "price_1S5h1BDx3cvsYDBQwP6f9qGk"
+    },
+    "annualProduct": {
+      "code": "luckguides_business_annual",
+      "desc": "LuckGuides Business Annual Subscription",
+      "name": "LuckGuides Business (Annual)",
+      "quantity": "1",
+      "sku": "luckguides_business_annual",
+      "type": "digital",
+      "unit_price": "999.99",
+      "priceId": "price_1S7YZGDx3cvsYDBQpy1DfL9S"
+    },
+    "cta": "Subscribe Now"
+  },
+  "paymentTips": "After payment, the subscription will be automatically added to your account (takes effect within 30 seconds). If it does not appear, please refresh the page.",
+  "trust": {
+    "text": "Start your AI luck guides creative journey now and unleash endless creativity",
+    "allPlansInclude": "All plans include:",
+    "features": {
+      "secureTranslation": "Data Security Protection",
+      "cloudSync": "Cloud Sync",
+      "mobileAccess": "Mobile Access",
+      "prioritySupport": "Priority Support"
+    }
+  },
+  "planDescriptions": {
+    "basic": "Suitable for personal entertainment use",
+    "professional": "Suitable for content creators",
+    "elite": "For enterprises and professional users",
+    "oneTimeBasic": "Suitable for occasional users",
+    "oneTimeProfessional": "Suitable for short-term project needs",
+    "oneTimeElite": "Suitable for large one-time needs",
+    "business": "Enterprise-level solution, suitable for team collaboration"
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "Please Log In First",
+      "description": "Please log in before proceeding with the subscription"
+    }
+  },
+  "payment": {
+    "loading": {
+      "title": "Loading payment information...",
+      "userId": "User ID",
+      "email": "Email",
+      "loadingText": "Loading..."
+    },
+    "updating": {
+      "title": "Updating points..."
+    }
+  },
+  "trial": {
+    "alreadyUsed": "Trial Already Used",
+    "alreadyUsedTitle": "Trial Already Used",
+    "alreadyUsedMessage": "You have already used the 3-day free trial. Each user can only use the free trial once.\nYou can choose other subscription plans to continue using our service.",
+    "alreadyUsedButton": "I Understand",
+    "cannotReapply": "You have already used the free trial and cannot reapply",
+    "checkFailed": "Check Failed",
+    "checkFailedDesc": "Failed to verify trial status, please try again later",
+    "startFreeTrial": "Start Free Trial"
+  },
+  "subscription": {
+    "duplicateTitle": "Duplicate Subscription Not Allowed",
+    "duplicateActiveMessage": "You currently have an active {subscriptionType} subscription, so duplicate subscription is not needed.",
+    "duplicateCanceledMessage": "You have canceled the renewal, but the subscription is still valid (Expiry Date: {expiryDate}), so duplicate subscription is not allowed.",
+    "duplicateButton": "I Understand",
+    "checkFailed": "Check Failed",
+    "checkFailedDesc": "Failed to check subscription status, please try again later",
+    "expiryTime": "Expiry Date: {expiryDate}",
+    "subscribeNow": "Subscribe Now",
+    "subscriptionTypes": {
+      "trial": "Trial",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "annual": "Annual",
+      "unknown": "Unknown"
+    }
+  },
+  "meta": {
+    "title": "LuckGuides AI Face Swap Pricing - AI Face Swap | Face Replacement | Video Face Swap",
+    "description": "Pricing plans for LuckGuides AI luck guides service, providing professional AI face replacement, video luck guides and creative content production services.",
+    "alt": "LuckGuides AI Face Swap",
+    "keywords": "AI Face Swap, Face Replacement, Video Face Swap, AI Face Swap Software, Artificial Intelligence Face Swap"
+  }
+}

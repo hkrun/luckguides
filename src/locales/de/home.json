@@ -1,0 +1,193 @@
+{
+  "hero": {
+    "title": "Entschlüsseln Sie Ihre daoistischen Schicksalsenergien - Balancieren Sie die fünf Elemente und transformieren Sie Ihr Leben",
+    "subtitle": "Entdecken Sie die Geheimnisse der tausendjährigen chinesischen Mystik und erforschen Sie, wie Yin-Yang-Balance, Qi-Fluss und die Weisheit des I Ging Ihre Lebensreise verändern können. Diese alten Weisheiten haben unzählige spirituelle Suchende geleitet und können auch Ihnen heute Inspiration bringen.",
+    "cta": "Handlinien-Analyse jetzt starten",
+    "badges": [
+      "Meister-Weihe und Segnung",
+      "Echtheitsgarantie",
+      "Von Millionen Gläubigen bestätigt"
+    ]
+  },
+  "palm": {
+    "sectionTitle": "Handlinien Fünf-Elemente Schicksalslesung",
+    "sectionDesc": "Laden Sie Ihr Handflächenfoto hoch und wir interpretieren Ihre Fünf-Elemente-Energien mit daoistischer Mystik",
+    "elements": {
+      "fire": "Feuer",
+      "water": "Wasser",
+      "wood": "Holz",
+      "metal": "Metall",
+      "earth": "Erde"
+    },
+    "upload": {
+      "title": "Bitte geben Sie Ihr Handflächenfoto an",
+      "tips": "Bitte fotografieren oder laden Sie ein klares Handflächenfoto hoch (empfohlen bei natürlichem Licht, Handfläche nach oben, fünf Finger natürlich gespreizt)",
+      "placeholder": "Bitte Handfläche hier platzieren",
+      "shot": "Fotografieren",
+      "upload": "Bild hochladen",
+      "reshot": "Neu fotografieren",
+      "reupload": "Neu hochladen",
+      "start": "Analyse starten",
+      "disabled": "Bitte zuerst Handflächenfoto hochladen",
+      "analyzing": "Analyse läuft, bitte warten...",
+      "viewResult": "Ergebnis anzeigen",
+      "cancel": "Abbrechen",
+      "captureAndUse": "Fotografieren und verwenden",
+      "cameraError": "Kamera kann nicht geöffnet werden, bitte Browser-Berechtigung prüfen oder Bild hochladen verwenden",
+      "noImageError": "Bild noch nicht hochgeladen, bitte zuerst klares Handflächenfoto auswählen",
+      "modelError": "Modell-Aufruf fehlgeschlagen",
+      "analysisError": "Analyse fehlgeschlagen"
+    },
+    "progress": {
+      "reading": "Hauptlinien der Handflächen werden erkannt...",
+      "parsing": "Modell analysiert Handlinien-Verzweigungen und Handflächen-Merkmale...",
+      "generating": "Fünf-Elemente Schicksalsbericht wird generiert...",
+      "done": "Analyse abgeschlossen, Ergebnis wird vorbereitet..."
+    },
+    "result": {
+      "title": "Ihre Fünf-Elemente Schicksalsdeutung",
+      "desc": "Basierend auf der KI-Analyse Ihrer Handlinien, kombiniert mit daoistischer Fünf-Elemente-Theorie, hier sind Ihre Elementverteilung und aktuelle Schicksalsinsights:",
+      "distTitle": "Fünf-Elemente Verteilung",
+      "lackTitle": "Elementmangel-Analyse",
+      "insightTitle": "Schicksalsdeutung",
+      "adviceTitle": "Daoistischer Rat",
+      "career": "Berufslaufbahn",
+      "wealth": "Vermögen",
+      "health": "Gesundheit",
+      "defaultAdvice": "Ihre Handlinien zeigen möglichen Metall-Element-Mangel in den Fünf Elementen, der durch entsprechende Methoden ausgeglichen werden kann.",
+      "defaultCareer": "Holz und Feuer Elemente sind stark, was gute Handlungsfähigkeit und Kreativität anzeigt.",
+      "defaultWealth": "Metall-Element-Mangel kann die Vermögensansammlung beeinträchtigen.",
+      "defaultHealth": "Achten Sie auf Tagesablauf und Atmungssystem, halten Sie Yin-Yang-Balance aufrecht.",
+      "reset": "Neu starten",
+      "shop": "Glücksbringer",
+      "guide": "Meister-Führung"
+    }
+  },
+  "painPoints": {
+    "title": "Werden Sie von diesen Problemen geplagt?",
+    "solutionLabel": "Lösung:",
+    "items": [
+      {
+        "title": "Ungünstiges Jahr?",
+        "desc": "Dieses Jahr immer Hindernisse? Investitionen scheitern, Berufsrückschläge, häufige Familienkonflikte? Möglicherweise stört das Jahr des Taisui Ihr Energiefeld.",
+        "solution": "Kooperation mit daoistischen Tempeln für handgemalte Taisui-Talismane, eingebettet in Handketten zum Tragen am Körper, um Jahresenergien zu harmonisieren und Hindernisse zu zerstreuen."
+      },
+      {
+        "title": "Niedrige Finanzen?",
+        "desc": "Harte Arbeit aber kein Geld gespart? Projekte scheitern immer kurz vor dem Ziel? Fünf-Elemente Metall-Mangel führt leicht zu Finanzverlust.",
+        "solution": "Exklusiver Reichtumsgott-Talisman + Reichtums-Handkette, doppelte Verstärkung für Anziehung von Finanzenergie, für stabiles Einkommen und zusätzliche Einnahmen."
+      },
+      {
+        "title": "Körper und Geist unruhig?",
+        "desc": "Schlaflosigkeit, Alpträume, angespannte Beziehungen, kleine Unfälle bei Reisen? Fünf-Elemente-Ungleichgewicht zieht negative Energien an.",
+        "solution": "Friedens-Talisman + entsprechende Fünf-Elemente-Handkette, innere Energiefeld-Anpassung und äußerer Schutz vor negativen Einflüssen, für körperliche und geistige Stabilität und glückliche Ereignisse."
+      }
+    ]
+  },
+  "services": {
+    "title": "Exklusive Glücksbringer-Services",
+    "calc": {
+      "title": "Fünf-Elemente Berechnung: Traditionelle Methode, präzise Deutung",
+      "point": "Handflächen-Foto-Test: Laden Sie ein klares Handflächenfoto hoch, traditionelle intelligente Analyse von Handlinien und Hautfarbe, 3 Minuten für Fünf-Elemente-Mangel-Ergebnis",
+      "cta": "Berechnung starten"
+    },
+    "bracelet": {
+      "title": "Exklusive Handkette-Anfertigung: Talisman + Handkette Doppel-Verstärkung",
+      "talismanTitle": "Talisman-Auswahl:",
+      "talismanDesc": "Zeigen Sie drei Talisman-Produktbilder (handgemalte Version vs. Ritual-Druckversion), gekennzeichnet mit \"durch Drei-Reinigung-Neun-Verbeugung Ritual gesegnet\"",
+      "table": {
+        "lack": "Fünf-Elemente Mangel-Ausgleich",
+        "material": "Entsprechendes Material",
+        "meaning": "Glücksbringer-Bedeutung"
+      },
+      "tableRows": [
+        {
+          "lack": "Feuer-Mangel",
+          "material": "Rosenholz-Handkette + Feuer-verstärkender Glücks-Talisman",
+          "meaning": "Handlungsfähigkeit stärken"
+        },
+        {
+          "lack": "Wasser-Mangel",
+          "material": "Ebenholz-Handkette + Wasser-ergänzender Talisman",
+          "meaning": "Denkgeschwindigkeit verbessern"
+        },
+        {
+          "lack": "Holz-Mangel",
+          "material": "Pfirsichholz-Handkette + Holz-ergänzender Glücks-Talisman",
+          "meaning": "Lebenskraft stärken"
+        },
+        {
+          "lack": "Metall-Mangel",
+          "material": "Goldseidenholz-Handkette + Metall-ergänzender Glücks-Talisman",
+          "meaning": "Vermögensansammlung verbessern"
+        },
+        {
+          "lack": "Erde-Mangel",
+          "material": "Buchsbaum-Handkette + Erde-verstärkender Glücks-Talisman",
+          "meaning": "Berufsfundament stärken"
+        }
+      ]
+    },
+    "valueAdded": {
+      "title": "Mehrwert-Services: Lassen Sie das Glück kontinuierlich online sein",
+      "items": [
+        "Kostenlose Fünf-Elemente Deutung",
+        "Jährliche Energie-Segnung",
+        "Lebenslanger Wartungsservice"
+      ],
+      "descriptions": [
+        "Bei Bestellung erhalten Sie kostenlos das \"Persönliche Fünf-Elemente Schicksalshandbuch\" mit Persönlichkeits-, Gesundheits- und Jahrestrend-Analyse (Handbuch-Cover mit daoistischen Talisman-Rahmen)",
+        "Jährlich können Sie die Handkette zurücksenden, der kooperierende Tempel führt kollektive Sutra-Rezitation durch mit zusätzlichem Segenszertifikat (zeigen Sie Tempel-Sutra-Rezitations-Szenenbilder)",
+        "Handkette-Austausch und Seil-Reparaturen nur Materialkosten, bieten \"Fünf-Elemente Glücksbringer-Tipps\" regelmäßige Push-Nachrichten (mit daoistischen handgeschriebenen Wartungsformeln)"
+      ]
+    }
+  },
+  "advantages": {
+    "title": "Warum uns wählen",
+    "items": [
+      {
+        "title": "Daoistische Orthodoxie",
+        "description": "Kooperations-Tempel-Qualifikationsnachweis (mit Tempel-Fotos + Daoist-Zertifikatsnummer), betont \"Talisman-Zeichnung folgt \"Daomen Kefan\" Ritual-Ordnung\""
+      },
+      {
+        "title": "Material-Echtheit",
+        "description": "Handkette-Herkunftsnachweis (wie Sandelholz-Region-Testbericht), verwendet natürliches Holz, mit Qualitätsprüfungszertifikat"
+      },
+      {
+        "title": "Exklusive Erfahrung",
+        "description": "Jede Handkette mit maßgeschneidertem Zertifikat (mit Astrologen- und Daoisten-Doppel-Signatur), Verpackung in Brokat-Box + Talisman-Muster-Geschenkbox"
+      }
+    ]
+  },
+  "action": {
+    "title": "Starten Sie sofort Ihre Glücksbringer-Reise",
+    "benefitTitle": "Zeitlich begrenzte Vorteile",
+    "benefitDesc": "Erste 100 Besteller erhalten kostenlos daoistischen Glücksbringer-Duftbeutel (enthält Beifuß, Sandelholz und andere böse Geister vertreibende Kräuter)",
+    "reviewsTitle": "Nutzerzeugnisse",
+    "reviews": [
+      {
+        "quote": "\"Nach 3 Monaten Tragen Projekt gewonnen, jahrelange Blockade endlich durchbrochen!\"",
+        "name": "— Herr Li · Unternehmer"
+      },
+      {
+        "quote": "\"Eigentlich hatte ich dieses Jahr Taisui-Sorgen, nach dem Tragen der Handkette lief alles glatt, sogar Beförderung erhalten!\"",
+        "name": "— Frau Zhang · Büroangestellte"
+      }
+    ],
+    "ctaMeasure": "Fünf-Elemente berechnen klicken",
+    "ctaPlan": "Maßgeschneiderte Lösung ansehen",
+    "ctaPay": "Bezahlung 50€ Rabatt",
+    "rightTitle": "Exklusive Glücksbringer-Handkette für Sie",
+    "rightDesc": "Maßgeschneidert nach Fünf-Elemente-Mangel, Talisman-gesegnete Energie"
+  },
+  "modal": {
+    "title": "Empfohlene Glücksbringer-Lösung für Sie",
+    "recommendationDesc": "Basierend auf Ihrem Fünf-Elemente-Mangel und aktuellem Schicksal, kombiniert mit daoistischer Tradition und saisonalen Eigenschaften, empfehlen wir Ihnen folgende Glücksbringer-Handketten:",
+    "month": "Besondere Empfehlung für diesen Monat",
+    "others": "Andere passende Lösungen",
+    "advice": "Trageempfehlungen",
+    "wearingAdvice": "Empfohlen wird das Tragen der Handkette an der linken Hand (links herein, rechts hinaus), täglich mindestens 8 Stunden tragen, beim Schlafen abnehmen und auf den Nachttisch legen. Am 1. und 15. jedes Mondmonats die Handkette mit klarem Wasser abspülen, um ihr Energiefeld zu verstärken.",
+    "close": "Schließen",
+    "buy": "Empfohlene Handkette kaufen"
+  }
+}

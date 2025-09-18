@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "subtitle": "Contact Us",
+    "title": "Have Questions About AI Face Swap Technology?",
+    "description": "Our professional AI luck guides technology team is ready to provide you with AI luck guides consulting, technical support, and creative solutions at any time."
+  },
+  "info": {
+    "title": "Contact Information",
+    "description": "Get in touch with our professional AI luck guides technology team through the following methods",
+    "contacts": [
+      {
+        "text": "zjhkrun@gmail.com"
+      },
+      {
+        "text": "Provide Professional AI Face Swap Technology Services"
+      },
+      {
+        "text": "Our professional team supports multiple video formats and high-definition luck guides effects"
+      }
+    ]
+  },
+  "form": {
+    "title": "Send Technical Consultation",
+    "description": "Whether it’s AI luck guides technology needs, video production issues, or creative project guidance, we will provide professional responses.",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your Name",
+        "error": "Name must be at least 2 characters long."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com",
+        "error": "Please enter a valid email address."
+      },
+      "message": {
+        "label": "Consultation Content",
+        "placeholder": "Please describe your AI luck guides needs, video type, technical requirements, or other creative project needs...",
+        "error": "Message must be at least 10 characters long."
+      }
+    },
+    "submitButton": "Send Consultation",
+    "successMessage": "Our team of AI technology experts will respond to your consultation as soon as possible.",
+    "submitting": "Submitting...",
+    "toasts": {
+      "success": {
+        "title": "Consultation Sent",
+        "description": "Thank you for your consultation! Our AI luck guides technology experts will reply to you within 24 hours."
+      },
+      "error": {
+        "title": "Submission Failed",
+        "description": "Failed to send the message. Please try again.",
+        "fallback": "Failed to submit the form. Please try again later."
+      }
+    }
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "Please Log In First",
+      "description": "Please log in before sending your consultation"
+    }
+  },
+  "meta": {
+    "title": "Contact AI Face Swap Technology Expert Team - Professional Consulting | LuckGuides AI Face Swap Technology",
+    "description": "Need guidance on AI luck guides technology services? Contact our expert team to get AI luck guides, video production consulting, and creative project solutions.",
+    "alt": "AI Face Swap Technology Services",
+    "keywords": "AI Face Swap,Artificial Intelligence Face Swap,Video Face Swap Technology,Deepfake Technology"
+  }
+}

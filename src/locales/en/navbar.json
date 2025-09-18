@@ -1,0 +1,89 @@
+{
+    "logo": "LuckGuides",
+    "logoTitle": "LuckGuides | LuckGuides Health Assessment",
+    "navigation": [
+        {
+            "href": "/",
+            "label": "Home"
+        },
+        {
+            "href": "/pricing",
+            "label": "Pricing"
+        },
+        {
+            "href": "/about",
+            "label": "About"
+        },
+        {
+            "href": "/contact",
+            "label": "Contact Us"
+        }
+    ],
+    "actions": {
+        "signIn": "Sign In"
+    },
+    "mobileMenu": {
+        "toggleMenu": "Toggle Menu",
+        "actions": {
+            "signIn": "Sign In",
+            "upgradePlan": "Upgrade Plan",
+            "contactUs": "Contact Us"
+        },
+        "settings": {
+            "theme": "Theme",
+            "language": "Language"
+        },
+        "navigation": [
+            {
+                "href": "/",
+                "label": "Home"
+            },
+            {
+                "href": "/pricing",
+                "label": "Pricing"
+            },
+            {
+                "href": "/about",
+                "label": "About"
+            }
+        ]
+    },
+    "userButton": {
+        "menuItems": [
+            {
+                "type": "contact",
+                "href": "/contact",
+                "label": "Contact Us"
+            },
+            {
+                "type": "billing",
+                "label": "Manage Subscription"
+            },
+            {
+                "type": "logout",
+                "label": "Log Out"
+            }
+        ],
+        "aria": {
+            "userMenu": "User Menu",
+            "userImage": "User Image",
+            "userName": "User Name",
+            "userEmail": "User Email"
+        }
+    },
+    "languageToggle": {
+        "label": "Change Language"
+    },
+    "themeToggle": {
+        "label": "Change Theme"
+    },
+    "creditsDisplay": {
+        "label": "Credits",
+        "tooltip": {
+            "title": "Credits",
+            "costInfo": "1 credit = 1 second of video time",
+            "usageInfo": "Features deduct credits based on video duration.",
+            "getMoreButton": "Get More Time"
+        }
+    }
+}

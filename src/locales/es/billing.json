@@ -1,0 +1,69 @@
+{
+    "page": {
+      "title": "Gestión de Suscripciones",
+      "description": "Administre sus planes de suscripción y vea el historial de transacciones."
+    },
+    "subscription": {
+      "title": "Plan de Suscripción Actual",
+      "description": "Su plan de suscripción actual y detalles.",
+      "clickHint": "Haga clic en la información de suscripción para ver la página detallada de gestión de facturación",
+      "currentPlan": {
+        "planName": "Plan de membresía: [0] créditos",
+        "billingCycle": "Precio",
+        "monthlyUnit": "mes",
+        "annualUnit": "año",
+        "subscriptionStart": "Fecha de compra",
+        "nextRenewal": "Próxima fecha de renovación",
+        "expiryTime": "Fecha de vencimiento",
+        "noSubscriptions": "No hay suscripciones disponibles.",
+        "cancelButton": "Cancelar Suscripción",
+        "status": "Estado",
+        "statusCancelled": "Cancelado"
+      },
+      "subscriptionTypes": {
+        "trial": "Prueba gratuita",
+        "monthly": "Plan mensual",
+        "quarterly": "Plan trimestral",
+        "annual": "Plan anual"
+      },
+      "pricingUnits": {
+        "trial": "3 días",
+        "monthly": "mes",
+        "quarterly": "trimestre",
+        "annual": "año"
+      },
+      "cancelDialog": {
+        "title": "Confirmar Cancelación de Suscripción",
+        "description": "Después de la cancelación, ya no tendrá acceso a los servicios de suscripción. ¿Está seguro de que desea cancelar?",
+        "cancelButton": "Cancelar",
+        "confirmButton": "Confirmar"
+      }
+    },
+    "transaction": {
+      "title": "Historial de Transacciones",
+      "description": "Vea todos sus registros de transacciones.",
+      "productName": "Nombre del Producto",
+      "unit": "créditos",
+      "price": "Precio",
+      "date": "Fecha",
+      "status": "Estado",
+      "noTransactions": "No hay transacciones disponibles.",
+      "renewal": "Renovación"
+    },
+    "toast": {
+      "error": {
+        "title": "Error",
+        "loadData": "Error al cargar los datos de facturación.",
+        "cancelSubscription": "Error al cancelar la suscripción. Por favor, inténtelo de nuevo más tarde."
+      },
+      "success": {
+        "title": "Éxito",
+        "cancelSubscription": "Suscripción cancelada con éxito."
+      }
+    },
+    "meta": {
+    "title": "Gestión de Facturas y Suscripciones - LuckGuides | Mejor Traductor para Viajes",
+    "description": "Administre sus planes de membresía de LuckGuides, consulte el historial de pagos y detalles de facturación. Procesamiento de pagos seguros y registros de transacciones transparentes.",
+    "keywords": "traducción turística, traducción de audio a texto, traducir audio, traducción de voz de Google"
+  }
+  }

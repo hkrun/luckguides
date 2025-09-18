@@ -1,0 +1,65 @@
+{
+  "logo": "LuckGuides",
+"logoTitle": "LuckGuides | Fünf-Elemente-Orakel und Maßgeschneidertes Glücksarmband",
+"description": "Spezialisiert auf Fünf-Elemente-Orakel und maßgeschneidertes Glücksarmband, hilft Ihnen, Ihr Energiefeld auszugleichen und Ihr Glück zu steigern.",
+  "sections": [
+    {
+      "title": "Dienste",
+      "links": [
+        {
+          "label": "Fünf-Elemente-Analyse",
+          "href": "/#palm-analysis"
+        }
+      ]
+    },
+    {
+      "title": "Unternehmen",
+      "links": [
+        {
+          "label": "Über uns",
+          "href": "/about"
+        },
+        {
+          "label": "Kontaktiere uns",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "title": "Rechtliche Hinweise",
+      "links": [
+        {
+          "label": "Datenschutzrichtlinie",
+          "href": "/legal/privacy"
+        },
+        {
+          "label": "Nutzungsbedingungen",
+          "href": "/legal/terms"
+        },
+        {
+          "label": "Zahlung & Rückerstattung",
+          "href": "/legal/payments-refund"
+        }
+      ]
+    }
+  ],
+  "copyright": "© {year} LuckGuides. Alle Rechte vorbehalten.",
+  "legal": {
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/luckguides"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/luckguides"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/company/luckguides"
+    }
+  ]
+}

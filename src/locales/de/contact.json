@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "subtitle": "Kontaktieren Sie uns",
+    "title": "Fragen zur KI-Gesichtsersetzungstechnik?",
+    "description": "Unser professionelles Team für KI-Gesichtsersetzungstechnik steht Ihnen jederzeit zur Beratung zur künstlichen Intelligenz-basierten Gesichtsersetzung, technischen Unterstützung und kreativen Lösungen zur Verfügung."
+  },
+  "info": {
+    "title": "Kontaktinformationen",
+    "description": "Kontaktieren Sie unser professionelles Team für KI-Gesichtsersetzungstechnik über die folgenden Wege",
+    "contacts": [
+      {
+        "text": "zjhkrun@gmail.com"
+      },
+      {
+        "text": "Angebot professioneller Dienstleistungen für KI-Gesichtsersetzungstechnik"
+      },
+      {
+        "text": "Das professionelle Team unterstützt verschiedene Videoformate und Hochauflösungs-Gesichtsersetzungsergebnisse"
+      }
+    ]
+  },
+  "form": {
+    "title": "Technische Beratung senden",
+    "description": "Ob Sie Anforderungen an KI-Gesichtsersetzungstechnik, Fragen zur Videoproduktion oder Anleitung für kreative Projekte haben – wir antworten professionell.",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Ihr Name",
+        "error": "Der Name muss mindestens 2 Zeichen lang sein."
+      },
+      "email": {
+        "label": "E-Mail-Adresse",
+        "placeholder": "Ihre@email.com",
+        "error": "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+      },
+      "message": {
+        "label": "Beratungsinhalt",
+        "placeholder": "Beschreiben Sie bitte Ihre Anforderungen an KI-Gesichtsersetzung, den Videotyp, technische Anforderungen oder andere Anforderungen an kreative Projekte...",
+        "error": "Die Nachricht muss mindestens 10 Zeichen lang sein."
+      }
+    },
+    "submitButton": "Beratung senden",
+    "successMessage": "Unser Team von KI-Technik-Experten wird Ihre Beratung so schnell wie möglich beantworten.",
+    "submitting": "Wird gesendet...",
+    "toasts": {
+      "success": {
+        "title": "Beratung gesendet",
+        "description": "Vielen Dank für Ihre Beratungsanfrage! Unsere Experten für KI-Gesichtsersetzungstechnik antworten Ihnen innerhalb von 24 Stunden."
+      },
+      "error": {
+        "title": "Versand fehlgeschlagen",
+        "description": "Der Versand der Nachricht ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "fallback": "Der Formularvorgang ist fehlgeschlagen. Bitte versuchen Sie es später erneut."
+      }
+    }
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "Bitte melden Sie sich zuerst an",
+      "description": "Bitte melden Sie sich an, bevor Sie die Beratung senden"
+    }
+  },
+  "meta": {
+    "title": "Kontaktieren Sie das Expertenteam für KI-Gesichtsersetzungstechnik – Professionelle Beratung | LuckGuides KI-Gesichtsersetzungstechnik",
+    "description": "Benötigen Sie Anleitung zu Dienstleistungen für KI-Gesichtsersetzungstechnik? Kontaktieren Sie unser Expertenteam, um Beratung zur künstlichen Intelligenz-basierten Gesichtsersetzung, Videoproduktion und Lösungen für kreative Projekte zu erhalten.",
+    "alt": "Dienstleistungen für KI-Gesichtsersetzungstechnik",
+    "keywords": "KI-Gesichtsersetzung,Künstliche Intelligenz-Gesichtsersetzung,Video-Gesichtsersetzungstechnik,Deepfake-Technik"
+  }
+}

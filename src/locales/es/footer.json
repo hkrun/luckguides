@@ -1,0 +1,65 @@
+{
+  "logo": "LuckGuides",
+"logoTitle": "LuckGuides | Adivinación de los Cinco Elementos y Pulseras Personalizadas para Atraer Suerte",
+"description": "Especializados en adivinación de los Cinco Elementos y fabricación de pulseras personalizadas para atraer suerte, ayudándote a equilibrar tu campo de energía y mejorar tu fortuna.",
+  "sections": [
+    {
+      "title": "Servicios",
+      "links": [
+        {
+          "label": "Lectura de los Cinco Elementos",
+          "href": "/#palm-analysis"
+        }
+      ]
+    },
+    {
+      "title": "Compañía",
+      "links": [
+        {
+          "label": "Sobre nosotros",
+          "href": "/about"
+        },
+        {
+          "label": "Contáctanos",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "title": "Términos legales",
+      "links": [
+        {
+          "label": "Política de privacidad",
+          "href": "/legal/privacy"
+        },
+        {
+          "label": "Términos de servicio",
+          "href": "/legal/terms"
+        },
+        {
+          "label": "Pago y reembolso",
+          "href": "/legal/payments-refund"
+        }
+      ]
+    }
+  ],
+  "copyright": "© {year} LuckGuides. Todos los derechos reservados.",
+  "legal": {
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/luckguides"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/luckguides"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/company/luckguides"
+    }
+  ]
+}

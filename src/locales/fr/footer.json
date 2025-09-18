@@ -1,0 +1,65 @@
+{
+  "logo": "LuckGuides",
+"logoTitle": "LuckGuides | Divination des Cinq Éléments et Bracelets Personnalisés pour Attirer la Chance",
+"description": "Spécialisés dans la divination des Cinq Éléments et la création de bracelets personnalisés pour attirer la chance, nous vous aidons à équilibrer votre champ énergétique et à améliorer votre fortune.",
+  "sections": [
+    {
+      "title": "Services",
+      "links": [
+        {
+          "label": "Lecture des Cinq Éléments",
+          "href": "/#palm-analysis"
+        }
+      ]
+    },
+    {
+      "title": "Entreprise",
+      "links": [
+        {
+          "label": "À propos de nous",
+          "href": "/about"
+        },
+        {
+          "label": "Contactez-nous",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "title": "Conditions légales",
+      "links": [
+        {
+          "label": "Politique de confidentialité",
+          "href": "/legal/privacy"
+        },
+        {
+          "label": "Conditions d'utilisation",
+          "href": "/legal/terms"
+        },
+        {
+          "label": "Paiement & Remboursement",
+          "href": "/legal/payments-refund"
+        }
+      ]
+    }
+  ],
+  "copyright": "© {year} LuckGuides. Tous droits réservés.",
+  "legal": {
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/luckguides"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/luckguides"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/company/luckguides"
+    }
+  ]
+}

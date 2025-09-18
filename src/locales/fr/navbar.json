@@ -1,0 +1,91 @@
+{
+    "logo": "LuckGuides",
+    "logoTitle": "LuckGuides | Évaluation de la santé de l'luckguides",
+    "navigation": [
+        {
+            "href": "/",
+            "label": "Accueil"
+        },
+
+        {
+            "href": "/pricing",
+            "label": "Tarifs"
+        },
+        {
+            "href": "/about",
+            "label": "À propos"
+        },
+        {
+            "href": "/contact",
+            "label": "Contactez-nous"
+        }
+    ],
+    "actions": {
+        "signIn": "Connexion"
+    },
+    "mobileMenu": {
+        "toggleMenu": "Basculer le menu",
+        "actions": {
+            "signIn": "Connexion",
+            "upgradePlan": "Améliorer l'abonnement",
+            "contactUs": "Contactez-nous"
+        },
+        "settings": {
+            "theme": "Thème",
+            "language": "Langue"
+        },
+        "navigation": [
+            {
+                "href": "/",
+                "label": "Accueil"
+            },
+
+            {
+                "href": "/pricing",
+                "label": "Tarifs"
+            },
+            {
+                "href": "/about",
+                "label": "À propos"
+            }
+        ]
+    },
+    "userButton": {
+        "menuItems": [
+            {
+                "type": "contact",
+                "href": "/contact",
+                "label": "Contactez-nous"
+            },
+            {
+                "type": "billing",
+                "label": "Gérer l'abonnement"
+            },
+            {
+                "type": "logout",
+                "label": "Déconnexion"
+            }
+        ],
+        "aria": {
+            "userMenu": "Menu utilisateur",
+            "userImage": "Image utilisateur",
+            "userName": "Nom d'utilisateur",
+            "userEmail": "Email utilisateur"
+        }
+    },
+    "languageToggle": {
+        "label": "Changer de langue"
+    },
+    "themeToggle": {
+        "label": "Changer de thème"
+    },
+    "creditsDisplay": {
+        "label": "Crédits",
+        "tooltip": {
+            "title": "Crédits",
+            "costInfo": "1 crédit = 1 seconde de vidéo",
+            "usageInfo": "Les fonctionnalités déduisent des crédits selon la durée de la vidéo.",
+            "getMoreButton": "Obtenir plus de temps"
+        }
+    }
+}

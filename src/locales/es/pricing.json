@@ -1,0 +1,355 @@
+{
+  "hero": {
+    "subtitle": "Tecnología de intercambio de rostros AI, creatividad sin límites",
+    "title": "Elige tu plan de intercambio de rostros AI",
+    "description": "Selecciona el plan perfecto para tus necesidades creativas. La versión Personal incluye una prueba gratuita de 3 días."
+  },
+  "billing": {
+    "title": "Planes de precios",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "save": "Ahorra un 20%"
+  },
+  "personal": {
+    "title": "Personal",
+    "description": "Ideal para usuarios que la usan con frecuencia",
+    "badge": "Recomendado para nuevos usuarios",
+    "popular": "Popular"
+  },
+  "basic": {
+    "title": "Básica",
+    "price": {
+      "amount": "$9.99",
+      "period": "/mes"
+    },
+    "annualPrice": {
+      "amount": "$99.99",
+      "period": "/año"
+    },
+    "trial": "Prueba gratuita de 3 días",
+    "currency": "EUR",
+    "mode": "Periódico",
+    "features": [
+      "50 minutos de tiempo de intercambio de rostros AI al mes",
+      "Salida en calidad HD",
+      "Biblioteca básica de plantillas"
+    ],
+    "annualFeatures": [
+      "600 minutos de tiempo de intercambio de rostros AI al año",
+      "Salida en calidad HD",
+      "Biblioteca básica de plantillas"
+    ],
+    "product": {
+      "code": "luckguides_basic",
+      "desc": "Suscripción mensual de LuckGuides Básica",
+      "name": "LuckGuides Básica",
+      "quantity": "1",
+      "sku": "luckguides_basic_monthly",
+      "type": "digital",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cf4Dx3cvsYDBQX4pLFyUq"
+    },
+    "annualProduct": {
+      "code": "luckguides_basic_annual",
+      "desc": "Suscripción anual de LuckGuides Básica",
+      "name": "LuckGuides Básica (anual)",
+      "quantity": "1",
+      "sku": "luckguides_basic_annual",
+      "type": "digital",
+      "unit_price": "99.99",
+      "priceId": "price_1S7YYKDx3cvsYDBQyTkiM3vL"
+    },
+    "cta": "Iniciar prueba gratuita"
+  },
+  "premium": {
+    "title": "Premium",
+    "price": {
+      "amount": "$19.99",
+      "period": "/mes"
+    },
+    "annualPrice": {
+      "amount": "$199.99",
+      "period": "/año"
+    },
+    "trial": "Prueba gratuita de 3 días",
+    "currency": "EUR",
+    "mode": "Periódico",
+    "features": [
+      "120 minutos de tiempo de intercambio de rostros AI al mes",
+      "Salida en calidad HD",
+      "Biblioteca completa de plantillas",
+      "Función de procesamiento por lotes",
+      "Cola de procesamiento prioritario"
+    ],
+    "annualFeatures": [
+      "1440 minutos de tiempo de intercambio de rostros AI al año",
+      "Salida en calidad HD",
+      "Biblioteca completa de plantillas",
+      "Función de procesamiento por lotes",
+      "Cola de procesamiento prioritario"
+    ],
+    "product": {
+      "code": "luckguides_premium",
+      "desc": "Suscripción mensual de LuckGuides Premium",
+      "name": "LuckGuides Premium",
+      "quantity": "1",
+      "sku": "luckguides_premium_monthly",
+      "type": "digital",
+      "unit_price": "19.99",
+      "priceId": "price_1S5cffDx3cvsYDBQXG5t2SkW"
+    },
+    "annualProduct": {
+      "code": "luckguides_premium_annual",
+      "desc": "Suscripción anual de LuckGuides Premium",
+      "name": "LuckGuides Premium (anual)",
+      "quantity": "1",
+      "sku": "luckguides_premium_annual",
+      "type": "digital",
+      "unit_price": "199.99",
+      "priceId": "price_1S7YYfDx3cvsYDBQQLkCNcTv"
+    },
+    "cta": "Iniciar prueba gratuita"
+  },
+  "professional": {
+    "title": "Profesional",
+    "price": {
+      "amount": "$29.99",
+      "period": "/mes"
+    },
+    "annualPrice": {
+      "amount": "$299.99",
+      "period": "/año"
+    },
+    "trial": "Prueba gratuita de 3 días",
+    "currency": "EUR",
+    "mode": "Periódico",
+    "features": [
+      "180 minutos de tiempo de intercambio de rostros AI al mes",
+      "Salida en calidad HD",
+      "Todas las plantillas premium",
+      "Soporte al cliente exclusivo"
+    ],
+    "annualFeatures": [
+      "2160 minutos de tiempo de intercambio de rostros AI al año",
+      "Salida en calidad HD",
+      "Todas las plantillas premium",
+      "Soporte al cliente exclusivo"
+    ],
+    "product": {
+      "code": "luckguides_professional",
+      "desc": "Suscripción mensual de LuckGuides Profesional",
+      "name": "LuckGuides Profesional",
+      "quantity": "1",
+      "sku": "luckguides_professional_monthly",
+      "type": "digital",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cgZDx3cvsYDBQ1Yu1cL1U"
+    },
+    "annualProduct": {
+      "code": "luckguides_professional_annual",
+      "desc": "Suscripción anual de LuckGuides Profesional",
+      "name": "LuckGuides Profesional (anual)",
+      "quantity": "1",
+      "sku": "luckguides_professional_annual",
+      "type": "digital",
+      "unit_price": "299.99",
+      "priceId": "price_1S7YYtDx3cvsYDBQWIHn7l8k"
+    },
+    "cta": "Iniciar prueba gratuita"
+  },
+  "oneTimeBasic": {
+    "title": "1500 puntos",
+    "price": {
+      "amount": "$9.99",
+      "period": "Único"
+    },
+    "currency": "EUR",
+    "mode": "Pago único",
+    "features": [
+      "25 minutos de tiempo de intercambio de rostros AI",
+      "Salida en calidad HD",
+      "Biblioteca básica de plantillas",
+      "Validez permanente"
+    ],
+    "product": {
+      "code": "luckguides_onetime_basic",
+      "desc": "Compra única de Paquete Básico de LuckGuides",
+      "name": "Paquete Básico de LuckGuides",
+      "quantity": "1",
+      "sku": "luckguides_onetime_basic",
+      "type": "digital",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cgnDx3cvsYDBQa8waZ5Dz"
+    },
+    "cta": "Comprar ahora"
+  },
+  "oneTimePremium": {
+    "title": "3600 puntos",
+    "price": {
+      "amount": "$19.99",
+      "period": "Único"
+    },
+    "currency": "EUR",
+    "mode": "Pago único",
+    "features": [
+      "60 minutos de tiempo de intercambio de rostros AI",
+      "Salida en calidad HD",
+      "Biblioteca completa de plantillas",
+      "Función de procesamiento por lotes",
+      "Validez permanente"
+    ],
+    "product": {
+      "code": "luckguides_onetime_premium",
+      "desc": "Compra única de Paquete Premium de LuckGuides",
+      "name": "Paquete Premium de LuckGuides",
+      "quantity": "1",
+      "sku": "luckguides_onetime_premium",
+      "type": "digital",
+      "unit_price": "19.99",
+      "priceId": "price_1S5ch2Dx3cvsYDBQcy4YbwIJ"
+    },
+    "cta": "Comprar ahora"
+  },
+  "oneTimeProfessional": {
+    "title": "5400 puntos",
+    "price": {
+      "amount": "$29.99",
+      "period": "Único"
+    },
+    "currency": "EUR",
+    "mode": "Pago único",
+    "features": [
+      "90 minutos de tiempo de intercambio de rostros AI",
+      "Salida en calidad HD",
+      "Todas las plantillas premium",
+      "Función de procesamiento por lotes",
+      "Cola de procesamiento prioritario",
+      "Validez permanente"
+    ],
+    "product": {
+      "code": "luckguides_onetime_professional",
+      "desc": "Compra única de Paquete Profesional de LuckGuides",
+      "name": "Paquete Profesional de LuckGuides",
+      "quantity": "1",
+      "sku": "luckguides_onetime_professional",
+      "type": "digital",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cjQDx3cvsYDBQGTGkToKH"
+    },
+    "cta": "Comprar ahora"
+  },
+  "business": {
+    "title": "Empresarial",
+    "price": {
+      "amount": "$99.99",
+      "period": "/mes"
+    },
+    "annualPrice": {
+      "amount": "$999.99",
+      "period": "/año"
+    },
+    "trial": "Contáctenos inmediatamente después de suscribirse",
+    "currency": "EUR",
+    "mode": "Periódico",
+    "features": [
+      "Tiempo extendido de intercambio de rostros AI",
+      "Salida en calidad HD",
+      "Todas las plantillas premium",
+      "Acceso a API",
+      "Autorización de uso comercial",
+      "Soporte al cliente exclusivo",
+      "Función de colaboración en equipo"
+    ],
+    "product": {
+      "code": "luckguides_business",
+      "desc": "Suscripción mensual de LuckGuides Empresarial",
+      "name": "LuckGuides Empresarial",
+      "quantity": "1",
+      "sku": "luckguides_business_monthly",
+      "type": "digital",
+      "unit_price": "99.99",
+      "priceId": "price_1S5h1BDx3cvsYDBQwP6f9qGk"
+    },
+    "annualProduct": {
+      "code": "luckguides_business_annual",
+      "desc": "Suscripción anual de LuckGuides Empresarial",
+      "name": "LuckGuides Empresarial (anual)",
+      "quantity": "1",
+      "sku": "luckguides_business_annual",
+      "type": "digital",
+      "unit_price": "999.99",
+      "priceId": "price_1S7YZGDx3cvsYDBQpy1DfL9S"
+    },
+    "cta": "Suscribirse ahora"
+  },
+  "paymentTips": "Después del pago, la suscripción se agregará automáticamente a su cuenta (toma efecto en 30 segundos). Si no aparece, actualice la página.",
+  "trust": {
+    "text": "Inicie ahora su viaje creativo de intercambio de rostros AI y libere su creatividad sin límites",
+    "allPlansInclude": "Todos los planes incluyen:",
+    "features": {
+      "secureTranslation": "Protección de datos",
+      "cloudSync": "Sincronización en la nube",
+      "mobileAccess": "Acceso móvil",
+      "prioritySupport": "Soporte prioritario"
+    }
+  },
+  "planDescriptions": {
+    "basic": "Ideal para uso personal y entretenimiento",
+    "professional": "Ideal para creadores de contenido",
+    "elite": "Dirigido a empresas y usuarios profesionales",
+    "oneTimeBasic": "Ideal para usuarios que la usan ocasionalmente",
+    "oneTimeProfessional": "Ideal para necesidades de proyectos a corto plazo",
+    "oneTimeElite": "Ideal para necesidades únicas de gran escala",
+    "business": "Solución empresarial, ideal para colaboración en equipo"
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "Inicie sesión primero",
+      "description": "Inicie sesión antes de proceder con la suscripción"
+    }
+  },
+  "payment": {
+    "loading": {
+      "title": "Cargando información de pago...",
+      "userId": "ID de usuario",
+      "email": "Correo electrónico",
+      "loadingText": "Cargando..."
+    },
+    "updating": {
+      "title": "Actualizando puntos..."
+    }
+  },
+  "trial": {
+    "alreadyUsed": "Prueba ya utilizada",
+    "alreadyUsedTitle": "Prueba ya utilizada",
+    "alreadyUsedMessage": "Ya ha utilizado la prueba gratuita de 3 días. Cada usuario solo puede usar la prueba gratuita una vez.\nPuede elegir otros planes de suscripción para continuar usando nuestro servicio.",
+    "alreadyUsedButton": "Entendido",
+    "cannotReapply": "Ya ha utilizado la prueba gratuita y no puede solicitarla nuevamente",
+    "checkFailed": "Verificación fallida",
+    "checkFailedDesc": "No se pudo verificar el estado de la prueba, intente nuevamente más tarde",
+    "startFreeTrial": "Iniciar prueba gratuita"
+  },
+  "subscription": {
+    "duplicateTitle": "Suscripción duplicada no permitida",
+    "duplicateActiveMessage": "Actualmente tiene una suscripción {subscriptionType} activa, por lo que no es necesario duplicarla.",
+    "duplicateCanceledMessage": "Ha cancelado la renovación, pero la suscripción sigue siendo válida (fecha de vencimiento: {expiryDate}), por lo que no se permite la suscripción duplicada.",
+    "duplicateButton": "Entendido",
+    "checkFailed": "Verificación fallida",
+    "checkFailedDesc": "No se pudo verificar el estado de la suscripción, intente nuevamente más tarde",
+    "expiryTime": "Fecha de vencimiento: {expiryDate}",
+    "subscribeNow": "Suscribirse ahora",
+    "subscriptionTypes": {
+      "trial": "Prueba",
+      "monthly": "Mensual",
+      "quarterly": "Trimestral",
+      "annual": "Anual",
+      "unknown": "Desconocida"
+    }
+  },
+  "meta": {
+    "title": "Precios de LuckGuides AI – Intercambio de rostros AI | Reemplazo de rostros | Intercambio de rostros en vídeo",
+    "description": "Planes de precios del servicio de intercambio de rostros AI LuckGuides, que ofrece servicios profesionales de reemplazo de rostros AI, intercambio de rostros en vídeo y creación de contenido creativo.",
+    "alt": "LuckGuides Intercambio de rostros AI",
+    "keywords": "Intercambio de rostros AI, Reemplazo de rostros, Intercambio de rostros en vídeo, Software de intercambio de rostros AI, Intercambio de rostros con inteligencia artificial"
+  }
+}

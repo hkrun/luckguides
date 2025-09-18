@@ -1,0 +1,97 @@
+{
+    "logo": "LuckGuides",
+    "logoTitle": "LuckGuides | Bluthochdruck-Gesundheitsbewertung",
+    "navigation": [
+        {
+            "href": "/",
+            "label": "Startseite"
+        },
+        {
+            "href": "/features",
+            "label": "Funktionen"
+        },
+        {
+            "href": "/pricing",
+            "label": "Preise"
+        },
+        {
+            "href": "/about",
+            "label": "Über uns"
+        },
+        {
+            "href": "/contact",
+            "label": "Kontakt"
+        }
+    ],
+    "actions": {
+        "signIn": "Anmelden"
+    },
+    "mobileMenu": {
+        "toggleMenu": "Menü umschalten",
+        "actions": {
+            "signIn": "Anmelden",
+            "upgradePlan": "Plan upgraden",
+            "contactUs": "Kontakt"
+        },
+        "settings": {
+            "theme": "Thema",
+            "language": "Sprache"
+        },
+        "navigation": [
+            {
+                "href": "/",
+                "label": "Startseite"
+            },
+            {
+                "href": "/features",
+                "label": "Funktionen"
+            },
+            {
+                "href": "/pricing",
+                "label": "Preise"
+            },
+            {
+                "href": "/about",
+                "label": "Über uns"
+            }
+        ]
+    },
+    "userButton": {
+        "menuItems": [
+            {
+                "type": "contact",
+                "href": "/contact",
+                "label": "Kontakt"
+            },
+            {
+                "type": "billing",
+                "label": "Abonnement verwalten"
+            },
+            {
+                "type": "logout",
+                "label": "Abmelden"
+            }
+        ],
+        "aria": {
+            "userMenu": "Benutzermenü",
+            "userImage": "Benutzerbild",
+            "userName": "Benutzername",
+            "userEmail": "Benutzer-E-Mail"
+        }
+    },
+    "languageToggle": {
+        "label": "Sprache ändern"
+    },
+    "themeToggle": {
+        "label": "Thema ändern"
+    },
+    "creditsDisplay": {
+        "label": "Guthaben",
+        "tooltip": {
+            "title": "Guthaben",
+            "costInfo": "1 Guthaben = 1 Sekunde Videozeit",
+            "usageInfo": "Funktionen ziehen Guthaben entsprechend der Videodauer ab.",
+            "getMoreButton": "Mehr Zeit erhalten"
+        }
+    }
+}

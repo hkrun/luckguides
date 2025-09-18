@@ -1,0 +1,193 @@
+{
+  "hero": {
+    "title": "Débloquez votre fortune taoïste - Équilibrez les cinq éléments et transformez votre vie",
+    "subtitle": "Découvrez les secrets de la mystique chinoise millénaire et explorez comment l'équilibre Yin-Yang, le flux du Qi et la sagesse du I Ching peuvent changer votre parcours de vie. Ces anciennes sagesses ont guidé d'innombrables chercheurs spirituels et peuvent également vous apporter de l'inspiration aujourd'hui.",
+    "cta": "Commencer l'analyse des lignes de la main maintenant",
+    "badges": [
+      "Consécration et bénédiction du maître",
+      "Garantie d'authenticité",
+      "Témoigné par des millions de croyants"
+    ]
+  },
+  "palm": {
+    "sectionTitle": "Lecture de fortune des cinq éléments des lignes de la main",
+    "sectionDesc": "Téléchargez votre photo de paume et nous interpréterons vos énergies des cinq éléments avec la mystique taoïste",
+    "elements": {
+      "fire": "Feu",
+      "water": "Eau",
+      "wood": "Bois",
+      "metal": "Métal",
+      "earth": "Terre"
+    },
+    "upload": {
+      "title": "Veuillez fournir votre photo de paume",
+      "tips": "Veuillez photographier ou télécharger une photo claire de votre paume (recommandé à la lumière naturelle, paume vers le haut, cinq doigts naturellement écartés)",
+      "placeholder": "Veuillez placer la paume ici",
+      "shot": "Prendre une photo",
+      "upload": "Télécharger l'image",
+      "reshot": "Reprendre une photo",
+      "reupload": "Retélécharger",
+      "start": "Commencer l'analyse",
+      "disabled": "Veuillez d'abord télécharger la photo de paume",
+      "analyzing": "Analyse en cours, veuillez patienter...",
+      "viewResult": "Voir le résultat",
+      "cancel": "Annuler",
+      "captureAndUse": "Photographier et utiliser",
+      "cameraError": "Impossible d'ouvrir la caméra, veuillez vérifier les permissions du navigateur ou utiliser le téléchargement d'image",
+      "noImageError": "Image pas encore téléchargée, veuillez d'abord sélectionner une photo claire de paume",
+      "modelError": "Appel du modèle échoué",
+      "analysisError": "Analyse échouée"
+    },
+    "progress": {
+      "reading": "Reconnaissance des lignes principales de la paume...",
+      "parsing": "Le modèle analyse les branches des lignes de la paume et les caractéristiques des monts...",
+      "generating": "Génération du rapport de fortune des cinq éléments...",
+      "done": "Analyse terminée, préparation du résultat..."
+    },
+    "result": {
+      "title": "Votre interprétation de fortune des cinq éléments",
+      "desc": "Basé sur l'analyse IA de vos lignes de paume, combiné avec la théorie taoïste des cinq éléments, voici votre distribution d'éléments et insights actuels de fortune :",
+      "distTitle": "Distribution des cinq éléments",
+      "lackTitle": "Analyse de déficience d'éléments",
+      "insightTitle": "Interprétation de fortune",
+      "adviceTitle": "Conseil taoïste",
+      "career": "Carrière professionnelle",
+      "wealth": "Fortune",
+      "health": "Santé",
+      "defaultAdvice": "Vos lignes de paume montrent une possible déficience de l'élément Métal dans les cinq éléments, qui peut être équilibrée par des méthodes correspondantes.",
+      "defaultCareer": "Les éléments Bois et Feu sont forts, indiquant une bonne capacité d'action et créativité.",
+      "defaultWealth": "La déficience de l'élément Métal peut affecter l'accumulation de richesse.",
+      "defaultHealth": "Faites attention au rythme quotidien et au système respiratoire, maintenez l'équilibre Yin-Yang.",
+      "reset": "Recommencer",
+      "shop": "Objets de chance",
+      "guide": "Guidance du maître"
+    }
+  },
+  "painPoints": {
+    "title": "Êtes-vous tourmenté par ces problèmes ?",
+    "solutionLabel": "Solution :",
+    "items": [
+      {
+        "title": "Année défavorable ?",
+        "desc": "Cette année toujours des obstacles ? Les investissements échouent, revers professionnels, conflits familiaux fréquents ? Peut-être que l'année Taisui perturbe votre champ d'énergie.",
+        "solution": "Coopération avec les temples taoïstes pour des talismans Taisui peints à la main, incrustés dans des bracelets à porter sur le corps, harmoniser les énergies annuelles et disperser les obstacles."
+      },
+      {
+        "title": "Fortunes basses ?",
+        "desc": "Travail dur mais pas d'argent économisé ? Les projets échouent toujours près du but ? La déficience Métal des cinq éléments mène facilement à la perte financière.",
+        "solution": "Talisman exclusif du dieu de la richesse + bracelet de richesse, double renforcement pour attirer l'énergie financière, pour des revenus stables et des gains supplémentaires."
+      },
+      {
+        "title": "Corps et esprit agités ?",
+        "desc": "Insomnie, cauchemars, relations tendues, petits accidents en voyage ? Le déséquilibre des cinq éléments attire facilement les énergies négatives.",
+        "solution": "Talisman de paix + bracelet correspondant des cinq éléments, ajustement interne du champ d'énergie et protection externe contre les influences négatives, pour la stabilité corporelle et mentale et les événements chanceux."
+      }
+    ]
+  },
+  "services": {
+    "title": "Services exclusifs d'objets de chance",
+    "calc": {
+      "title": "Calcul des cinq éléments : Méthode traditionnelle, interprétation précise",
+      "point": "Test de photo de paume : Téléchargez une photo claire de paume, analyse traditionnelle intelligente des lignes de paume et couleur de peau, 3 minutes pour le résultat de déficience des cinq éléments",
+      "cta": "Commencer le calcul"
+    },
+    "bracelet": {
+      "title": "Fabrication exclusive de bracelets : Talisman + bracelet double renforcement",
+      "talismanTitle": "Sélection de talisman :",
+      "talismanDesc": "Affichez trois images de produits talisman (version peinte à la main vs version imprimée rituelle), marqué avec \"béni par le rituel de trois purifications et neuf révérences\"",
+      "table": {
+        "lack": "Compensation de déficience des cinq éléments",
+        "material": "Matériau correspondant",
+        "meaning": "Signification d'objet de chance"
+      },
+      "tableRows": [
+        {
+          "lack": "Déficience de Feu",
+          "material": "Bracelet de palissandre + talisman de chance renforçant le feu",
+          "meaning": "Renforcer la capacité d'action"
+        },
+        {
+          "lack": "Déficience d'Eau",
+          "material": "Bracelet d'ébène + talisman complémentaire d'eau",
+          "meaning": "Améliorer l'agilité mentale"
+        },
+        {
+          "lack": "Déficience de Bois",
+          "material": "Bracelet de bois de pêche + talisman de chance complémentaire de bois",
+          "meaning": "Renforcer la vitalité"
+        },
+        {
+          "lack": "Déficience de Métal",
+          "material": "Bracelet de bois de soie dorée + talisman de chance complémentaire de métal",
+          "meaning": "Améliorer l'accumulation de richesse"
+        },
+        {
+          "lack": "Déficience de Terre",
+          "material": "Bracelet de bois de buis + talisman de chance renforçant la terre",
+          "meaning": "Renforcer la base professionnelle"
+        }
+      ]
+    },
+    "valueAdded": {
+      "title": "Services à valeur ajoutée : Gardez la bonne chance continuellement en ligne",
+      "items": [
+        "Interprétation gratuite des cinq éléments",
+        "Bénédiction d'énergie annuelle",
+        "Service de maintenance à vie"
+      ],
+      "descriptions": [
+        "Avec commande recevez gratuitement le \"Manuel personnel de fortune des cinq éléments\" avec analyse de personnalité, santé et tendances annuelles (couverture du manuel avec cadre de talisman taoïste)",
+        "Annuellement vous pouvez renvoyer le bracelet, le temple coopérant effectue la récitation collective de sutras avec certificat de bénédiction supplémentaire (affichez les images de scènes de récitation de sutras du temple)",
+        "Échange de bracelets et réparations de cordons seulement coûts de matériaux, offre \"Conseils d'objets de chance des cinq éléments\" notifications push régulières (avec formules de maintenance écrites à la main par des taoïstes)"
+      ]
+    }
+  },
+  "advantages": {
+    "title": "Pourquoi nous choisir",
+    "items": [
+      {
+        "title": "Orthodoxie taoïste",
+        "description": "Certificat de qualification du temple coopérant (avec photos du temple + numéro de certificat taoïste), souligne \"dessin de talisman suit l'ordre rituel \"Daomen Kefan\"\""
+      },
+      {
+        "title": "Authenticité du matériau",
+        "description": "Certificat d'origine du bracelet (comme rapport de test de région de santal), utilise du bois naturel, avec certificat d'inspection de qualité"
+      },
+      {
+        "title": "Expérience exclusive",
+        "description": "Chaque bracelet avec certificat personnalisé (avec double signature d'astrologue et taoïste), emballage en boîte de brocart + boîte cadeau avec motif de talisman"
+      }
+    ]
+  },
+  "action": {
+    "title": "Commencez immédiatement votre voyage d'objets de chance",
+    "benefitTitle": "Avantages limités dans le temps",
+    "benefitDesc": "Les 100 premiers commandeurs reçoivent gratuitement une sachette aromatique taoïste de chance (contient armoise, santal et autres herbes chassant les esprits maléfiques)",
+    "reviewsTitle": "Témoignages d'utilisateurs",
+    "reviews": [
+      {
+        "quote": "\"Après 3 mois de port, projet gagné, blocage de années enfin rompu !\"",
+        "name": "— M. Li · Entrepreneur"
+      },
+      {
+        "quote": "\"Originalement j'avais des inquiétudes Taisui cette année, après avoir porté le bracelet tout s'est bien passé, même promotion reçue !\"",
+        "name": "— Mme Zhang · Employée de bureau"
+      }
+    ],
+    "ctaMeasure": "Cliquer pour calculer les cinq éléments",
+    "ctaPlan": "Voir la solution personnalisée",
+    "ctaPay": "Paiement avec réduction de 50€",
+    "rightTitle": "Bracelet d'objets de chance exclusif pour vous",
+    "rightDesc": "Personnalisé selon la déficience des cinq éléments, énergie bénie par talisman"
+  },
+  "modal": {
+    "title": "Solution d'objets de chance recommandée pour vous",
+    "recommendationDesc": "Basé sur votre déficience des cinq éléments et fortune actuelle, combiné avec la tradition taoïste et les caractéristiques saisonnières, nous vous recommandons les bracelets d'objets de chance suivants :",
+    "month": "Recommandation spéciale de ce mois",
+    "others": "Autres solutions appropriées",
+    "advice": "Conseils de port",
+    "wearingAdvice": "Il est recommandé de porter le bracelet à la main gauche (entrée gauche, sortie droite), porter quotidiennement au moins 8 heures, en dormant le retirer et le placer sur la table de chevet. Le 1er et 15 de chaque mois lunaire rincer le bracelet avec de l'eau propre pour renforcer son champ d'énergie.",
+    "close": "Fermer",
+    "buy": "Acheter le bracelet recommandé"
+  }
+}

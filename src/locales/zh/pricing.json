@@ -1,0 +1,355 @@
+{
+  "hero": {
+    "subtitle": "AI换脸技术，创意无限",
+    "title": "选择您的AI换脸计划",
+    "description": "选择适合您创作需求的完美计划。个人版包括 3 天免费试用。"
+  },
+  "billing": {
+    "title": "定价计划",
+    "monthly": "月度",
+    "annual": "年度",
+    "save": "节省20%"
+  },
+  "personal": {
+    "title": "个人版",
+    "description": "非常适合经常使用的用户",
+    "badge": "新用户推荐",
+    "popular": "热门"
+  },
+  "basic": {
+    "title": "基础版",
+    "price": {
+      "amount": "$9.99",
+      "period": "/月"
+    },
+    "annualPrice": {
+      "amount": "$99.99",
+      "period": "/年"
+    },
+    "trial": "3天免费试用",
+    "currency": "EUR",
+    "mode": "定期",
+    "features": [
+      "每月50分钟AI换脸时长",
+      "高清画质输出",
+      "基础模板库"
+    ],
+    "annualFeatures": [
+      "每年600分钟AI换脸时长",
+      "高清画质输出",
+      "基础模板库"
+    ],
+    "product": {
+      "code": "luckguides_basic",
+      "desc": "LuckGuides基础版月度订阅",
+      "name": "LuckGuides 基础版",
+      "quantity": "1",
+      "sku": "luckguides_basic_monthly",
+      "type": "digital",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cf4Dx3cvsYDBQX4pLFyUq"
+    },
+    "annualProduct": {
+      "code": "luckguides_basic_annual",
+      "desc": "LuckGuides基础版年度订阅",
+      "name": "LuckGuides 基础版 (年度)",
+      "quantity": "1",
+      "sku": "luckguides_basic_annual",
+      "type": "digital",
+      "unit_price": "99.99",
+      "priceId": "price_1S7YYKDx3cvsYDBQyTkiM3vL"
+    },
+    "cta": "开始免费试用"
+  },
+  "premium": {
+    "title": "高级版",
+    "price": {
+      "amount": "$19.99",
+      "period": "/月"
+    },
+    "annualPrice": {
+      "amount": "$199.99",
+      "period": "/年"
+    },
+    "trial": "3天免费试用",
+    "currency": "EUR",
+    "mode": "定期",
+    "features": [
+      "每月120分钟AI换脸时长",
+      "高清画质输出",
+      "完整模板库",
+      "批量处理功能",
+      "优先处理队列"
+    ],
+    "annualFeatures": [
+      "每年1440分钟AI换脸时长",
+      "高清画质输出",
+      "完整模板库",
+      "批量处理功能",
+      "优先处理队列"
+    ],
+    "product": {
+      "code": "luckguides_premium",
+      "desc": "LuckGuides高级版月度订阅",
+      "name": "LuckGuides 高级版",
+      "quantity": "1",
+      "sku": "luckguides_premium_monthly",
+      "type": "digital",
+      "unit_price": "19.99",
+      "priceId": "price_1S5cffDx3cvsYDBQXG5t2SkW"
+    },
+    "annualProduct": {
+      "code": "luckguides_premium_annual",
+      "desc": "LuckGuides高级版年度订阅",
+      "name": "LuckGuides 高级版 (年度)",
+      "quantity": "1",
+      "sku": "luckguides_premium_annual",
+      "type": "digital",
+      "unit_price": "199.99",
+      "priceId": "price_1S7YYfDx3cvsYDBQQLkCNcTv"
+    },
+    "cta": "开始免费试用"
+  },
+  "professional": {
+    "title": "专业版",
+    "price": {
+      "amount": "$29.99",
+      "period": "/月"
+    },
+    "annualPrice": {
+      "amount": "$299.99",
+      "period": "/年"
+    },
+    "trial": "3天免费试用",
+    "currency": "EUR",
+    "mode": "定期",
+    "features": [
+      "每月180分钟AI换脸时长",
+      "高清画质输出",
+      "全部高级模板",
+      "专属客服支持"
+    ],
+    "annualFeatures": [
+      "每年2160分钟AI换脸时长",
+      "高清画质输出",
+      "全部高级模板",
+      "专属客服支持"
+    ],
+    "product": {
+      "code": "luckguides_professional",
+      "desc": "LuckGuides专业版月度订阅",
+      "name": "LuckGuides 专业版",
+      "quantity": "1",
+      "sku": "luckguides_professional_monthly",
+      "type": "digital",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cgZDx3cvsYDBQ1Yu1cL1U"
+    },
+    "annualProduct": {
+      "code": "luckguides_professional_annual",
+      "desc": "LuckGuides专业版年度订阅",
+      "name": "LuckGuides 专业版 (年度)",
+      "quantity": "1",
+      "sku": "luckguides_professional_annual",
+      "type": "digital",
+      "unit_price": "299.99",
+      "priceId": "price_1S7YYtDx3cvsYDBQWIHn7l8k"
+    },
+    "cta": "开始免费试用"
+  },
+  "oneTimeBasic": {
+    "title": "1500积分",
+    "price": {
+      "amount": "$9.99",
+      "period": "一次性"
+    },
+    "currency": "EUR",
+    "mode": "payment",
+    "features": [
+      "25分钟AI换脸时长",
+      "高清画质输出",
+      "基础模板库",
+      "永久有效"
+    ],
+    "product": {
+      "code": "luckguides_onetime_basic",
+      "desc": "LuckGuides基础包一次性购买",
+      "name": "LuckGuides 基础包",
+      "quantity": "1",
+      "sku": "luckguides_onetime_basic",
+      "type": "digital",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cgnDx3cvsYDBQa8waZ5Dz"
+    },
+    "cta": "立即购买"
+  },
+  "oneTimePremium": {
+    "title": "3600积分",
+    "price": {
+      "amount": "$19.99",
+      "period": "一次性"
+    },
+    "currency": "EUR",
+    "mode": "payment",
+    "features": [
+      "60分钟AI换脸时长",
+      "高清画质输出",
+      "完整模板库",
+      "批量处理功能",
+      "永久有效"
+    ],
+    "product": {
+      "code": "luckguides_onetime_premium",
+      "desc": "LuckGuides高级包一次性购买",
+      "name": "LuckGuides 高级包",
+      "quantity": "1",
+      "sku": "luckguides_onetime_premium",
+      "type": "digital",
+      "unit_price": "19.99",
+      "priceId": "price_1S5ch2Dx3cvsYDBQcy4YbwIJ"
+    },
+    "cta": "立即购买"
+  },
+  "oneTimeProfessional": {
+    "title": "5400积分",
+    "price": {
+      "amount": "$29.99",
+      "period": "一次性"
+    },
+    "currency": "EUR",
+    "mode": "payment",
+    "features": [
+      "90分钟AI换脸时长",
+      "高清画质输出",
+      "全部高级模板",
+      "批量处理功能",
+      "优先处理队列",
+      "永久有效"
+    ],
+    "product": {
+      "code": "luckguides_onetime_professional",
+      "desc": "LuckGuides专业包一次性购买",
+      "name": "LuckGuides 专业包",
+      "quantity": "1",
+      "sku": "luckguides_onetime_professional",
+      "type": "digital",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cjQDx3cvsYDBQGTGkToKH"
+    },
+    "cta": "立即购买"
+  },
+  "business": {
+    "title": "商业版",
+    "price": {
+      "amount": "$99.99",
+      "period": "/月"
+    },
+    "annualPrice": {
+      "amount": "$999.99",
+      "period": "/年"
+    },
+    "trial": "订阅后请立即联系我们",
+    "currency": "EUR",
+    "mode": "recurring",
+    "features": [
+      "超长AI换脸时长",
+      "高清画质输出",
+      "全部高级模板",
+      "API接口访问",
+      "商业使用授权",
+      "专属客服支持",
+      "团队协作功能"
+    ],
+    "product": {
+      "code": "luckguides_business",
+      "desc": "LuckGuides商业版月度订阅",
+      "name": "LuckGuides 商业版",
+      "quantity": "1",
+      "sku": "luckguides_business_monthly",
+      "type": "digital",
+      "unit_price": "99.99",
+      "priceId": "price_1S5h1BDx3cvsYDBQwP6f9qGk"
+    },
+    "annualProduct": {
+      "code": "luckguides_business_annual",
+      "desc": "LuckGuides商业版年度订阅",
+      "name": "LuckGuides 商业版 (年度)",
+      "quantity": "1",
+      "sku": "luckguides_business_annual",
+      "type": "digital",
+      "unit_price": "999.99",
+      "priceId": "price_1S7YZGDx3cvsYDBQpy1DfL9S"
+    },
+    "cta": "立即订阅"
+  },
+  "paymentTips": "付款后将自动添加订阅到您的账户 (30 秒内生效)。如果未显示，请刷新页面。",
+  "trust": {
+    "text": "立即开始您的AI换脸创作之旅，释放无限创意",
+    "allPlansInclude": "所有计划包含：",
+    "features": {
+      "secureTranslation": "数据安全保护",
+      "cloudSync": "云端同步",
+      "mobileAccess": "移动端访问",
+      "prioritySupport": "优先支持"
+    }
+  },
+  "planDescriptions": {
+    "basic": "适合个人娱乐使用",
+    "professional": "适合内容创作者",
+    "elite": "面向企业和专业用户",
+    "oneTimeBasic": "适合偶尔使用的用户",
+    "oneTimeProfessional": "适合短期项目需求",
+    "oneTimeElite": "适合大量一次性需求",
+    "business": "企业级解决方案，适合团队协作"
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "请先登录",
+      "description": "请登录后再进行订阅操作"
+    }
+  },
+  "payment": {
+    "loading": {
+      "title": "正在加载支付信息...",
+      "userId": "用户ID",
+      "email": "邮箱",
+      "loadingText": "加载中..."
+    },
+    "updating": {
+      "title": "正在更新积分..."
+    }
+  },
+  "trial": {
+    "alreadyUsed": "试用已使用",
+    "alreadyUsedTitle": "试用已使用",
+    "alreadyUsedMessage": "您已经使用过3天免费试用，每个用户只能使用一次免费试用。\n您可以选择其他订阅计划继续使用我们的服务。",
+    "alreadyUsedButton": "我知道了",
+    "cannotReapply": "您已使用过免费试用，无法再次申请",
+    "checkFailed": "检查失败",
+    "checkFailedDesc": "无法验证试用状态，请稍后重试",
+    "startFreeTrial": "开始免费试用"
+  },
+  "subscription": {
+    "duplicateTitle": "不可重复订阅",
+    "duplicateActiveMessage": "您当前已有有效的{subscriptionType}订阅，无需重复订阅。",
+    "duplicateCanceledMessage": "您已取消续费，但订阅仍在有效期内（到期时间：{expiryDate}），无法重复订阅。",
+    "duplicateButton": "我知道了",
+    "checkFailed": "检查失败",
+    "checkFailedDesc": "无法检查订阅状态，请稍后重试",
+    "expiryTime": "到期时间：{expiryDate}",
+    "subscribeNow": "立即订阅",
+    "subscriptionTypes": {
+      "trial": "试用",
+      "monthly": "月度",
+      "quarterly": "季度",
+      "annual": "年度",
+      "unknown": "未知"
+    }
+  },
+  "meta": {
+    "title": "LuckGuides AI换脸定价-AI换脸|人脸替换|视频换脸",
+    "description": "LuckGuides AI换脸服务定价方案，提供专业的AI人脸替换、视频换脸和创意内容制作服务。",
+    "alt": "LuckGuides AI换脸",
+    "keywords": "AI换脸,人脸替换,视频换脸,AI换脸软件,人工智能换脸"
+  }
+}

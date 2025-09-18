@@ -1,0 +1,97 @@
+{
+    "logo": "LuckGuides",
+    "logoTitle": "LuckGuides | 高血圧健康評価",
+    "navigation": [
+        {
+            "href": "/",
+            "label": "ホーム"
+        },
+        {
+            "href": "/features",
+            "label": "機能"
+        },
+        {
+            "href": "/pricing",
+            "label": "料金"
+        },
+        {
+            "href": "/about",
+            "label": "当社について"
+        },
+        {
+            "href": "/contact",
+            "label": "お問い合わせ"
+        }
+    ],
+    "actions": {
+        "signIn": "ログイン"
+    },
+    "mobileMenu": {
+        "toggleMenu": "メニュー切り替え",
+        "actions": {
+            "signIn": "ログイン",
+            "upgradePlan": "プランアップグレード",
+            "contactUs": "お問い合わせ"
+        },
+        "settings": {
+            "theme": "テーマ",
+            "language": "言語"
+        },
+        "navigation": [
+            {
+                "href": "/",
+                "label": "ホーム"
+            },
+            {
+                "href": "/features",
+                "label": "機能"
+            },
+            {
+                "href": "/pricing",
+                "label": "料金"
+            },
+            {
+                "href": "/about",
+                "label": "当社について"
+            }
+        ]
+    },
+    "userButton": {
+        "menuItems": [
+            {
+                "type": "contact",
+                "href": "/contact",
+                "label": "お問い合わせ"
+            },
+            {
+                "type": "billing",
+                "label": "サブスクリプション管理"
+            },
+            {
+                "type": "logout",
+                "label": "ログアウト"
+            }
+        ],
+        "aria": {
+            "userMenu": "ユーザーメニュー",
+            "userImage": "ユーザー画像",
+            "userName": "ユーザー名",
+            "userEmail": "ユーザーメール"
+        }
+    },
+    "languageToggle": {
+        "label": "言語切り替え"
+    },
+    "themeToggle": {
+        "label": "テーマ切り替え"
+    },
+    "creditsDisplay": {
+        "label": "クレジット",
+        "tooltip": {
+            "title": "クレジット",
+            "costInfo": "1クレジット = 動画1秒",
+            "usageInfo": "機能は動画の長さに応じてクレジットを差し引きます。",
+            "getMoreButton": "時間を追加"
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "logo": "LuckGuides",
+    "logoTitle": "LuckGuides | 고혈압 건강 평가",
+    "navigation": [
+        {
+            "href": "/",
+            "label": "홈"
+        },
+        {
+            "href": "/features",
+            "label": "기능"
+        },
+        {
+            "href": "/pricing",
+            "label": "가격"
+        },
+        {
+            "href": "/about",
+            "label": "회사 소개"
+        },
+        {
+            "href": "/contact",
+            "label": "문의하기"
+        }
+    ],
+    "actions": {
+        "signIn": "로그인"
+    },
+    "mobileMenu": {
+        "toggleMenu": "메뉴 토글",
+        "actions": {
+            "signIn": "로그인",
+            "upgradePlan": "플랜 업그레이드",
+            "contactUs": "문의하기"
+        },
+        "settings": {
+            "theme": "테마",
+            "language": "언어"
+        },
+        "navigation": [
+            {
+                "href": "/",
+                "label": "홈"
+            },
+            {
+                "href": "/features",
+                "label": "기능"
+            },
+            {
+                "href": "/pricing",
+                "label": "가격"
+            },
+            {
+                "href": "/about",
+                "label": "회사 소개"
+            }
+        ]
+    },
+    "userButton": {
+        "menuItems": [
+            {
+                "type": "contact",
+                "href": "/contact",
+                "label": "문의하기"
+            },
+            {
+                "type": "billing",
+                "label": "구독 관리"
+            },
+            {
+                "type": "logout",
+                "label": "로그아웃"
+            }
+        ],
+        "aria": {
+            "userMenu": "사용자 메뉴",
+            "userImage": "사용자 이미지",
+            "userName": "사용자 이름",
+            "userEmail": "사용자 이메일"
+        }
+    },
+    "languageToggle": {
+        "label": "언어 변경"
+    },
+    "themeToggle": {
+        "label": "테마 변경"
+    },
+    "creditsDisplay": {
+        "label": "크레딧",
+        "tooltip": {
+            "title": "크레딧",
+            "costInfo": "1크레딧 = 동영상 1초",
+            "usageInfo": "기능은 동영상 길이에 따라 크레딧이 차감됩니다.",
+            "getMoreButton": "시간 더 받기"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "logo": "LuckGuides",
+  "logoTitle": "LuckGuides | 五行测算与转运手串定制",
+  "description": "专注于五行测算与转运手串定制，为您调和气场，提升运势。",
+  "sections": [
+    {
+      "title": "服务",
+      "links": [
+        {
+          "label": "五行运势测算",
+          "href": "/#palm-analysis"
+        }
+      ]
+    },
+    {
+      "title": "公司",
+      "links": [
+        {
+          "label": "关于我们",
+          "href": "/about"
+        },
+        {
+          "label": "联系我们",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "title": "法律条款",
+      "links": [
+        {
+          "label": "隐私政策",
+          "href": "/legal/privacy"
+        },
+        {
+          "label": "服务条款",
+          "href": "/legal/terms"
+        },
+        {
+          "label": "支付 & 退款",
+          "href": "/legal/payments-refund"
+        }
+      ]
+    }
+  ],
+  "copyright": "© {year} LuckGuides. 版权所有。",
+  "legal": {
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/luckguides"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/luckguides"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/company/luckguides"
+    }
+  ]
+}

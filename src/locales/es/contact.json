@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "subtitle": "Contáctanos",
+    "title": "¿Tienes dudas sobre la tecnología de intercambio de rostros con IA?",
+    "description": "Nuestro equipo profesional en tecnología de intercambio de rostros con IA está disponible en todo momento para brindarte asesoramiento sobre intercambio de rostros con inteligencia artificial, soporte técnico y soluciones creativas."
+  },
+  "info": {
+    "title": "Información de contacto",
+    "description": "Contáctanos con nuestro equipo profesional en tecnología de intercambio de rostros con IA a través de las siguientes formas",
+    "contacts": [
+      {
+        "text": "zjhkrun@gmail.com"
+      },
+      {
+        "text": "Brindamos servicios profesionales de tecnología de intercambio de rostros con IA"
+      },
+      {
+        "text": "El equipo profesional admite múltiples formatos de video y efectos de intercambio de rostros en alta definición"
+      }
+    ]
+  },
+  "form": {
+    "title": "Enviar asesoramiento técnico",
+    "description": "Ya sea que necesites servicios de intercambio de rostros con IA, tengas problemas de producción de videos o necesites orientación para proyectos creativos, responderemos profesionalmente.",
+    "fields": {
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Tu nombre",
+        "error": "El nombre debe tener al menos 2 caracteres."
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "tu@email.com",
+        "error": "Por favor, ingresa una dirección de correo electrónico válida."
+      },
+      "message": {
+        "label": "Contenido del asesoramiento",
+        "placeholder": "Describe tus necesidades de intercambio de rostros con IA, tipo de video, requisitos técnicos u otras necesidades de proyectos creativos...",
+        "error": "El mensaje debe tener al menos 10 caracteres."
+      }
+    },
+    "submitButton": "Enviar asesoramiento",
+    "successMessage": "Nuestro equipo de expertos en tecnología de IA responderá a tu asesoramiento lo antes posible.",
+    "submitting": "Enviando...",
+    "toasts": {
+      "success": {
+        "title": "Asesoramiento enviado",
+        "description": "¡Gracias por tu asesoramiento! Nuestros expertos en tecnología de intercambio de rostros con IA te responderán en 24 horas."
+      },
+      "error": {
+        "title": "Error al enviar",
+        "description": "Falló el envío del mensaje, por favor intenta nuevamente.",
+        "fallback": "Falló el envío del formulario, por favor intenta nuevamente más tarde."
+      }
+    }
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "Por favor, inicia sesión primero",
+      "description": "Inicia sesión antes de enviar el asesoramiento"
+    }
+  },
+  "meta": {
+    "title": "Contáctanos con el equipo de expertos en tecnología de intercambio de rostros con IA – Asesoramiento profesional | LuckGuides Tecnología de intercambio de rostros con IA",
+    "description": "¿Necesitas orientación sobre servicios de tecnología de intercambio de rostros con IA? Contáctanos con nuestro equipo de expertos para obtener asesoramiento sobre intercambio de rostros con inteligencia artificial, producción de videos y soluciones para proyectos creativos.",
+    "alt": "Servicios de tecnología de intercambio de rostros con IA",
+    "keywords": "Intercambio de rostros con IA,Inteligencia artificial para intercambio de rostros,Tecnología de intercambio de rostros en video,Tecnología deepfake"
+  }
+}

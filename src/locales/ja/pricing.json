@@ -1,0 +1,355 @@
+{
+  "hero": {
+    "subtitle": "AIフェイススワップ技術、クリエイティビティ無限",
+    "title": "AIフェイススワッププランを選択",
+    "description": "ご自身のクリエイティブニーズに合った最適なプランを選択してください。パーソナル版には3日間の無料トライアルが含まれます。"
+  },
+  "billing": {
+    "title": "価格プラン",
+    "monthly": "月額",
+    "annual": "年額",
+    "save": "20%節約"
+  },
+  "personal": {
+    "title": "パーソナル版",
+    "description": "定期的に使用するユーザーに最適",
+    "badge": "新規ユーザー推奨",
+    "popular": "人気"
+  },
+  "basic": {
+    "title": "ベーシック版",
+    "price": {
+      "amount": "$9.99",
+      "period": "/月"
+    },
+    "annualPrice": {
+      "amount": "$99.99",
+      "period": "/年"
+    },
+    "trial": "3日間無料トライアル",
+    "currency": "EUR",
+    "mode": "定期課金",
+    "features": [
+      "月50分のAIフェイススワップ時間",
+      "HD画質出力",
+      "基本テンプレートライブラリ"
+    ],
+    "annualFeatures": [
+      "年600分のAIフェイススワップ時間",
+      "HD画質出力",
+      "基本テンプレートライブラリ"
+    ],
+    "product": {
+      "code": "luckguides_basic",
+      "desc": "LuckGuidesベーシック版月額サブスクリプション",
+      "name": "LuckGuides ベーシック版",
+      "quantity": "1",
+      "sku": "luckguides_basic_monthly",
+      "type": "デジタル",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cf4Dx3cvsYDBQX4pLFyUq"
+    },
+    "annualProduct": {
+      "code": "luckguides_basic_annual",
+      "desc": "LuckGuidesベーシック版年額サブスクリプション",
+      "name": "LuckGuides ベーシック版（年額）",
+      "quantity": "1",
+      "sku": "luckguides_basic_annual",
+      "type": "デジタル",
+      "unit_price": "99.99",
+      "priceId": "price_1S7YYKDx3cvsYDBQyTkiM3vL"
+    },
+    "cta": "無料トライアルを開始"
+  },
+  "premium": {
+    "title": "プレミアム版",
+    "price": {
+      "amount": "$19.99",
+      "period": "/月"
+    },
+    "annualPrice": {
+      "amount": "$199.99",
+      "period": "/年"
+    },
+    "trial": "3日間無料トライアル",
+    "currency": "EUR",
+    "mode": "定期課金",
+    "features": [
+      "月120分のAIフェイススワップ時間",
+      "HD画質出力",
+      "フルテンプレートライブラリ",
+      "一括処理機能",
+      "優先処理キュー"
+    ],
+    "annualFeatures": [
+      "年1440分のAIフェイススワップ時間",
+      "HD画質出力",
+      "フルテンプレートライブラリ",
+      "一括処理機能",
+      "優先処理キュー"
+    ],
+    "product": {
+      "code": "luckguides_premium",
+      "desc": "LuckGuidesプレミアム版月額サブスクリプション",
+      "name": "LuckGuides プレミアム版",
+      "quantity": "1",
+      "sku": "luckguides_premium_monthly",
+      "type": "デジタル",
+      "unit_price": "19.99",
+      "priceId": "price_1S5cffDx3cvsYDBQXG5t2SkW"
+    },
+    "annualProduct": {
+      "code": "luckguides_premium_annual",
+      "desc": "LuckGuidesプレミアム版年額サブスクリプション",
+      "name": "LuckGuides プレミアム版（年額）",
+      "quantity": "1",
+      "sku": "luckguides_premium_annual",
+      "type": "デジタル",
+      "unit_price": "199.99",
+      "priceId": "price_1S7YYfDx3cvsYDBQQLkCNcTv"
+    },
+    "cta": "無料トライアルを開始"
+  },
+  "professional": {
+    "title": "プロフェッショナル版",
+    "price": {
+      "amount": "$29.99",
+      "period": "/月"
+    },
+    "annualPrice": {
+      "amount": "$299.99",
+      "period": "/年"
+    },
+    "trial": "3日間無料トライアル",
+    "currency": "EUR",
+    "mode": "定期課金",
+    "features": [
+      "月180分のAIフェイススワップ時間",
+      "HD画質出力",
+      "すべてのプレミアムテンプレート",
+      "専属カスタマーサポート"
+    ],
+    "annualFeatures": [
+      "年2160分のAIフェイススワップ時間",
+      "HD画質出力",
+      "すべてのプレミアムテンプレート",
+      "専属カスタマーサポート"
+    ],
+    "product": {
+      "code": "luckguides_professional",
+      "desc": "LuckGuidesプロフェッショナル版月額サブスクリプション",
+      "name": "LuckGuides プロフェッショナル版",
+      "quantity": "1",
+      "sku": "luckguides_professional_monthly",
+      "type": "デジタル",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cgZDx3cvsYDBQ1Yu1cL1U"
+    },
+    "annualProduct": {
+      "code": "luckguides_professional_annual",
+      "desc": "LuckGuidesプロフェッショナル版年額サブスクリプション",
+      "name": "LuckGuides プロフェッショナル版（年額）",
+      "quantity": "1",
+      "sku": "luckguides_professional_annual",
+      "type": "デジタル",
+      "unit_price": "299.99",
+      "priceId": "price_1S7YYtDx3cvsYDBQWIHn7l8k"
+    },
+    "cta": "無料トライアルを開始"
+  },
+  "oneTimeBasic": {
+    "title": "1500ポイント",
+    "price": {
+      "amount": "$9.99",
+      "period": "一回限り"
+    },
+    "currency": "EUR",
+    "mode": "単発支払い",
+    "features": [
+      "25分のAIフェイススワップ時間",
+      "HD画質出力",
+      "基本テンプレートライブラリ",
+      "永久有効"
+    ],
+    "product": {
+      "code": "luckguides_onetime_basic",
+      "desc": "LuckGuidesベーシックパック一回限り購入",
+      "name": "LuckGuides ベーシックパック",
+      "quantity": "1",
+      "sku": "luckguides_onetime_basic",
+      "type": "デジタル",
+      "unit_price": "9.99",
+      "priceId": "price_1S5cgnDx3cvsYDBQa8waZ5Dz"
+    },
+    "cta": "今すぐ購入"
+  },
+  "oneTimePremium": {
+    "title": "3600ポイント",
+    "price": {
+      "amount": "$19.99",
+      "period": "一回限り"
+    },
+    "currency": "EUR",
+    "mode": "単発支払い",
+    "features": [
+      "60分のAIフェイススワップ時間",
+      "HD画質出力",
+      "フルテンプレートライブラリ",
+      "一括処理機能",
+      "永久有効"
+    ],
+    "product": {
+      "code": "luckguides_onetime_premium",
+      "desc": "LuckGuidesプレミアムパック一回限り購入",
+      "name": "LuckGuides プレミアムパック",
+      "quantity": "1",
+      "sku": "luckguides_onetime_premium",
+      "type": "デジタル",
+      "unit_price": "19.99",
+      "priceId": "price_1S5ch2Dx3cvsYDBQcy4YbwIJ"
+    },
+    "cta": "今すぐ購入"
+  },
+  "oneTimeProfessional": {
+    "title": "5400ポイント",
+    "price": {
+      "amount": "$29.99",
+      "period": "一回限り"
+    },
+    "currency": "EUR",
+    "mode": "単発支払い",
+    "features": [
+      "90分のAIフェイススワップ時間",
+      "HD画質出力",
+      "すべてのプレミアムテンプレート",
+      "一括処理機能",
+      "優先処理キュー",
+      "永久有効"
+    ],
+    "product": {
+      "code": "luckguides_onetime_professional",
+      "desc": "LuckGuidesプロフェッショナルパック一回限り購入",
+      "name": "LuckGuides プロフェッショナルパック",
+      "quantity": "1",
+      "sku": "luckguides_onetime_professional",
+      "type": "デジタル",
+      "unit_price": "29.99",
+      "priceId": "price_1S5cjQDx3cvsYDBQGTGkToKH"
+    },
+    "cta": "今すぐ購入"
+  },
+  "business": {
+    "title": "ビジネス版",
+    "price": {
+      "amount": "$99.99",
+      "period": "/月"
+    },
+    "annualPrice": {
+      "amount": "$999.99",
+      "period": "/年"
+    },
+    "trial": "サブスクリプション後、すぐにお問い合わせください",
+    "currency": "EUR",
+    "mode": "定期課金",
+    "features": [
+      "長時間AIフェイススワップ時間",
+      "HD画質出力",
+      "すべてのプレミアムテンプレート",
+      "APIインターフェースアクセス",
+      "商用利用許可",
+      "専属カスタマーサポート",
+      "チームコラボレーション機能"
+    ],
+    "product": {
+      "code": "luckguides_business",
+      "desc": "LuckGuidesビジネス版月額サブスクリプション",
+      "name": "LuckGuides ビジネス版",
+      "quantity": "1",
+      "sku": "luckguides_business_monthly",
+      "type": "デジタル",
+      "unit_price": "99.99",
+      "priceId": "price_1S5h1BDx3cvsYDBQwP6f9qGk"
+    },
+    "annualProduct": {
+      "code": "luckguides_business_annual",
+      "desc": "LuckGuidesビジネス版年額サブスクリプション",
+      "name": "LuckGuides ビジネス版（年額）",
+      "quantity": "1",
+      "sku": "luckguides_business_annual",
+      "type": "デジタル",
+      "unit_price": "999.99",
+      "priceId": "price_1S7YZGDx3cvsYDBQpy1DfL9S"
+    },
+    "cta": "今すぐサブスクライブ"
+  },
+  "paymentTips": "支払い後、サブスクリプションは自動的にアカウントに追加されます（30秒以内に有効化）。表示されない場合は、ページを更新してください。",
+  "trust": {
+    "text": "今すぐAIフェイススワップのクリエイティブジャーニーを開始し、無限のクリエイティビティを解き放ちましょう",
+    "allPlansInclude": "すべてのプランに以下が含まれます：",
+    "features": {
+      "secureTranslation": "データセキュリティ保護",
+      "cloudSync": "クラウド同期",
+      "mobileAccess": "モバイルアクセス",
+      "prioritySupport": "優先サポート"
+    }
+  },
+  "planDescriptions": {
+    "basic": "個人のエンターテイメント用途に適したプラン",
+    "professional": "コンテンツクリエイターに適したプラン",
+    "elite": "企業やプロフェッショナルユーザー向けプラン",
+    "oneTimeBasic": "たまに使用するユーザーに適したプラン",
+    "oneTimeProfessional": "短期プロジェクトのニーズに適したプラン",
+    "oneTimeElite": "大量の一回限りのニーズに適したプラン",
+    "business": "チームコラボレーションに適した企業向けソリューション"
+  },
+  "auth": {
+    "loginRequired": {
+      "title": "まずログインしてください",
+      "description": "サブスクリプション操作を行う前に、ログインしてください"
+    }
+  },
+  "payment": {
+    "loading": {
+      "title": "支払い情報を読み込み中...",
+      "userId": "ユーザーID",
+      "email": "メールアドレス",
+      "loadingText": "読み込み中..."
+    },
+    "updating": {
+      "title": "ポイントを更新中..."
+    }
+  },
+  "trial": {
+    "alreadyUsed": "トライアルは既に使用済み",
+    "alreadyUsedTitle": "トライアルは既に使用済み",
+    "alreadyUsedMessage": "3日間の無料トライアルは既に使用しています。各ユーザーは無料トライアルを1回のみ使用できます。\n他のサブスクリプションプランを選択して、当サービスの使用を継続できます。",
+    "alreadyUsedButton": "承知いたしました",
+    "cannotReapply": "無料トライアルは既に使用しているため、再申請できません",
+    "checkFailed": "確認に失敗しました",
+    "checkFailedDesc": "トライアル状況の検証ができませんでした。後ほど再試行してください",
+    "startFreeTrial": "無料トライアルを開始"
+  },
+  "subscription": {
+    "duplicateTitle": "重複したサブスクリプションは不可",
+    "duplicateActiveMessage": "現在、有効な{subscriptionType}サブスクリプションを保有しています。重複してサブスクライブする必要はありません。",
+    "duplicateCanceledMessage": "更新をキャンセルしましたが、サブスクリプションは有効期間内です（有効期限：{expiryDate}）。重複したサブスクリプションはできません。",
+    "duplicateButton": "承知いたしました",
+    "checkFailed": "確認に失敗しました",
+    "checkFailedDesc": "サブスクリプション状況の確認ができませんでした。後ほど再試行してください",
+    "expiryTime": "有効期限：{expiryDate}",
+    "subscribeNow": "すぐにサブスクライブ",
+    "subscriptionTypes": {
+      "trial": "トライアル",
+      "monthly": "月額",
+      "quarterly": "クォーターリー（3ヶ月）",
+      "annual": "年額",
+      "unknown": "不明"
+    }
+  },
+  "meta": {
+    "title": "LuckGuides AIフェイススワップ価格 - AIフェイススワップ｜顔替换｜動画フェイススワップ",
+    "description": "LuckGuides AIフェイススワップサービスの価格プランで、プロフェッショナルなAI顔替换、動画フェイススワップ及びクリエイティブコンテンツ制作サービスを提供します。",
+    "alt": "LuckGuides AIフェイススワップ",
+    "keywords": "AIフェイススワップ,顔替换,動画フェイススワップ,AIフェイススワップソフトウェア,人工知能フェイススワップ"
+  }
+}
