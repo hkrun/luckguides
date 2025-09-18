@@ -123,9 +123,25 @@ export interface Home {
         recommendationDesc: string;
         month: string;
         others: string;
+        // Button text for other items
+        viewDetails: string;
+        // Newly added product specific i18n
+        productTitle: string;
+        badgeBestForMetal: string;
+        productDesc: string;
+        tagCrystal: string;
+        tagSilver925: string;
+        tagTalismanTube: string;
+        tagBlessed: string;
+        buyNow: string;
         advice: string;
         wearingAdvice: string;
         close: string;
         buy: string;
+        // Others section list items
+        othersList: Array<{
+            title: string;
+            desc: string;
+        }>;
     };
 }

@@ -197,7 +197,15 @@ export default function Home({
       })
       setProgress(40)
       setLogs(prev=>[...prev, i18n.palm.progress.parsing])
-      const data = await resp.json()
+      // 兼容上游返回非 JSON（如 413/网关错误的纯文本或HTML），先取文本再尝试解析
+      const rawText = await resp.text()
+      let data: any
+      try {
+        data = rawText ? JSON.parse(rawText) : {}
+      } catch {
+        // 如果不是 JSON，将其视作错误详情
+        data = { success: false, error: rawText?.slice(0, 200) }
+      }
       if (!resp.ok || !data?.success) throw new Error(data?.error || i18n.palm.upload.modelError)
       setProgress(85)
       setLogs(prev=>[...prev, i18n.palm.progress.generating])
@@ -305,7 +313,7 @@ export default function Home({
                       </div>
                       <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <button onClick={openCamera} className="bg-[#8B4513] hover:bg-[#8B4513]/80 text-white font-bold py-3 px-6"><i className="fa fa-camera mr-2"/>{i18n.palm.upload.shot}</button>
-                        <label className="bg-[#c8a96e] hover:bg-[#c8a96e]/80 text-white font-bold py-3 px-6 cursor-pointer">
+                        <label className="bg-[#c8a96e] hover:bg-[#c8a96e]/80 text-white font-bold py-3 px-6 cursor-pointer flex items-center justify-center">
                           <i className="fa fa-upload mr-2"/>{i18n.palm.upload.upload}
                           <input type="file" accept="image/*" className="hidden" onChange={(e)=> onPickFile(e.target.files?.[0])} />
                         </label>
@@ -352,7 +360,7 @@ export default function Home({
                       {progress === 0 && (
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                           <button onClick={openCamera} className="bg-[#8B4513] hover:bg-[#8B4513]/80 text-white font-bold py-3 px-6"><i className="fa fa-camera mr-2"/>{i18n.palm.upload.reshot}</button>
-                          <label className="bg-[#c8a96e] hover:bg-[#c8a96e]/80 text-white font-bold py-3 px-6 cursor-pointer">
+                          <label className="bg-[#c8a96e] hover:bg-[#c8a96e]/80 text-white font-bold py-3 px-6 cursor-pointer flex items-center justify-center">
                             <i className="fa fa-upload mr-2"/>{i18n.palm.upload.reupload}
                             <input type="file" accept="image/*" className="hidden" onChange={(e)=> onPickFile(e.target.files?.[0])} />
                           </label>
@@ -716,16 +724,16 @@ export default function Home({
                 <h5 className="font-bold text-[#8B4513] mb-3 flex items-center"><i className="fa fa-calendar-check-o mr-2 text-[#c8a96e]"/> {i18n.modal.month}</h5>
                 <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
                   <div className="md:flex">
-                    <div className="md:w-1/3"><img src="https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/bde69b52618f985c43ed4137ff8c9713.jpeg" alt="白水晶招财转运手串" className="w-full h-full object-cover"/></div>
+                    <div className="md:w-1/3"><img src="https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/bde69b52618f985c43ed4137ff8c9713.jpeg" alt={i18n.modal.productTitle || 'product'} className="w-full h-full object-cover"/></div>
                     <div className="md:w-2/3 p-4">
-                      <div className="flex justify-between items-start mb-2"><h6 className="font-bold text-lg text-[#8B4513]">白水晶招财转运手串</h6><span className="bg-[#9e2a2b] text-white text-xs py-1 px-2 rounded">补金首选</span></div>
-                      <p className="text-gray-700 text-sm mb-3">主珠采用天然白水晶（属金），搭配925银饰和财神符管，经三清观道士开光加持，特别适合五行缺金者佩戴，增强财运与决断力。</p>
+                      <div className="flex justify-between items-start mb-2"><h6 className="font-bold text-lg text-[#8B4513]">{i18n.modal.productTitle}</h6><span className="bg-[#9e2a2b] text-white text-xs py-1 px-2 rounded">{i18n.modal.badgeBestForMetal}</span></div>
+                      <p className="text-gray-700 text-sm mb-3">{i18n.modal.productDesc}</p>
                       <div className="flex flex-wrap gap-2 mb-3">
-                        {['含天然白水晶','925银饰配件','财神符管','大师开光'].map((t)=>(<span key={t} className="bg-gray-100 text-gray-800 text-xs py-1 px-2 rounded">{t}</span>))}
+                        {[i18n.modal.tagCrystal, i18n.modal.tagSilver925, i18n.modal.tagTalismanTube, i18n.modal.tagBlessed].map((t)=>(<span key={t} className="bg-gray-100 text-gray-800 text-xs py-1 px-2 rounded">{t}</span>))}
                       </div>
                       <div className="flex justify-between items-center">
-                        <div><span className="text-[#9e2a2b] font-bold text-xl">¥398</span><span className="text-gray-400 line-through text-sm ml-2">¥498</span></div>
-                        <button className="bg-[#c8a96e] hover:bg-[#c8a96e]/80 text-white font-bold py-2 px-4">立即请购</button>
+                        <div className="hidden"><span className="text-[#9e2a2b] font-bold text-xl">¥398</span><span className="text-gray-400 line-through text-sm ml-2">¥498</span></div>
+                        <a href={whatsAppHref} target="_blank" rel="nofollow noopener" className="bg-[#c8a96e] hover:bg-[#c8a96e]/80 text-white font-bold py-2 px-4">{i18n.modal.buyNow}</a>
                       </div>
                     </div>
                   </div>
@@ -735,16 +743,25 @@ export default function Home({
               <div>
                 <h5 className="font-bold text-[#8B4513] mb-3 flex items-center"><i className="fa fa-th mr-2 text-[#c8a96e]"/> {i18n.modal.others}</h5>
                 <div className="grid md:grid-cols-2 gap-4">
-                  {[{id:177,title:'银曜石五行调和手串',price:'¥298',img:'https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/d7a84ede88cebfdc21e192109bfadc32.jpeg'},{id:167,title:'五行八卦转运手串',price:'¥458',img:'https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/05c140d70e45c131954dd8ec2c7c9980.jpeg'}].map((p, i)=> (
-                    <div key={i} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-                      <img src={p.img} alt={p.title} className="w-full h-48 object-cover" />
-                      <div className="p-4">
-                        <h6 className="font-bold text-[#8B4513] mb-1">{p.title}</h6>
-                        <p className="text-gray-700 text-sm mb-2">{i===0?'银曜石搭配五行手串，平衡五行气场，特别适合秋季佩戴。':'含五行对应宝石与八卦符牌，全方位调和运势，适合全年佩戴。'}</p>
-                        <div className="flex justify-between items-center"><span className="text-[#9e2a2b] font-bold">{p.price}</span><button className="bg-[#8B4513] hover:bg-[#8B4513]/80 text-white font-bold py-1 px-3 text-sm">查看详情</button></div>
+                  {[
+                    { id: 177, img: 'https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/d7a84ede88cebfdc21e192109bfadc32.jpeg' },
+                    { id: 167, img: 'https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/05c140d70e45c131954dd8ec2c7c9980.jpeg' }
+                  ].map((meta, i) => {
+                    const item = i18n.modal.othersList?.[i];
+                    if (!item) return null;
+                    return (
+                      <div key={meta.id} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                        <img src={meta.img} alt={item.title} className="w-full h-48 object-cover" />
+                        <div className="p-4">
+                          <h6 className="font-bold text-[#8B4513] mb-1">{item.title}</h6>
+                          <p className="text-gray-700 text-sm mb-2">{item.desc}</p>
+                          <div className="flex justify-between items-center"><span className="hidden text-[#9e2a2b] font-bold" />
+                            <a href={whatsAppHref} target="_blank" rel="nofollow noopener" className="bg-[#8B4513] hover:bg-[#8B4513]/80 text-white font-bold py-1 px-3 text-sm">{i18n.modal.viewDetails}</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
               

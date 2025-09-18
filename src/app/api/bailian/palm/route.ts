@@ -84,7 +84,8 @@ export async function POST(request: NextRequest) {
         model: MODEL_ID,
         messages,
         temperature: 0.4,
-        max_tokens: 800,
+        // 提高可返回长度，减少被截断概率
+        max_tokens: 1024,
       }),
     })
 
@@ -100,16 +101,50 @@ export async function POST(request: NextRequest) {
     const content: string = data?.choices?.[0]?.message?.content ?? ''
     console.log('[BailianPalm] model content (first 400 chars):', content?.slice(0, 400))
 
-    // 尝试解析为 JSON
+    // 尝试解析为 JSON（增强容错：代码块提取 + 平衡大括号提取）
     let parsed: any = null
-    try {
-      parsed = JSON.parse(content)
-    } catch {
-      // 有些模型会包裹代码块或前后多余文本，尝试提取花括号
-      const match = content.match(/\{[\s\S]*\}/)
-      if (match) {
-        try { parsed = JSON.parse(match[0]) } catch {}
+    const tryParse = (s?: string) => {
+      if (!s) return null
+      try { return JSON.parse(s) } catch { return null }
+    }
+
+    // 1) 直接解析
+    parsed = tryParse(content)
+
+    // 2) ```json 代码块
+    if (!parsed) {
+      const fence = content.match(/```json\s*([\s\S]*?)\s*```/i) || content.match(/```\s*([\s\S]*?)\s*```/)
+      if (fence?.[1]) parsed = tryParse(fence[1])
+    }
+
+    // 3) 提取最大平衡花括号片段
+    if (!parsed) {
+      const text = content
+      let start = -1
+      let depth = 0
+      let best: string | null = null
+      let inStr = false
+      let esc = false
+      for (let i = 0; i < text.length; i++) {
+        const ch = text[i]
+        if (inStr) {
+          if (!esc && ch === '"') inStr = false
+          esc = ch === '\\' && !esc
+          continue
+        }
+        if (ch === '"') { inStr = true; esc = false; continue }
+        if (ch === '{') {
+          if (depth === 0) start = i
+          depth++
+        } else if (ch === '}') {
+          if (depth > 0) depth--
+          if (depth === 0 && start >= 0) {
+            const candidate = text.slice(start, i + 1)
+            best = candidate // 保留最后一个完整的
+          }
+        }
       }
+      if (best) parsed = tryParse(best)
     }
 
     if (!parsed) {

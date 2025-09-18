@@ -185,9 +185,28 @@
     "recommendationDesc": "Basé sur votre déficience des cinq éléments et fortune actuelle, combiné avec la tradition taoïste et les caractéristiques saisonnières, nous vous recommandons les bracelets d'objets de chance suivants :",
     "month": "Recommandation spéciale de ce mois",
     "others": "Autres solutions appropriées",
+    "productTitle": "Bracelet porte‑fortune en cristal blanc",
+    "badgeBestForMetal": "Idéal pour l’élément Métal",
+    "productDesc": "Perle principale en cristal blanc naturel (Métal), avec accessoires en argent 925 et tube talisman de richesse, bénis par des maîtres. Particulièrement adapté aux personnes manquant de Métal pour renforcer la richesse et la détermination.",
+    "tagCrystal": "Cristal blanc naturel",
+    "tagSilver925": "Accessoires argent 925",
+    "tagTalismanTube": "Tube talisman de richesse",
+    "tagBlessed": "Bénédiction des maîtres",
+    "buyNow": "Contacter sur WhatsApp",
     "advice": "Conseils de port",
     "wearingAdvice": "Il est recommandé de porter le bracelet à la main gauche (entrée gauche, sortie droite), porter quotidiennement au moins 8 heures, en dormant le retirer et le placer sur la table de chevet. Le 1er et 15 de chaque mois lunaire rincer le bracelet avec de l'eau propre pour renforcer son champ d'énergie.",
     "close": "Fermer",
-    "buy": "Acheter le bracelet recommandé"
+    "buy": "Acheter le bracelet recommandé",
+    "viewDetails": "Voir les détails",
+    "othersList": [
+      {
+        "title": "Obsidienne argentée Bracelet d’harmonie des cinq éléments",
+        "desc": "Obsidienne argentée avec bracelet des cinq éléments pour équilibrer le champ de qi ; particulièrement adapté à l’automne."
+      },
+      {
+        "title": "Bracelet Bagua des cinq éléments Porte‑bonheur",
+        "desc": "Inclut des gemmes correspondant aux cinq éléments et un talisman Bagua ; harmonise la fortune toute l’année."
+      }
+    ]
   }
 }

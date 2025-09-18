@@ -185,9 +185,28 @@
     "recommendationDesc": "Based on your Five-Element deficiencies and current fortune, combined with Daoist traditions and seasonal characteristics, we recommend the following luck bracelets:",
     "month": "Monthly Highlight",
     "others": "Other Options",
+    "productTitle": "White Crystal Wealth Bracelet",
+    "badgeBestForMetal": "Best for Metal",
+    "productDesc": "Main bead uses natural white crystal (Metal). Paired with 925 silver accessories and wealth talisman tube, blessed by priests. Ideal for those lacking Metal to enhance wealth luck and decisiveness.",
+    "tagCrystal": "Natural White Crystal",
+    "tagSilver925": "925 Silver Parts",
+    "tagTalismanTube": "Wealth Talisman Tube",
+    "tagBlessed": "Master Blessed",
+    "buyNow": "Purchase Now",
     "advice": "Wearing Tips",
     "wearingAdvice": "Recommended to wear the bracelet on your left hand (left in, right out), wear for at least 8 hours daily. Remove when sleeping and place on bedside table. Rinse the bracelet with clean water on the 1st and 15th of each lunar month to enhance its energy field.",
     "close": "Close",
-    "buy": "Purchase Recommended Bracelet"
+    "buy": "Purchase Recommended Bracelet",
+    "viewDetails": "View Details",
+    "othersList": [
+      {
+        "title": "Silver Obsidian Five-Element Harmony Bracelet",
+        "desc": "Silver obsidian with Five-Element bracelet to balance qi; especially suitable for autumn wear."
+      },
+      {
+        "title": "Five-Element Bagua Fortune Bracelet",
+        "desc": "Includes gemstones corresponding to the Five Elements and Bagua talisman; balances fortune year-round."
+      }
+    ]
   }
 }

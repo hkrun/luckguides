@@ -185,9 +185,28 @@
     "recommendationDesc": "Basierend auf Ihrem Fünf-Elemente-Mangel und aktuellem Schicksal, kombiniert mit daoistischer Tradition und saisonalen Eigenschaften, empfehlen wir Ihnen folgende Glücksbringer-Handketten:",
     "month": "Besondere Empfehlung für diesen Monat",
     "others": "Andere passende Lösungen",
+    "productTitle": "Weißkristall‑Glücksarmband",
+    "badgeBestForMetal": "Ideal für Metall",
+    "productDesc": "Hauptperle aus natürlichem Weißkristall (Metall‑Element), kombiniert mit 925‑Silberteilen und Geldsegen‑Talismanröhre, von Meistern gesegnet. Besonders geeignet bei Metallmangel; stärkt Wohlstand und Entschlusskraft.",
+    "tagCrystal": "Natürlicher Weißkristall",
+    "tagSilver925": "925‑Silberteile",
+    "tagTalismanTube": "Geld‑Talismanröhre",
+    "tagBlessed": "Von Meistern gesegnet",
+    "buyNow": "Per WhatsApp anfragen",
     "advice": "Trageempfehlungen",
     "wearingAdvice": "Empfohlen wird das Tragen der Handkette an der linken Hand (links herein, rechts hinaus), täglich mindestens 8 Stunden tragen, beim Schlafen abnehmen und auf den Nachttisch legen. Am 1. und 15. jedes Mondmonats die Handkette mit klarem Wasser abspülen, um ihr Energiefeld zu verstärken.",
     "close": "Schließen",
-    "buy": "Empfohlene Handkette kaufen"
+    "buy": "Empfohlene Handkette kaufen",
+    "viewDetails": "Details ansehen",
+    "othersList": [
+      {
+        "title": "Silber-Obsidian Fünf‑Elemente Harmonie‑Armband",
+        "desc": "Silber‑Obsidian mit Fünf‑Elemente‑Armband zum Ausgleich des Qi‑Feldes; besonders geeignet für den Herbst."
+      },
+      {
+        "title": "Fünf‑Elemente Bagua Glücks‑Armband",
+        "desc": "Enthält Edelsteine entsprechend den Fünf Elementen und ein Bagua‑Talisman‑Plättchen; harmonisiert das Glück ganzjährig."
+      }
+    ]
   }
 }

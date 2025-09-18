@@ -185,9 +185,28 @@
     "recommendationDesc": "Basado en tu deficiencia de cinco elementos y fortuna actual, combinado con tradición taoísta y características estacionales, te recomendamos las siguientes pulseras de objetos de la suerte:",
     "month": "Recomendación especial de este mes",
     "others": "Otras soluciones adecuadas",
+    "productTitle": "Pulsera de cristal blanco de riqueza",
+    "badgeBestForMetal": "Ideal para Metal",
+    "productDesc": "Cuenta principal de cristal blanco natural (Metal), combinada con accesorios de plata 925 y tubo talismán de riqueza, bendecida por maestros taoístas. Especial para quienes carecen de Metal; refuerza la riqueza y la determinación.",
+    "tagCrystal": "Cristal blanco natural",
+    "tagSilver925": "Accesorios de plata 925",
+    "tagTalismanTube": "Tubo talismán de riqueza",
+    "tagBlessed": "Bendecido por maestros",
+    "buyNow": "Contactar por WhatsApp",
     "advice": "Consejos de uso",
     "wearingAdvice": "Se recomienda usar la pulsera en la mano izquierda (entrada izquierda, salida derecha), usar diariamente al menos 8 horas, al dormir quitarla y colocarla en la mesita de noche. El 1º y 15º de cada mes lunar enjuagar la pulsera con agua limpia para fortalecer su campo de energía.",
     "close": "Cerrar",
-    "buy": "Comprar pulsera recomendada"
+    "buy": "Comprar pulsera recomendada",
+    "viewDetails": "Ver detalles",
+    "othersList": [
+      {
+        "title": "Obsidiana plateada Pulsera de armonía de cinco elementos",
+        "desc": "Obsidiana plateada con pulsera de cinco elementos para equilibrar el campo de qi; especialmente adecuada para el otoño."
+      },
+      {
+        "title": "Pulsera Bagua de cinco elementos de la suerte",
+        "desc": "Incluye gemas correspondientes a los cinco elementos y talismán Bagua; armoniza la fortuna durante todo el año."
+      }
+    ]
   }
 }
