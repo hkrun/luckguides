@@ -316,7 +316,7 @@ export default function Home({
                   {/* 图片预览区域 */}
                   {previewSrc && (
                     <div className="border-2 border-gray-300 rounded-lg p-4 mb-6">
-                      <div className="w-full h-[360px] md:h-[420px] bg-gray-50 rounded flex items-center justify-center mb-4 relative">
+                      <div className="w-full h-[220px] md:h-[420px] bg-gray-50 rounded flex items-center justify-center mb-4 relative">
                         {/* 图片预览 - 只在非分析状态显示 */}
                         {progress === 0 && (
                           <img src={previewSrc} alt="手掌预览图" className="max-w-full max-h-full object-contain" />
@@ -562,10 +562,10 @@ export default function Home({
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <div className="relative overflow-hidden">
                 <div className="bg-white p-4 shadow-xl rounded-lg transform transition-all duration-500 hover:-rotate-1"><img src="https://scmh-shanghai.oss-cn-shanghai.aliyuncs.com/luckguides/images/c92453a4d6c519435e02cd0c70f7902a.jpeg" alt="本命五行手串展示" className="w-full h-full object-cover rounded" /></div>
-                <div className="absolute -top-4 -right-4 text-4xl"><span>🔥</span><span>💧</span><span>🌱</span><span>⚙️</span><span>🌍</span></div>
+                
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-[#8B4513] mb-6 flex items-center"><span className="w-10 h-10 rounded-full flex items-center justify-center mr-3" style={{ backgroundColor:'rgba(139,69,19,0.1)'}}><i className="fa fa-gem" style={{ color:'#8B4513'}}/></span>{i18n.services.bracelet.title}</h3>
+                 <h3 className="text-2xl font-bold text-[#8B4513] mb-6 flex items-center"><span className="w-10 h-10 rounded-full flex items-center justify-center mr-3" style={{ backgroundColor:'rgba(139,69,19,0.1)'}}><i className="fa fa-diamond" style={{ color:'#8B4513'}}/></span>{i18n.services.bracelet.title}</h3>
                 <div className="mb-6"><p className="font-bold mb-2">{i18n.services.bracelet.talismanTitle}</p><p className="mb-4">{i18n.services.bracelet.talismanDesc}</p></div>
                 <div className="overflow-x-auto">
                   <table className="w-full table-fixed bg-white border border-gray-200">
