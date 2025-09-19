@@ -41,7 +41,7 @@ export default function Home({
   const [palmResult, setPalmResult] = useState<any>(null)
   const [showRecommendationModal, setShowRecommendationModal] = useState(false)
   // WhatsApp 深链：根据设备类型设置跳转地址
-  const [whatsAppHref, setWhatsAppHref] = useState<string>('https://web.whatsapp.com/send?phone=8617855001595')
+  const [whatsAppHref, setWhatsAppHref] = useState<string>('https://web.whatsapp.com/send?phone=8613880699332')
   // 摄像头拍照
   const [showCamera, setShowCamera] = useState(false)
   const videoRef = useRef<HTMLVideoElement | null>(null)
@@ -90,9 +90,9 @@ export default function Home({
       return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
     }
     if (isMobileDevice()) {
-      setWhatsAppHref('https://api.whatsapp.com/send?phone=8617855001595')
+      setWhatsAppHref('https://api.whatsapp.com/send?phone=8613880699332')
     } else {
-      setWhatsAppHref('https://web.whatsapp.com/send?phone=8617855001595')
+      setWhatsAppHref('https://web.whatsapp.com/send?phone=8613880699332')
     }
   }, [])
 
